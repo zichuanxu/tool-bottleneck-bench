@@ -1473,8 +1473,8 @@
     },
     {
       "path": "results/prospective-execution/completion-cap-sweep-2/execution-notes.md",
-      "sha256": "e76785cd7a947c0ee9a9aa90800eacb1fc00289770cc9ce96a836db12ff59bba",
-      "size": 5638
+      "sha256": "b3bdd4b179a5cbc7dbbde4d235806234d30ff2a21c3ac71b4a3111f7c46428d3",
+      "size": 5632
     },
     {
       "path": "results/prospective-execution/completion-cap-sweep-2/pilot-gate.json",
@@ -3403,13 +3403,13 @@
     },
     {
       "path": "results/reporting-panel-2026-10-13-final21/release-failure-localization.json",
-      "sha256": "fab279168d644802f834c761c30f9c6ccd0a978408b67cc9d2439cbb6344de6a",
-      "size": 2455
+      "sha256": "3a5d9288a0bf6ac1072b59ab66bdc1cca26e5b0e948c4b8eb16620e2bcb16708",
+      "size": 2408
     },
     {
       "path": "results/reporting-panel-2026-10-13-final21/release-layer-repairs.json",
-      "sha256": "ba65880a9f4d05793ccc2344701ce5950b95791c8ba75054f81043ee9d7b3339",
-      "size": 96735
+      "sha256": "fec44a880eb7dafab8f5f723d43d9f103af5860d13689308e737c1bbf544505c",
+      "size": 96688
     },
     {
       "path": "results/reporting-panel-2026-10-13-final21/release-model-versus-system.json",
@@ -3503,13 +3503,13 @@
     },
     {
       "path": "results/reporting-panel-2026-10-13-final21-verification-v1/release-failure-localization.json",
-      "sha256": "fab279168d644802f834c761c30f9c6ccd0a978408b67cc9d2439cbb6344de6a",
-      "size": 2455
+      "sha256": "3a5d9288a0bf6ac1072b59ab66bdc1cca26e5b0e948c4b8eb16620e2bcb16708",
+      "size": 2408
     },
     {
       "path": "results/reporting-panel-2026-10-13-final21-verification-v1/release-layer-repairs.json",
-      "sha256": "ba65880a9f4d05793ccc2344701ce5950b95791c8ba75054f81043ee9d7b3339",
-      "size": 96735
+      "sha256": "fec44a880eb7dafab8f5f723d43d9f103af5860d13689308e737c1bbf544505c",
+      "size": 96688
     },
     {
       "path": "results/reporting-panel-2026-10-13-final21-verification-v1/release-model-versus-system.json",
@@ -3533,8 +3533,8 @@
     },
     {
       "path": "results/reporting-panel-2026-10-13-final21-verification-v1/report.json",
-      "sha256": "135ebd1e40b31caad639137c3fa297543f070b81f9a9737348f3a6f29890a714",
-      "size": 40416036
+      "sha256": "9812c72b1279f3a033e91a8151a8dd5c021f4698db6f77afc749a2f1f3a66382",
+      "size": 40416866
     },
     {
       "path": "results/reporting-panel-2026-10-13-final21-verification-v1/revision-evidence-audit.json",
@@ -3563,13 +3563,13 @@
     },
     {
       "path": "results/reporting-panel-2026-10-13-final21-verification-v1/verification-plan.json",
-      "sha256": "b5cf42bef24779b3440f31eddd27c2671c52a0516e11d3651e0393752ba0b746",
-      "size": 56873
+      "sha256": "19e180d9350792fc6ce2edf3aa62fea11afcaa19c4c6ce6df8b44bafbd404d1b",
+      "size": 53442
     },
     {
       "path": "scripts/check_public_release.py",
-      "sha256": "67bbdaf0b12815cfba69302ff6981263e2adb6475443226691eb45ef77633103",
-      "size": 4310
+      "sha256": "2a02bf7ad36b26420a5f1f14e8171df853609df5e6e7da373917af3f4992f024",
+      "size": 3247
     },
     {
       "path": "src/bottleneckbench/__init__.py",

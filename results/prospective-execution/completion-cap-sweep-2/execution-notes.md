@@ -19,7 +19,7 @@ together with `completion-cap-sweep-1` as one sweep (amendment 2, A2.6).
   --freeze-plans`): 432 conditions per plan, 288 endpoint-cell
   conditions.
 * Executed on a lab host in a `python:3.12-slim`
-  container (`xu_bb_capsweep2`, 4 CPUs, 8 GB, user UID, default bridge
+  container (`bb_capsweep2`, 4 CPUs, 8 GB, user UID, default bridge
   network), project directory (path withheld):
   `snapshot/` holds the code (src/ at commit 97c9a2e unmodified, the three
   campaign scripts, both protocol files, the campaign-2 plans; joint
@@ -76,7 +76,7 @@ the campaign finishes, and no number from it is kept.
 ## Campaign finished (2026-10-12 14:54 JST)
 
 The runner reported the campaign finished with no quarantined job, and the
-container `xu_bb_capsweep2` exited with code 0 at 05:54:15Z (`runner.log`,
+container `bb_capsweep2` exited with code 0 at 05:54:15Z (`runner.log`,
 `launch.log`, copied into this directory). Every lane file holds 432 rows. Per
 job (runner log `ok` lines): DeepSeek V4 Pro 0813 cap 1024 USD 11.002 / 10.955
 with 76 / 68 truncated, cap 16384 USD 12.971 / 13.020 with 1 / 0; GLM-5.3 cap

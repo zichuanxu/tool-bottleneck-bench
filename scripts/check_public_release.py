@@ -53,25 +53,6 @@ FORBIDDEN_TEXT = (
         re.compile(r"/(?:" + "Users|var/folders" + r")/"),
     ),
 )
-# The 21-configuration analysis root and its verification are hash-bound outputs whose metadata
-# records the invocation paths under the author's checkout. They cannot be edited, and that
-# prefix discloses nothing beyond the public repository handle, so it is tolerated there alone;
-# any other absolute path in those files still fails.
-AUTHOR_CHECKOUT_ROOT = "/" + "Users" + "/zichuanxu/vscode/bottleneckbench-github/"  # composed: not a match itself
-HASH_BOUND_ROOTS = (
-    "results/reporting-panel-2026-10-13-final21/",
-    "results/reporting-panel-2026-10-13-final21-verification-v1/",
-)
-ABSOLUTE_PATH_RE = re.compile(r"/(?:Users|var/folders)/[^\s\"']*")
-
-
-def _only_author_checkout_paths(relative: str, text: str) -> bool:
-    if not relative.startswith(HASH_BOUND_ROOTS):
-        return False
-    matches = ABSOLUTE_PATH_RE.findall(text)
-    return bool(matches) and all(m.startswith(AUTHOR_CHECKOUT_ROOT) for m in matches)
-
-
 def _git(root: Path, *args: str) -> list[str]:
     completed = subprocess.run(
         ["git", *args], cwd=root, text=True, capture_output=True, check=True
@@ -106,8 +87,6 @@ def audit(root: Path) -> list[dict[str, str]]:
             continue
         for kind, pattern in FORBIDDEN_TEXT:
             match = pattern.search(text)
-            if match and kind == "absolute_local_path" and _only_author_checkout_paths(relative, text):
-                continue
             if match:
                 issues.append(
                     {
