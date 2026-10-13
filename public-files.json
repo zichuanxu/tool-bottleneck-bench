@@ -28,13 +28,13 @@
     },
     {
       "path": "CITATION.cff",
-      "sha256": "d0884621ee006a88948163f1a924b4cdcf9ca4b2e44cfbb49615eb643cd20f85",
-      "size": 1042
+      "sha256": "784fb56215b29d5550f38348b11c643c07f97b95dca6ba02f4249f612aac405d",
+      "size": 1913
     },
     {
       "path": "LICENSE",
-      "sha256": "32616589d4819b101ca2ed4e5d6ddfd218f93ac9e14fdd9356e761a0d935f1d9",
-      "size": 1084
+      "sha256": "0dd4f7adb7c5e006417d550ea9061a1f91315b029b91957818d368d9d61190b4",
+      "size": 1067
     },
     {
       "path": "Makefile",
@@ -43,8 +43,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "706c6099abf1e935a80984e91f8a9149add70782a83a82937e3fe90fede58335",
-      "size": 13320
+      "sha256": "26feaa7f411a27055380ffb84eacd7a352e52efbab3e9d65d7d85b4706d77459",
+      "size": 13079
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -503,8 +503,8 @@
     },
     {
       "path": "pyproject.toml",
-      "sha256": "1f3d26d7109183d7e18a5a7a95af55a0ea61c9da6cfdd17936264660adf745e0",
-      "size": 521
+      "sha256": "00dd8cd79392a7d8dec1117596aba4a40d92567aa7e0318f36da3333108c38e1",
+      "size": 756
     },
     {
       "path": "requirements-toolsandbox.lock",
@@ -1473,8 +1473,8 @@
     },
     {
       "path": "results/prospective-execution/completion-cap-sweep-2/execution-notes.md",
-      "sha256": "e76785cd7a947c0ee9a9aa90800eacb1fc00289770cc9ce96a836db12ff59bba",
-      "size": 5638
+      "sha256": "8d420001f3b200f49a95d601e42022cc196a8d4e23b1966446a8d69fe72a080e",
+      "size": 5648
     },
     {
       "path": "results/prospective-execution/completion-cap-sweep-2/pilot-gate.json",

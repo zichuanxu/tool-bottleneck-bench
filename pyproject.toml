@@ -9,7 +9,12 @@ description = "A layer-interventional benchmark for diagnosing tool-using langua
 readme = "README.md"
 requires-python = ">=3.11"
 license = {text = "MIT"}
-authors = [{name = "Anonymous"}]
+authors = [
+  {name = "Zichuan Xu", email = "xu.zichuan@ist.osaka-u.ac.jp"},
+  {name = "Yuyang Dong", email = "dongyuyang@initial-s.com"},
+  {name = "Makoto Onizuka", email = "onizuka@ist.osaka-u.ac.jp"},
+  {name = "Chuan Xiao", email = "chuanx@ist.osaka-u.ac.jp"},
+]
 dependencies = ["dill==0.3.8", "matplotlib>=3.8,<4", "numpy>=1.26,<3"]
 
 [project.scripts]

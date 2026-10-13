@@ -18,7 +18,7 @@ together with `completion-cap-sweep-1` as one sweep (amendment 2, A2.6).
 * Plans frozen offline at 11:33 JST (`build_cap_sweep_campaign.py --extension
   --freeze-plans`): 432 conditions per plan, 288 endpoint-cell
   conditions.
-* Executed on a lab host in a `python:3.12-slim`
+* Executed on the lab host `carly` in a `python:3.12-slim`
   container (`xu_bb_capsweep2`, 4 CPUs, 8 GB, user UID, default bridge
   network), project directory (path withheld):
   `snapshot/` holds the code (src/ at commit 97c9a2e unmodified, the three

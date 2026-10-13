@@ -1,9 +1,5 @@
 # BottleneckBench
 
-> Anonymized copy for double-blind review. Author names, affiliations, the
-> citation metadata and the repository URL are withheld until the review
-> period ends; code, data and documentation are otherwise unchanged.
-
 **ToolBottleneckBench: Measuring Tool-Agent Performance under Controlled Pressures and Fixed Harness Budgets** (software package `bottleneckbench`)
 
 A tool agent's success score mixes what its model can do with the budgets of
@@ -239,5 +235,5 @@ Repository-authored code, benchmark definitions, documentation, and aggregate
 analysis artifacts are released under the MIT License. Vendored components and
 conference style files retain their upstream terms; see
 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md). Citation metadata is in
-`CITATION.cff`; the repository URL and the author metadata are withheld
-from this anonymized copy until the review period ends.
+`CITATION.cff`, including the public repository URL:
+https://github.com/zichuanxu/tool-bottleneck-bench.
