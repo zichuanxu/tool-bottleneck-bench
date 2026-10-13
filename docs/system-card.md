@@ -63,7 +63,7 @@ effects of these numbers, not of the model alone.
 | Completion tokens per request | 1,024 (`max_completion_tokens`) |
 | Reported tokens per episode | 128,000 (`max_total_tokens`) |
 | Tool-call limit | certified minimum + 2 (`tool_call_slack`) |
-| Turn limit | certified minimum + 2 (`turn_slack`) |
+| Turn limit | tool-call limit + 2 (`turn_slack`) |
 | Infeasibility stop | `early_stop_infeasible` enabled |
 | Menu narrowing | `dynamic_shortlist` enabled; routed exposure narrows to the ground-truth operational set |
 | Transport | `transport_retries` 5, `provider_allow_fallbacks` false, 300 s request timeout |
