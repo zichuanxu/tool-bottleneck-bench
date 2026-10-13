@@ -49,14 +49,9 @@ penalty co-occurs with completion-cap truncation: in the same capacity rows,
 truncation rises from 1.6% of episodes at V=8 to 13.6% at V=128, and across the
 21 configurations the menu effect tracks the truncation rate (Pearson
 r = -0.95). The eight configurations that never truncate at V=128 have effects
-within `[-2.1, +2.8]` points, but they are also the strongest baselines, so cap
-exhaustion and capability are confounded, and the menu contrast is not
-identified without an assumption about truncated episodes. Of 3,725 failures
+within `[-2.1, +2.8]` points. Of 3,725 failures
 among the 20,408 exactly graded episodes, 91.5% end at a harness limit and 5.5%
-are wrong conclusions; the 30-call frontier and structural baseline cells
-contribute 896 budget-bound failures by construction, and the token-or-call
-category merges the episode budget with a call limit only two above the
-certified minimum. Connector-first retrieval and routed menus pass the repair
+are wrong conclusions; the model-run 30-call frontier and structural cells contribute 896 of these failures, 843 of them over the 128,000-token episode budget. Connector-first retrieval and routed menus pass the repair
 activation test, prompt repairs do not, and no repair beats every configuration
 switch on success except by construction or through deterministic delegation.
 A completion-budget crossover on 4 retained configurations failed its

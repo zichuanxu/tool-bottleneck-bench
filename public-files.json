@@ -43,8 +43,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "26feaa7f411a27055380ffb84eacd7a352e52efbab3e9d65d7d85b4706d77459",
-      "size": 13079
+      "sha256": "73324347c3d7d11401d546c247f9429ad9c562467dd3d18a21ef7e1a0f1b9bee",
+      "size": 12818
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -113,8 +113,8 @@
     },
     {
       "path": "docs/system-card.md",
-      "sha256": "c021e96ccac799aa7845a0c4b3ad7bf316d2d34991d662375b00a349be6c5278",
-      "size": 5739
+      "sha256": "b121fd6dd07deffe6f82b19aa0ff63104f0c186c7f23383a9adb56e35cc00acf",
+      "size": 5737
     },
     {
       "path": "experiments/analyze_candidate_structural_release.py",
