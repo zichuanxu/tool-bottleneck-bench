@@ -1,0 +1,57 @@
+{
+  "schema": "bottleneckbench-sol-fast-route-v1",
+  "as_of": "2026-09-02",
+  "model": "openai/gpt-5.6-sol",
+  "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+  "api_key_env": "OPENROUTER_API_KEY",
+  "api_key_header": "Authorization",
+  "accepted_response_models": [
+    "openai/gpt-5.6-sol",
+    "openai/gpt-5.6-sol-20260709"
+  ],
+  "provider_only": ["openai/fast"],
+  "provider_allow_fallbacks": false,
+  "provider_data_collection": "deny",
+  "provider_require_parameters": true,
+  "accepted_generation_provider_names": ["OpenAI"],
+  "transport": {
+    "workers": 1,
+    "provider_concurrency_cap": 1,
+    "minimum_request_interval_seconds": 3.0,
+    "transport_retries": 1,
+    "timeout_seconds": 180
+  },
+  "pricing_per_million_tokens": {
+    "input": 4.0,
+    "output": 20.0,
+    "cached_input_credit_assumed": false,
+    "long_context_threshold_prompt_tokens": 272000,
+    "long_context_policy": "reject; every frozen episode is capped at 128000 total tokens and is ineligible for a long-context tier"
+  },
+  "hard_budget_usd": {
+    "openrouter": 205.0,
+    "total": 205.0,
+    "model": 155.0
+  },
+  "request_liability_usd": {
+    "maximum_attempt": 0.53248,
+    "retry_charge": 0.54,
+    "two_attempt_reservation": 1.07
+  },
+  "admission_sensitivity": {
+    "complete_reference_models": [
+      "glm-5.3-flash",
+      "glm-5.3",
+      "deepseek/deepseek-v4-pro-0813"
+    ],
+    "block_shape_upper_multiplier": 1.05
+  },
+  "public_release_redaction": {
+    "original_file_sha256": "5d3a74157dc24a304e80b8ad312b995be4ebc5b1bfd0d61ff45b68d4b582a6a1",
+    "reason": "the entries of one configuration outside the reporting panel were removed from the public release; every other field is copied unchanged, so hash and count fields inside the file describe the original",
+    "redacted_at": "2026-10-13",
+    "removed_from_json_paths": [
+      "$.admission_sensitivity.complete_reference_models"
+    ]
+  }
+}

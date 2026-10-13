@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use BottleneckBench, please cite the paper and this software."
+title: "BottleneckBench"
+type: software
+version: 0.2.0
+date-released: 2026-10-12
+license: MIT
+authors:
+  - name: "Anonymous"
+abstract: "A benchmark that measures tool-agent performance under controlled pressures (registered catalog, visible menu, certified workflow and returned-state encoding) and fixed harness budgets, using matched task variants graded by an exact checker. It records the first unmet obligation and the harness limit that ended each failed episode, compares matched repairs with configuration switches, and releases a completion-cap sweep in which a sixteenfold cap all but ends truncation and shrinks the truncation-heavy configurations' visible-menu effect. Every effect is conditional on the frozen harness budgets."
+preferred-citation:
+  type: generic
+  title: "ToolBottleneckBench: Measuring Tool-Agent Performance under Controlled Pressures and Fixed Harness Budgets"
+  year: 2026
+  authors:
+    - name: "Anonymous"

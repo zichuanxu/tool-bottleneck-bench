@@ -1,0 +1,32 @@
+{
+ "schema": "bottleneckbench-cap-sweep-pilot-gate-v2",
+ "high_arm": "cap16384",
+ "episodes": 36,
+ "ceiling": 0.05,
+ "verdict": {
+  "deepseek-v4-pro-0813": {
+   "v128_episodes": 36,
+   "truncated": 0,
+   "share": 0.0,
+   "passed": true,
+   "job_exited_early": false
+  },
+  "glm-53": {
+   "v128_episodes": 36,
+   "truncated": 0,
+   "share": 0.0,
+   "passed": true,
+   "job_exited_early": false
+  }
+ },
+ "all_passed": true,
+ "decided_at": "2026-10-12T03:29:45Z",
+ "public_release_redaction": {
+  "original_file_sha256": "bf3e26faf85fbf11417eaa5633dac257e1c018a0f10a53627d5f8623ba89d179",
+  "reason": "the entries of one configuration outside the reporting panel were removed from the public release; every other field is copied unchanged, so hash and count fields inside the file describe the original",
+  "redacted_at": "2026-10-13",
+  "removed_from_json_paths": [
+   "$.verdict"
+  ]
+ }
+}

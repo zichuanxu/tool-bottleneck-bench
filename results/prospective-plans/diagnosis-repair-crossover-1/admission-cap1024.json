@@ -1,0 +1,11 @@
+{
+ "arm": "cap1024",
+ "audit": "prospective-capacity-execution-admission-v1",
+ "basis": "completion-budget arm of an already admitted frozen main design; split, families and every condition field are unchanged and only episode_policy.max_completion_tokens differs between arms",
+ "max_completion_tokens": 1024,
+ "model_panel_hash": "ee18c3ba6e725f8f8ed8182bb7671221c78206ad15de15698de15f5e87fddff2",
+ "passed": true,
+ "protocol_artifact_hash": "b6154dcd0baf76b6f97a50b1698b1f04e64b8e4007a43cb83ff79e29297f30c3",
+ "target_split": "main",
+ "uses_campaign_outcomes": false
+}

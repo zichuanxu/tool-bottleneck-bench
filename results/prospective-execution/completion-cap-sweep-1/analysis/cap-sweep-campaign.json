@@ -1,0 +1,1267 @@
+{
+ "arms": {
+  "cap1024": 1024,
+  "cap16384": 16384
+ },
+ "bootstrap": {
+  "cluster": "semantic family",
+  "samples": 10000,
+  "seed": 20261012
+ },
+ "campaign": "completion-cap-sweep",
+ "campaign_directories": [
+  "completion-cap-sweep-1",
+  "completion-cap-sweep-2"
+ ],
+ "campaign_of_configuration": {
+  "anthropic/claude-haiku-5.5": "completion-cap-sweep-1",
+  "deepseek/deepseek-v4-pro-0813": "completion-cap-sweep-2",
+  "glm-5.3": "completion-cap-sweep-2",
+  "glm-5.3-flash": "completion-cap-sweep-1",
+  "google/gemini-3.8-flash": "completion-cap-sweep-1",
+  "openai/gpt-6-luna": "completion-cap-sweep-1",
+  "qwen/qwen3.7-flash": "completion-cap-sweep-1",
+  "qwen/qwen3.8-flash": "completion-cap-sweep-1"
+ },
+ "completion_tokens_not_truncated_v128": {
+  "anthropic/claude-haiku-5.5": {
+   "cap1024": {
+    "max": 2334.0,
+    "median": 1095.0,
+    "n": 275,
+    "p95": 1525.0
+   },
+   "cap16384": {
+    "max": 5380.0,
+    "median": 1106.5,
+    "n": 288,
+    "p95": 1600.0
+   }
+  },
+  "deepseek/deepseek-v4-pro-0813": {
+   "cap1024": {
+    "max": 1889.0,
+    "median": 1247.0,
+    "n": 196,
+    "p95": 1663.0
+   },
+   "cap16384": {
+    "max": 13397.0,
+    "median": 1407.5,
+    "n": 288,
+    "p95": 6740.0
+   }
+  },
+  "glm-5.3": {
+   "cap1024": {
+    "max": 1918.0,
+    "median": 1163.0,
+    "n": 87,
+    "p95": 1614.0
+   },
+   "cap16384": {
+    "max": 17453.0,
+    "median": 5602.5,
+    "n": 284,
+    "p95": 8316.0
+   }
+  },
+  "glm-5.3-flash": {
+   "cap1024": {
+    "max": 2195.0,
+    "median": 1018.0,
+    "n": 180,
+    "p95": 1668.0
+   },
+   "cap16384": {
+    "max": 8264.0,
+    "median": 1348.0,
+    "n": 288,
+    "p95": 6341.0
+   }
+  },
+  "google/gemini-3.8-flash": {
+   "cap1024": {
+    "max": 2646.0,
+    "median": 1438.0,
+    "n": 101,
+    "p95": 2037.0
+   },
+   "cap16384": {
+    "max": 10003.0,
+    "median": 2307.5,
+    "n": 288,
+    "p95": 6363.0
+   }
+  },
+  "openai/gpt-6-luna": {
+   "cap1024": {
+    "max": 1249.0,
+    "median": 441.0,
+    "n": 288,
+    "p95": 685.0
+   },
+   "cap16384": {
+    "max": 1163.0,
+    "median": 446.5,
+    "n": 288,
+    "p95": 680.0
+   }
+  },
+  "qwen/qwen3.7-flash": {
+   "cap1024": {
+    "max": 3075.0,
+    "median": 1220.5,
+    "n": 140,
+    "p95": 2040.0
+   },
+   "cap16384": {
+    "max": 10987.0,
+    "median": 2071.0,
+    "n": 288,
+    "p95": 8606.0
+   }
+  },
+  "qwen/qwen3.8-flash": {
+   "cap1024": {
+    "max": 1828.0,
+    "median": 960.5,
+    "n": 200,
+    "p95": 1407.0
+   },
+   "cap16384": {
+    "max": 7874.0,
+    "median": 1181.0,
+    "n": 288,
+    "p95": 5435.0
+   }
+  }
+ },
+ "configurations": [
+  "anthropic/claude-haiku-5.5",
+  "deepseek/deepseek-v4-pro-0813",
+  "glm-5.3",
+  "glm-5.3-flash",
+  "google/gemini-3.8-flash",
+  "openai/gpt-6-luna",
+  "qwen/qwen3.7-flash",
+  "qwen/qwen3.8-flash"
+ ],
+ "cost": {
+  "by_arm": {
+   "cap1024": {
+    "mean_completion_tokens": 940.0164930555555,
+    "mean_prompt_tokens": 16583.413917824073,
+    "rows": 6912,
+    "usd": 65.3807
+   },
+   "cap16384": {
+    "mean_completion_tokens": 1486.2407407407406,
+    "mean_prompt_tokens": 18364.33839699074,
+    "rows": 6912,
+    "usd": 83.2772
+   }
+  },
+  "by_model_usd": {
+   "anthropic/claude-haiku-5.5": 3.9323,
+   "deepseek/deepseek-v4-pro-0813": 47.9477,
+   "glm-5.3": 48.7449,
+   "glm-5.3-flash": 3.3539,
+   "google/gemini-3.8-flash": 32.8317,
+   "openai/gpt-6-luna": 4.8403,
+   "qwen/qwen3.7-flash": 1.2301,
+   "qwen/qwen3.8-flash": 5.777
+  },
+  "ceiling_usd": 330.0,
+  "ceiling_usd_by_campaign": {
+   "completion-cap-sweep-1": 100.0,
+   "completion-cap-sweep-2": 230.0
+  },
+  "note": "retained-row usage priced at the frozen section 5 rates; an accounting, not an invoice",
+  "spent_usd": 148.6579,
+  "spent_usd_by_campaign": {
+   "completion-cap-sweep-1": 51.9653,
+   "completion-cap-sweep-2": 96.6926
+  }
+ },
+ "decision_margin_pp": 5.0,
+ "families": 36,
+ "manipulation_ceiling": 0.05,
+ "manipulation_check": {
+  "anthropic/claude-haiku-5.5": {
+   "cap1024": {
+    "quarantined": false,
+    "rows": 288,
+    "truncation_by_repeat": {
+     "1": 0.04861111111111111,
+     "2": 0.041666666666666664
+    },
+    "truncation_rate": 0.04513888888888889,
+    "verified_success": 0.8506944444444444,
+    "zero_call_share": 0.04513888888888889
+   },
+   "cap16384": {
+    "quarantined": false,
+    "rows": 288,
+    "truncation_by_repeat": {
+     "1": 0.0,
+     "2": 0.0
+    },
+    "truncation_rate": 0.0,
+    "verified_success": 0.8923611111111112,
+    "zero_call_share": 0.0
+   },
+   "manipulation_passed": true,
+   "stratum": "M"
+  },
+  "deepseek/deepseek-v4-pro-0813": {
+   "cap1024": {
+    "quarantined": false,
+    "rows": 288,
+    "truncation_by_repeat": {
+     "1": 0.3263888888888889,
+     "2": 0.3125
+    },
+    "truncation_rate": 0.3194444444444444,
+    "verified_success": 0.6354166666666666,
+    "zero_call_share": 0.3125
+   },
+   "cap16384": {
+    "quarantined": false,
+    "rows": 288,
+    "truncation_by_repeat": {
+     "1": 0.0,
+     "2": 0.0
+    },
+    "truncation_rate": 0.0,
+    "verified_success": 0.9375,
+    "zero_call_share": 0.0
+   },
+   "manipulation_passed": true,
+   "stratum": "B"
+  },
+  "glm-5.3": {
+   "cap1024": {
+    "quarantined": false,
+    "rows": 288,
+    "truncation_by_repeat": {
+     "1": 0.6666666666666666,
+     "2": 0.7291666666666666
+    },
+    "truncation_rate": 0.6979166666666666,
+    "verified_success": 0.2638888888888889,
+    "zero_call_share": 0.7013888888888888
+   },
+   "cap16384": {
+    "quarantined": false,
+    "rows": 288,
+    "truncation_by_repeat": {
+     "1": 0.006944444444444444,
+     "2": 0.020833333333333332
+    },
+    "truncation_rate": 0.013888888888888888,
+    "verified_success": 0.8680555555555556,
+    "zero_call_share": 0.013888888888888888
+   },
+   "manipulation_passed": true,
+   "stratum": "B"
+  },
+  "glm-5.3-flash": {
+   "cap1024": {
+    "quarantined": false,
+    "rows": 288,
+    "truncation_by_repeat": {
+     "1": 0.3611111111111111,
+     "2": 0.3888888888888889
+    },
+    "truncation_rate": 0.375,
+    "verified_success": 0.5868055555555556,
+    "zero_call_share": 0.3819444444444444
+   },
+   "cap16384": {
+    "quarantined": false,
+    "rows": 288,
+    "truncation_by_repeat": {
+     "1": 0.0,
+     "2": 0.0
+    },
+    "truncation_rate": 0.0,
+    "verified_success": 0.90625,
+    "zero_call_share": 0.0
+   },
+   "manipulation_passed": true,
+   "stratum": "B"
+  },
+  "google/gemini-3.8-flash": {
+   "cap1024": {
+    "quarantined": false,
+    "rows": 288,
+    "truncation_by_repeat": {
+     "1": 0.6527777777777778,
+     "2": 0.6458333333333334
+    },
+    "truncation_rate": 0.6493055555555556,
+    "verified_success": 0.34375,
+    "zero_call_share": 0.6354166666666666
+   },
+   "cap16384": {
+    "quarantined": false,
+    "rows": 288,
+    "truncation_by_repeat": {
+     "1": 0.0,
+     "2": 0.0
+    },
+    "truncation_rate": 0.0,
+    "verified_success": 0.9791666666666666,
+    "zero_call_share": 0.0
+   },
+   "manipulation_passed": true,
+   "stratum": "B"
+  },
+  "openai/gpt-6-luna": {
+   "cap1024": {
+    "quarantined": false,
+    "rows": 288,
+    "truncation_by_repeat": {
+     "1": 0.0,
+     "2": 0.0
+    },
+    "truncation_rate": 0.0,
+    "verified_success": 0.90625,
+    "zero_call_share": 0.0
+   },
+   "cap16384": {
+    "quarantined": false,
+    "rows": 288,
+    "truncation_by_repeat": {
+     "1": 0.0,
+     "2": 0.0
+    },
+    "truncation_rate": 0.0,
+    "verified_success": 0.9305555555555556,
+    "zero_call_share": 0.0
+   },
+   "manipulation_passed": true,
+   "stratum": "N"
+  },
+  "qwen/qwen3.7-flash": {
+   "cap1024": {
+    "quarantined": false,
+    "rows": 288,
+    "truncation_by_repeat": {
+     "1": 0.4652777777777778,
+     "2": 0.5625
+    },
+    "truncation_rate": 0.5138888888888888,
+    "verified_success": 0.3958333333333333,
+    "zero_call_share": 0.5104166666666666
+   },
+   "cap16384": {
+    "quarantined": false,
+    "rows": 288,
+    "truncation_by_repeat": {
+     "1": 0.0,
+     "2": 0.0
+    },
+    "truncation_rate": 0.0,
+    "verified_success": 0.8715277777777778,
+    "zero_call_share": 0.0
+   },
+   "manipulation_passed": true,
+   "stratum": "B"
+  },
+  "qwen/qwen3.8-flash": {
+   "cap1024": {
+    "quarantined": false,
+    "rows": 288,
+    "truncation_by_repeat": {
+     "1": 0.2847222222222222,
+     "2": 0.3263888888888889
+    },
+    "truncation_rate": 0.3055555555555556,
+    "verified_success": 0.5486111111111112,
+    "zero_call_share": 0.3055555555555556
+   },
+   "cap16384": {
+    "quarantined": false,
+    "rows": 288,
+    "truncation_by_repeat": {
+     "1": 0.0,
+     "2": 0.0
+    },
+    "truncation_rate": 0.0,
+    "verified_success": 0.7986111111111112,
+    "zero_call_share": 0.0
+   },
+   "manipulation_passed": true,
+   "stratum": "B"
+  }
+ },
+ "notes": [
+  "the standard runner stores no raw receipts and no reasoning-token field; truncated-episode shape is read from call attempts and the answer, and reasoning tokens are not available here",
+  "endpoint cells = {8,128} x {low,high} x {raw,linked}; checkpoint cells enter only visible_menu_all_cells"
+ ],
+ "per_configuration": {
+  "anthropic/claude-haiku-5.5": {
+   "campaign": "completion-cap-sweep-1",
+   "cap1024": {
+    "ci95": [
+     -6.597222222222222,
+     1.7361111111111112
+    ],
+    "estimate_pp": -2.430555555555556,
+    "pairs": 288
+   },
+   "cap16384": {
+    "ci95": [
+     -3.125,
+     3.4722222222222223
+    ],
+    "estimate_pp": 0.3472222222222222,
+    "pairs": 288
+   },
+   "interaction_pp": {
+    "ci95": [
+     -3.125,
+     7.986111111111111
+    ],
+    "estimate_pp": 2.7777777777777777,
+    "paired_cells": 288
+   },
+   "manipulation_passed": true,
+   "quarantined_arms": [],
+   "released_visible_effect_pp": -7.638888888888889,
+   "stratum": "M"
+  },
+  "deepseek/deepseek-v4-pro-0813": {
+   "campaign": "completion-cap-sweep-2",
+   "cap1024": {
+    "ci95": [
+     -38.88888888888889,
+     -20.833333333333336
+    ],
+    "estimate_pp": -29.51388888888889,
+    "pairs": 288
+   },
+   "cap16384": {
+    "ci95": [
+     -1.0416666666666665,
+     2.7777777777777777
+    ],
+    "estimate_pp": 0.6944444444444444,
+    "pairs": 288
+   },
+   "interaction_pp": {
+    "ci95": [
+     21.180555555555554,
+     39.58333333333333
+    ],
+    "estimate_pp": 30.208333333333332,
+    "paired_cells": 288
+   },
+   "manipulation_passed": true,
+   "quarantined_arms": [],
+   "released_visible_effect_pp": -24.305555555555554,
+   "stratum": "B"
+  },
+  "glm-5.3": {
+   "campaign": "completion-cap-sweep-2",
+   "cap1024": {
+    "ci95": [
+     -70.48611111111111,
+     -52.77777777777778
+    ],
+    "estimate_pp": -61.80555555555556,
+    "pairs": 288
+   },
+   "cap16384": {
+    "ci95": [
+     -7.638888888888889,
+     1.7361111111111112
+    ],
+    "estimate_pp": -2.7777777777777777,
+    "pairs": 288
+   },
+   "interaction_pp": {
+    "ci95": [
+     49.65277777777778,
+     68.05555555555556
+    ],
+    "estimate_pp": 59.02777777777778,
+    "paired_cells": 288
+   },
+   "manipulation_passed": true,
+   "quarantined_arms": [],
+   "released_visible_effect_pp": -53.47222222222222,
+   "stratum": "B"
+  },
+  "glm-5.3-flash": {
+   "campaign": "completion-cap-sweep-1",
+   "cap1024": {
+    "ci95": [
+     -44.44444444444444,
+     -25.34722222222222
+    ],
+    "estimate_pp": -35.06944444444444,
+    "pairs": 288
+   },
+   "cap16384": {
+    "ci95": [
+     -7.638888888888889,
+     -0.3472222222222222
+    ],
+    "estimate_pp": -3.8194444444444446,
+    "pairs": 288
+   },
+   "interaction_pp": {
+    "ci95": [
+     21.52777777777778,
+     40.97222222222222
+    ],
+    "estimate_pp": 31.25,
+    "paired_cells": 288
+   },
+   "manipulation_passed": true,
+   "quarantined_arms": [],
+   "released_visible_effect_pp": -28.47222222222222,
+   "stratum": "B"
+  },
+  "google/gemini-3.8-flash": {
+   "campaign": "completion-cap-sweep-1",
+   "cap1024": {
+    "ci95": [
+     -72.91666666666666,
+     -52.43055555555556
+    ],
+    "estimate_pp": -62.84722222222222,
+    "pairs": 288
+   },
+   "cap16384": {
+    "ci95": [
+     -6.25,
+     0.0
+    ],
+    "estimate_pp": -2.083333333333333,
+    "pairs": 288
+   },
+   "interaction_pp": {
+    "ci95": [
+     48.95833333333333,
+     71.52777777777779
+    ],
+    "estimate_pp": 60.763888888888886,
+    "paired_cells": 288
+   },
+   "manipulation_passed": true,
+   "quarantined_arms": [],
+   "released_visible_effect_pp": -52.083333333333336,
+   "stratum": "B"
+  },
+  "openai/gpt-6-luna": {
+   "campaign": "completion-cap-sweep-1",
+   "cap1024": {
+    "ci95": [
+     -7.986111111111111,
+     2.430555555555556
+    ],
+    "estimate_pp": -3.125,
+    "pairs": 288
+   },
+   "cap16384": {
+    "ci95": [
+     -5.902777777777778,
+     1.7361111111111112
+    ],
+    "estimate_pp": -2.083333333333333,
+    "pairs": 288
+   },
+   "interaction_pp": {
+    "ci95": [
+     -2.430555555555556,
+     4.166666666666666
+    ],
+    "estimate_pp": 1.0416666666666665,
+    "paired_cells": 288
+   },
+   "manipulation_passed": true,
+   "quarantined_arms": [],
+   "released_visible_effect_pp": 0.0,
+   "stratum": "N"
+  },
+  "qwen/qwen3.7-flash": {
+   "campaign": "completion-cap-sweep-1",
+   "cap1024": {
+    "ci95": [
+     -56.59722222222222,
+     -36.45833333333333
+    ],
+    "estimate_pp": -46.52777777777778,
+    "pairs": 288
+   },
+   "cap16384": {
+    "ci95": [
+     -8.333333333333332,
+     -0.6944444444444444
+    ],
+    "estimate_pp": -4.166666666666666,
+    "pairs": 288
+   },
+   "interaction_pp": {
+    "ci95": [
+     31.944444444444443,
+     53.125
+    ],
+    "estimate_pp": 42.36111111111111,
+    "paired_cells": 288
+   },
+   "manipulation_passed": true,
+   "quarantined_arms": [],
+   "released_visible_effect_pp": -34.72222222222222,
+   "stratum": "B"
+  },
+  "qwen/qwen3.8-flash": {
+   "campaign": "completion-cap-sweep-1",
+   "cap1024": {
+    "ci95": [
+     -36.45833333333333,
+     -16.319444444444446
+    ],
+    "estimate_pp": -26.38888888888889,
+    "pairs": 288
+   },
+   "cap16384": {
+    "ci95": [
+     -12.152777777777777,
+     2.7777777777777777
+    ],
+    "estimate_pp": -4.166666666666666,
+    "pairs": 288
+   },
+   "interaction_pp": {
+    "ci95": [
+     13.88888888888889,
+     30.555555555555557
+    ],
+    "estimate_pp": 22.22222222222222,
+    "paired_cells": 288
+   },
+   "manipulation_passed": true,
+   "quarantined_arms": [],
+   "released_visible_effect_pp": -16.666666666666664,
+   "stratum": "B"
+  }
+ },
+ "pilot_gate": {
+  "completion-cap-sweep-1": {
+   "all_passed": true,
+   "ceiling": 0.05,
+   "decided_at": "2026-10-12T00:25:54Z",
+   "episodes": 36,
+   "high_arm": "cap16384",
+   "schema": "bottleneckbench-cap-sweep-pilot-gate-v2",
+   "verdict": {
+    "gemini-38-flash": {
+     "job_exited_early": false,
+     "passed": true,
+     "share": 0.0,
+     "truncated": 0,
+     "v128_episodes": 36
+    },
+    "qwen37-flash": {
+     "job_exited_early": false,
+     "passed": true,
+     "share": 0.0,
+     "truncated": 0,
+     "v128_episodes": 36
+    }
+   }
+  },
+  "completion-cap-sweep-2": {
+   "all_passed": true,
+   "ceiling": 0.05,
+   "decided_at": "2026-10-12T03:29:45Z",
+   "episodes": 36,
+   "high_arm": "cap16384",
+   "schema": "bottleneckbench-cap-sweep-pilot-gate-v2",
+   "verdict": {
+    "deepseek-v4-pro-0813": {
+     "job_exited_early": false,
+     "passed": true,
+     "share": 0.0,
+     "truncated": 0,
+     "v128_episodes": 36
+    },
+    "glm-53": {
+     "job_exited_early": false,
+     "passed": true,
+     "share": 0.0,
+     "truncated": 0,
+     "v128_episodes": 36
+    }
+   }
+  }
+ },
+ "primary_reading": {
+  "B": {
+   "cap1024": {
+    "ci95": [
+     -48.495370370370374,
+     -39.120370370370374
+    ],
+    "estimate_pp": -43.692129629629626,
+    "pairs": 1728
+   },
+   "cap16384": {
+    "ci95": [
+     -4.6875,
+     -0.8680555555555556
+    ],
+    "estimate_pp": -2.7199074074074074,
+    "pairs": 1728
+   },
+   "configurations": [
+    "deepseek/deepseek-v4-pro-0813",
+    "glm-5.3",
+    "glm-5.3-flash",
+    "google/gemini-3.8-flash",
+    "qwen/qwen3.7-flash",
+    "qwen/qwen3.8-flash"
+   ],
+   "interaction_pp": {
+    "ci95": [
+     36.226851851851855,
+     45.54398148148148
+    ],
+    "estimate_pp": 40.97222222222222,
+    "paired_cells": 1728
+   }
+  },
+  "M": {
+   "cap1024": {
+    "ci95": [
+     -6.597222222222222,
+     1.7361111111111112
+    ],
+    "estimate_pp": -2.430555555555556,
+    "pairs": 288
+   },
+   "cap16384": {
+    "ci95": [
+     -3.125,
+     3.4722222222222223
+    ],
+    "estimate_pp": 0.3472222222222222,
+    "pairs": 288
+   },
+   "configurations": [
+    "anthropic/claude-haiku-5.5"
+   ],
+   "interaction_pp": {
+    "ci95": [
+     -3.125,
+     7.986111111111111
+    ],
+    "estimate_pp": 2.7777777777777777,
+    "paired_cells": 288
+   }
+  },
+  "N": {
+   "cap1024": {
+    "ci95": [
+     -7.986111111111111,
+     2.430555555555556
+    ],
+    "estimate_pp": -3.125,
+    "pairs": 288
+   },
+   "cap16384": {
+    "ci95": [
+     -5.902777777777778,
+     1.7361111111111112
+    ],
+    "estimate_pp": -2.083333333333333,
+    "pairs": 288
+   },
+   "configurations": [
+    "openai/gpt-6-luna"
+   ],
+   "interaction_pp": {
+    "ci95": [
+     -2.430555555555556,
+     4.166666666666666
+    ],
+    "estimate_pp": 1.0416666666666665,
+    "paired_cells": 288
+   }
+  },
+  "registered_subset": {
+   "campaign": "completion-cap-sweep-1",
+   "cap1024": {
+    "ci95": [
+     -47.91666666666667,
+     -37.84722222222222
+    ],
+    "estimate_pp": -42.70833333333333,
+    "pairs": 1152
+   },
+   "cap16384": {
+    "ci95": [
+     -5.902777777777778,
+     -1.3888888888888888
+    ],
+    "estimate_pp": -3.5590277777777777,
+    "pairs": 1152
+   },
+   "configurations": [
+    "glm-5.3-flash",
+    "google/gemini-3.8-flash",
+    "qwen/qwen3.7-flash",
+    "qwen/qwen3.8-flash"
+   ],
+   "interaction_pp": {
+    "ci95": [
+     33.85416666666667,
+     44.27083333333333
+    ],
+    "estimate_pp": 39.14930555555556,
+    "paired_cells": 1152
+   }
+  },
+  "verdict": "budget inflates but does not create the loss"
+ },
+ "protocol": [
+  "protocols/completion-cap-sweep-2026-10-12.md",
+  "protocols/completion-cap-sweep-2026-10-12-amendment-2.md"
+ ],
+ "public_release_redaction": {
+  "original_file_sha256": "4951d7863eae08737825e29ece555596c8cecc2bdc3c5ff0b7178b9a0214a1a7",
+  "reason": "the entries of one configuration outside the reporting panel were removed from the public release; every other field is copied unchanged, so hash and count fields inside the file describe the original",
+  "redacted_at": "2026-10-13",
+  "removed_from_json_paths": [
+   "$.reporting_panel_filter.dropped_models"
+  ]
+ },
+ "quarantined_arms": [],
+ "repeats_observed": [
+  1,
+  2
+ ],
+ "reporting_panel_filter": {
+  "dropped_models": [],
+  "panel": "results/reporting-panel-2026-10-13-final21/release-panel.json",
+  "released_visible_effects": "results/reporting-panel-2026-10-13-final21/capacity-cluster-sensitivity.json",
+  "rule": "sweep configurations outside the reporting panel are dropped (rows, ledger jobs, pilot-gate verdicts) before any statistic; strata and the registered subset are recomputed on the rest"
+ },
+ "rows": {
+  "kept": 13824,
+  "read": 13824
+ },
+ "run_to_run": {
+  "by_arm": {
+   "cap1024": 0.17476851851851852,
+   "cap16384": 0.08130787037037036
+  },
+  "by_configuration": {
+   "anthropic/claude-haiku-5.5": 0.0787037037037037,
+   "deepseek/deepseek-v4-pro-0813": 0.11342592592592593,
+   "glm-5.3": 0.16782407407407407,
+   "glm-5.3-flash": 0.14583333333333334,
+   "google/gemini-3.8-flash": 0.0775462962962963,
+   "openai/gpt-6-luna": 0.08449074074074074,
+   "qwen/qwen3.7-flash": 0.14930555555555555,
+   "qwen/qwen3.8-flash": 0.20717592592592593
+  },
+  "conditions_with_two_runs": 6912,
+  "disagreement_rate": 0.12803819444444445
+ },
+ "schema": "bottleneckbench-completion-cap-sweep-v2",
+ "strata": {
+  "anthropic/claude-haiku-5.5": "M",
+  "deepseek/deepseek-v4-pro-0813": "B",
+  "glm-5.3": "B",
+  "glm-5.3-flash": "B",
+  "google/gemini-3.8-flash": "B",
+  "openai/gpt-6-luna": "N",
+  "qwen/qwen3.7-flash": "B",
+  "qwen/qwen3.8-flash": "B"
+ },
+ "strata_basis": {
+  "B": "released V=128 truncation >= 20%",
+  "M": "released V=128 truncation 5 to 20%",
+  "N": "released V=128 truncation 0 and visible-menu effect within 3 pp of zero"
+ },
+ "truncated_episode_shape": {
+  "anthropic/claude-haiku-5.5": {
+   "cap1024": {
+    "no_call_no_answer": 14,
+    "single_request": 14,
+    "some_call": 0,
+    "truncated_rows": 14
+   },
+   "cap16384": {
+    "no_call_no_answer": 0,
+    "single_request": 0,
+    "some_call": 0,
+    "truncated_rows": 0
+   }
+  },
+  "deepseek/deepseek-v4-pro-0813": {
+   "cap1024": {
+    "no_call_no_answer": 133,
+    "single_request": 133,
+    "some_call": 11,
+    "truncated_rows": 144
+   },
+   "cap16384": {
+    "no_call_no_answer": 0,
+    "single_request": 0,
+    "some_call": 1,
+    "truncated_rows": 1
+   }
+  },
+  "glm-5.3": {
+   "cap1024": {
+    "no_call_no_answer": 252,
+    "single_request": 254,
+    "some_call": 4,
+    "truncated_rows": 258
+   },
+   "cap16384": {
+    "no_call_no_answer": 5,
+    "single_request": 5,
+    "some_call": 0,
+    "truncated_rows": 5
+   }
+  },
+  "glm-5.3-flash": {
+   "cap1024": {
+    "no_call_no_answer": 142,
+    "single_request": 143,
+    "some_call": 4,
+    "truncated_rows": 147
+   },
+   "cap16384": {
+    "no_call_no_answer": 0,
+    "single_request": 0,
+    "some_call": 0,
+    "truncated_rows": 0
+   }
+  },
+  "google/gemini-3.8-flash": {
+   "cap1024": {
+    "no_call_no_answer": 184,
+    "single_request": 203,
+    "some_call": 20,
+    "truncated_rows": 223
+   },
+   "cap16384": {
+    "no_call_no_answer": 0,
+    "single_request": 0,
+    "some_call": 0,
+    "truncated_rows": 0
+   }
+  },
+  "openai/gpt-6-luna": {
+   "cap1024": {
+    "no_call_no_answer": 0,
+    "single_request": 0,
+    "some_call": 0,
+    "truncated_rows": 0
+   },
+   "cap16384": {
+    "no_call_no_answer": 0,
+    "single_request": 0,
+    "some_call": 0,
+    "truncated_rows": 0
+   }
+  },
+  "qwen/qwen3.7-flash": {
+   "cap1024": {
+    "no_call_no_answer": 197,
+    "single_request": 197,
+    "some_call": 6,
+    "truncated_rows": 203
+   },
+   "cap16384": {
+    "no_call_no_answer": 0,
+    "single_request": 0,
+    "some_call": 0,
+    "truncated_rows": 0
+   }
+  },
+  "qwen/qwen3.8-flash": {
+   "cap1024": {
+    "no_call_no_answer": 104,
+    "single_request": 104,
+    "some_call": 1,
+    "truncated_rows": 105
+   },
+   "cap16384": {
+    "no_call_no_answer": 0,
+    "single_request": 0,
+    "some_call": 0,
+    "truncated_rows": 0
+   }
+  }
+ },
+ "visible_menu_all_cells": {
+  "B": {
+   "cap1024": {
+    "ci95": [
+     -48.495370370370374,
+     -39.120370370370374
+    ],
+    "estimate_pp": -43.692129629629626,
+    "pairs": 1728
+   },
+   "cap16384": {
+    "ci95": [
+     -4.6875,
+     -0.8680555555555556
+    ],
+    "estimate_pp": -2.7199074074074074,
+    "pairs": 1728
+   },
+   "configurations": [
+    "deepseek/deepseek-v4-pro-0813",
+    "glm-5.3",
+    "glm-5.3-flash",
+    "google/gemini-3.8-flash",
+    "qwen/qwen3.7-flash",
+    "qwen/qwen3.8-flash"
+   ],
+   "interaction_pp": {
+    "ci95": [
+     36.226851851851855,
+     45.54398148148148
+    ],
+    "estimate_pp": 40.97222222222222,
+    "paired_cells": 1728
+   }
+  },
+  "M": {
+   "cap1024": {
+    "ci95": [
+     -6.597222222222222,
+     1.7361111111111112
+    ],
+    "estimate_pp": -2.430555555555556,
+    "pairs": 288
+   },
+   "cap16384": {
+    "ci95": [
+     -3.125,
+     3.4722222222222223
+    ],
+    "estimate_pp": 0.3472222222222222,
+    "pairs": 288
+   },
+   "configurations": [
+    "anthropic/claude-haiku-5.5"
+   ],
+   "interaction_pp": {
+    "ci95": [
+     -3.125,
+     7.986111111111111
+    ],
+    "estimate_pp": 2.7777777777777777,
+    "paired_cells": 288
+   }
+  },
+  "N": {
+   "cap1024": {
+    "ci95": [
+     -7.986111111111111,
+     2.430555555555556
+    ],
+    "estimate_pp": -3.125,
+    "pairs": 288
+   },
+   "cap16384": {
+    "ci95": [
+     -5.902777777777778,
+     1.7361111111111112
+    ],
+    "estimate_pp": -2.083333333333333,
+    "pairs": 288
+   },
+   "configurations": [
+    "openai/gpt-6-luna"
+   ],
+   "interaction_pp": {
+    "ci95": [
+     -2.430555555555556,
+     4.166666666666666
+    ],
+    "estimate_pp": 1.0416666666666665,
+    "paired_cells": 288
+   }
+  },
+  "all": {
+   "cap1024": {
+    "ci95": [
+     -37.23958333333333,
+     -29.774305555555557
+    ],
+    "estimate_pp": -33.46354166666667,
+    "pairs": 2304
+   },
+   "cap16384": {
+    "ci95": [
+     -3.8194444444444446,
+     -0.6944444444444444
+    ],
+    "estimate_pp": -2.256944444444444,
+    "pairs": 2304
+   },
+   "configurations": [
+    "anthropic/claude-haiku-5.5",
+    "deepseek/deepseek-v4-pro-0813",
+    "glm-5.3",
+    "glm-5.3-flash",
+    "google/gemini-3.8-flash",
+    "openai/gpt-6-luna",
+    "qwen/qwen3.7-flash",
+    "qwen/qwen3.8-flash"
+   ],
+   "interaction_pp": {
+    "ci95": [
+     27.51736111111111,
+     34.80902777777778
+    ],
+    "estimate_pp": 31.20659722222222,
+    "paired_cells": 2304
+   }
+  }
+ },
+ "visible_menu_endpoint_cells": {
+  "B": {
+   "cap1024": {
+    "ci95": [
+     -48.495370370370374,
+     -39.120370370370374
+    ],
+    "estimate_pp": -43.692129629629626,
+    "pairs": 1728
+   },
+   "cap16384": {
+    "ci95": [
+     -4.6875,
+     -0.8680555555555556
+    ],
+    "estimate_pp": -2.7199074074074074,
+    "pairs": 1728
+   },
+   "configurations": [
+    "deepseek/deepseek-v4-pro-0813",
+    "glm-5.3",
+    "glm-5.3-flash",
+    "google/gemini-3.8-flash",
+    "qwen/qwen3.7-flash",
+    "qwen/qwen3.8-flash"
+   ],
+   "interaction_pp": {
+    "ci95": [
+     36.226851851851855,
+     45.54398148148148
+    ],
+    "estimate_pp": 40.97222222222222,
+    "paired_cells": 1728
+   }
+  },
+  "M": {
+   "cap1024": {
+    "ci95": [
+     -6.597222222222222,
+     1.7361111111111112
+    ],
+    "estimate_pp": -2.430555555555556,
+    "pairs": 288
+   },
+   "cap16384": {
+    "ci95": [
+     -3.125,
+     3.4722222222222223
+    ],
+    "estimate_pp": 0.3472222222222222,
+    "pairs": 288
+   },
+   "configurations": [
+    "anthropic/claude-haiku-5.5"
+   ],
+   "interaction_pp": {
+    "ci95": [
+     -3.125,
+     7.986111111111111
+    ],
+    "estimate_pp": 2.7777777777777777,
+    "paired_cells": 288
+   }
+  },
+  "N": {
+   "cap1024": {
+    "ci95": [
+     -7.986111111111111,
+     2.430555555555556
+    ],
+    "estimate_pp": -3.125,
+    "pairs": 288
+   },
+   "cap16384": {
+    "ci95": [
+     -5.902777777777778,
+     1.7361111111111112
+    ],
+    "estimate_pp": -2.083333333333333,
+    "pairs": 288
+   },
+   "configurations": [
+    "openai/gpt-6-luna"
+   ],
+   "interaction_pp": {
+    "ci95": [
+     -2.430555555555556,
+     4.166666666666666
+    ],
+    "estimate_pp": 1.0416666666666665,
+    "paired_cells": 288
+   }
+  },
+  "all": {
+   "cap1024": {
+    "ci95": [
+     -37.23958333333333,
+     -29.774305555555557
+    ],
+    "estimate_pp": -33.46354166666667,
+    "pairs": 2304
+   },
+   "cap16384": {
+    "ci95": [
+     -3.8194444444444446,
+     -0.6944444444444444
+    ],
+    "estimate_pp": -2.256944444444444,
+    "pairs": 2304
+   },
+   "configurations": [
+    "anthropic/claude-haiku-5.5",
+    "deepseek/deepseek-v4-pro-0813",
+    "glm-5.3",
+    "glm-5.3-flash",
+    "google/gemini-3.8-flash",
+    "openai/gpt-6-luna",
+    "qwen/qwen3.7-flash",
+    "qwen/qwen3.8-flash"
+   ],
+   "interaction_pp": {
+    "ci95": [
+     27.51736111111111,
+     34.80902777777778
+    ],
+    "estimate_pp": 31.20659722222222,
+    "paired_cells": 2304
+   }
+  }
+ }
+}

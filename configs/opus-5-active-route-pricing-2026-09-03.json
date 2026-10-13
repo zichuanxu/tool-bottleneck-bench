@@ -1,0 +1,16 @@
+{
+  "schema": "bottleneckbench-pricing-v1",
+  "as_of": "2026-09-03",
+  "currency": "USD",
+  "unit": "per_million_tokens",
+  "source": "frozen standard Anthropic endpoint snapshot in the Opus acquisition",
+  "models": {
+    "anthropic/claude-opus-5": {
+      "input": 5.0,
+      "output": 25.0,
+      "cached_input": 0.5,
+      "provider": "OpenRouter / Anthropic",
+      "provider_only": ["anthropic"]
+    }
+  }
+}

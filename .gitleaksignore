@@ -1,0 +1,33 @@
+# Opaque provider response IDs in immutable scored rows. These exact
+# fingerprints are false positives where adjacent array elements happen to
+# make one response ID look like an API-key variable name for the next.
+results/external-menu-intervention/execution/gemini-35-flash-lite.jsonl:generic-api-key:22
+results/external-menu-intervention/execution/gemini-35-flash-lite.jsonl:generic-api-key:36
+results/external-menu-intervention/execution/gemini-35-flash-lite.jsonl:generic-api-key:47
+results/main/pipelined/gemini-3.5-flash-lite-fixed-capacity.jsonl:generic-api-key:48
+results/main/pipelined/gemini-3.5-flash-lite-routed-capacity.jsonl:generic-api-key:52
+results/prospective-execution/frontier/gemini-35-flash-lite-workflow-frontier.jsonl:generic-api-key:4
+results/prospective-execution/repair/gemini-35-flash-lite-interface-guide-capacity.jsonl:generic-api-key:5
+results/prospective-execution/repair/gemini-35-flash-lite-interface-guide-capacity.jsonl:generic-api-key:10
+results/prospective-execution/repair/gemini-35-flash-lite-verification-repair-capacity.jsonl:generic-api-key:5
+results/prospective-execution/repair/gemini-35-flash-lite-verification-repair-capacity.jsonl:generic-api-key:31
+results/prospective-execution/repair/gemini-35-flash-lite-verification-repair-capacity.jsonl:generic-api-key:64
+results/main/pipelined/gemini-3.5-flash-lite-routed-capacity.jsonl:generic-api-key:176
+results/prospective-execution/structural-repair-holdout/active/google-gemini-3-5-flash-lite.jsonl:generic-api-key:2
+results/main/pipelined/gemini-3.5-flash-lite-routed-capacity.jsonl:generic-api-key:199
+results/main/pipelined/gemini-3.5-flash-lite-routed-capacity.jsonl:generic-api-key:200
+results/prospective-execution/structural-repair-holdout/active/google-gemini-3-5-flash-lite.jsonl:generic-api-key:42
+results/prospective-execution/structural-repair-holdout/active/google-gemini-3-5-flash-lite.jsonl:generic-api-key:46
+results/prospective-execution/structural-repair-holdout/active/google-gemini-3-5-flash-lite.jsonl:generic-api-key:90
+results/main/pipelined/gemini-3.5-flash-lite-routed-capacity.jsonl:generic-api-key:333
+results/prospective-execution/structural-repair-holdout/active/google-gemini-3-5-flash-lite.jsonl:generic-api-key:134
+results/prospective-execution/structural-repair-holdout/active/google-gemini-3-5-flash-lite.jsonl:generic-api-key:138
+results/main/pipelined/gemini-3.5-flash-lite-routed-capacity.jsonl:generic-api-key:382
+results/prospective-execution/structural-repair-holdout/active/google-gemini-3-5-flash-lite.jsonl:generic-api-key:162
+results/prospective-execution/structural-repair-holdout/active/google-gemini-3-5-flash-lite.jsonl:generic-api-key:214
+# Verified SHA-256 of sibling two-key-check-2026-09-04T03-46-56.961468Z.json,
+# not a credential. Match is the two_key_lookup_sha256 field in this receipt.
+results/opus-5-acquisition/execution/receipts/generation-metadata/original-account-recheck-2026-09-04T03-48-20.588776Z.json:generic-api-key:1
+# A lookup-row duplicate check in the cost materializer: the word key names a dictionary key,
+# and the quoted string is the error message, not a credential.
+experiments/panel_refresh_22_costs.py:generic-api-key:433

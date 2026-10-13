@@ -1,0 +1,629 @@
+{
+  "auxiliary_models": [
+    "openai/gpt-oss-120b-maas",
+    "google/gemini-3.5-flash-lite",
+    "google/gemini-3.6-flash",
+    "deepseek/deepseek-v4-flash-0731",
+    "qwen/qwen3.7-flash",
+    "meta/muse-glimmer-30b",
+    "openai/gpt-5.6-luna",
+    "z-ai/glm-5.2",
+    "openai/gpt-5.6-terra",
+    "meituan/longcat-2.0",
+    "inclusionai/ling-3.0-flash"
+  ],
+  "expected_rows": {
+    "capacity": 6912,
+    "discovery": 2592,
+    "external": 352,
+    "repair": 1584,
+    "sentinel": 792,
+    "structural_holdout": 864,
+    "workflow_frontier": 176
+  },
+  "generator_sha256": "f0e4746317b6cf637c0f2db090d06053bebf1ef71cff6be8a7325f8fa7c87988",
+  "inputs": {
+    "capacity": [
+      {
+        "model": "google/gemini-3.5-flash-lite",
+        "path": "results/main/pipelined/gemini-3.5-flash-lite-fixed-capacity.jsonl",
+        "rows": 144,
+        "sha256": "440f10736646404672b46f2841f434198e77aaee38d810d9e1ef92b06f3ff73b"
+      },
+      {
+        "model": "google/gemini-3.5-flash-lite",
+        "path": "results/main/pipelined/gemini-3.5-flash-lite-routed-capacity.jsonl",
+        "rows": 432,
+        "sha256": "5da33625dc4c8fcb882b40cc1e12685abe7acecfd830d87f7f105532b09c4e9c"
+      },
+      {
+        "model": "google/gemma-4-26b-a4b-it-maas",
+        "path": "results/main/pipelined/gemma-4-26b-fixed-capacity.jsonl",
+        "rows": 144,
+        "sha256": "de94b696fe26d9be6278bc69a4ecd72ef962e7d2e0f1976d9145f68b1b334192"
+      },
+      {
+        "model": "google/gemma-4-26b-a4b-it-maas",
+        "path": "results/main/pipelined/gemma-4-26b-routed-capacity.jsonl",
+        "rows": 432,
+        "sha256": "b2bc5fb188e10d6c922a28450d5f18e5fcc8d97233dfba8386c84349f488fbf5"
+      },
+      {
+        "model": "openai/gpt-oss-120b-maas",
+        "path": "results/main/pipelined/gpt-oss-120b-fixed-capacity.jsonl",
+        "rows": 144,
+        "sha256": "014b93e10f2c320cb17af33f5dd17a9a66f7f83a3067512aff2bf7aafce81572"
+      },
+      {
+        "model": "openai/gpt-oss-120b-maas",
+        "path": "results/main/pipelined/gpt-oss-120b-routed-capacity.jsonl",
+        "rows": 432,
+        "sha256": "624d3b8e1c4ff94b1bc24aee594069ce0dede3a5bd8a88d4552d6d5577c9d88e"
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "path": "results/model-generalization/main/deepseek-v4-flash-fixed-capacity.jsonl",
+        "rows": 144,
+        "sha256": "76dad5ada9d389cf8f7e001c22618955cf47e935dc74c3026a5949744ba02081"
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "path": "results/model-generalization/main/deepseek-v4-flash-routed-capacity.jsonl",
+        "rows": 432,
+        "sha256": "1d33fbc2ec666b84c1a87e667f444807fe51fc23b6f6f2e20dd9cbfccacd8582"
+      },
+      {
+        "model": "openai/gpt-5.6-luna",
+        "path": "results/model-generalization/main/gpt-5.6-luna-fixed-capacity.jsonl",
+        "rows": 144,
+        "sha256": "da1836a1eef1b6bb13660215a733d81a56bf1bfb889bccded645814b9e8aef1b"
+      },
+      {
+        "model": "openai/gpt-5.6-luna",
+        "path": "results/model-generalization/main/gpt-5.6-luna-routed-capacity.jsonl",
+        "rows": 432,
+        "sha256": "508ac913f6fdc8d1a62c640f07f00921070ed193941784b3abd7b8353cfe0fcb"
+      },
+      {
+        "model": "qwen/qwen3.7-flash",
+        "path": "results/model-generalization/main/qwen3.7-flash-fixed-capacity.jsonl",
+        "rows": 144,
+        "sha256": "dc36c0d800b75f6bc0d3330797c012cc628d24030cbea34ac0215e619f7b97ac"
+      },
+      {
+        "model": "qwen/qwen3.7-flash",
+        "path": "results/model-generalization/main/qwen3.7-flash-routed-capacity.jsonl",
+        "rows": 432,
+        "sha256": "fd02713ba4fa7618ef1ab7fda7578d1f604b0c0e2d17af32f4bf951a1927a06f"
+      },
+      {
+        "model": "google/gemini-3.6-flash",
+        "path": "results/prospective-execution/core/gemini-36-flash-primary-capacity.jsonl",
+        "rows": 432,
+        "sha256": "ffb524d0411b41ded2375e607a4666133dce9420ba79c9179aaf63de59f40738"
+      },
+      {
+        "model": "google/gemini-3.6-flash",
+        "path": "results/prospective-execution/core/gemini-36-flash-robustness-capacity.jsonl",
+        "rows": 144,
+        "sha256": "70f16960b9bdfb1af8bcc62b288192fb7ec18fcb98243795e3c6478398d21f85"
+      },
+      {
+        "model": "z-ai/glm-5.2",
+        "path": "results/prospective-execution/core/glm-52-primary-capacity.jsonl",
+        "rows": 432,
+        "sha256": "daeb45fe099aa8a6c336190dc079205d53ed334383c2fb7eb1f725862f6c37ef"
+      },
+      {
+        "model": "z-ai/glm-5.2",
+        "path": "results/prospective-execution/core/glm-52-robustness-capacity.jsonl",
+        "rows": 144,
+        "sha256": "5a4fdb056d93905bde0b64b7ba43f1c7063bb9cf258fbe8d7d8a9d5a34b53aa1"
+      },
+      {
+        "model": "openai/gpt-5.6-terra",
+        "path": "results/prospective-execution/core/gpt-56-terra-primary-capacity.jsonl",
+        "rows": 432,
+        "sha256": "6d162ef37a471a983c000e72819036942fed4308a9002249dd72ebb05dc9a757"
+      },
+      {
+        "model": "openai/gpt-5.6-terra",
+        "path": "results/prospective-execution/core/gpt-56-terra-robustness-capacity.jsonl",
+        "rows": 144,
+        "sha256": "b77c8de5258df559be4bd3b4d82d7b0fbe7d476e21c0331a9cea04889df1d372"
+      },
+      {
+        "model": "inclusionai/ling-3.0-flash",
+        "path": "results/prospective-execution/core/ling-30-flash-primary-capacity.jsonl",
+        "rows": 432,
+        "sha256": "b9d6548f9ef4ea1e07ba936671d7c9d9151437108ee8741fcfd250bdd33d797f"
+      },
+      {
+        "model": "inclusionai/ling-3.0-flash",
+        "path": "results/prospective-execution/core/ling-30-flash-robustness-capacity.jsonl",
+        "rows": 144,
+        "sha256": "c97867f775e66e8926a171f8245a4861d73142c66a2dc2b5ea95efa0cefb6b0b"
+      },
+      {
+        "model": "meituan/longcat-2.0",
+        "path": "results/prospective-execution/core/longcat-20-primary-capacity.jsonl",
+        "rows": 432,
+        "sha256": "d96195c3da60061e0326a04537d3c51c805e3f4832895f83ab8c6c397d43f231"
+      },
+      {
+        "model": "meituan/longcat-2.0",
+        "path": "results/prospective-execution/core/longcat-20-robustness-capacity.jsonl",
+        "rows": 144,
+        "sha256": "2bc8e4140e2328f5334a4eb5014c7ff0854450ae0a22e149d662ed18e67ebff5"
+      },
+      {
+        "model": "meta/muse-glimmer-30b",
+        "path": "results/prospective-execution/core/muse-glimmer-30b-primary-capacity.jsonl",
+        "rows": 432,
+        "sha256": "a3eb74cd5c4b925948662aae339d157b89b4e0c252e6ae1b6235817c4895391b"
+      },
+      {
+        "model": "meta/muse-glimmer-30b",
+        "path": "results/prospective-execution/core/muse-glimmer-30b-robustness-capacity.jsonl",
+        "rows": 144,
+        "sha256": "bd012d2d54a87fe21ccbb903d77a3572a11d2324764fe04e3d3a052308c3f23a"
+      }
+    ],
+    "discovery": [
+      {
+        "model": "google/gemini-3.5-flash-lite",
+        "path": "results/main/pipelined/gemini-3.5-flash-lite-routed-discovery.jsonl",
+        "rows": 216,
+        "sha256": "e4f0adbf49649de9b21ce0ec3daa09f757c3158710231ebf7934c91558eb3962"
+      },
+      {
+        "model": "google/gemma-4-26b-a4b-it-maas",
+        "path": "results/main/pipelined/gemma-4-26b-routed-discovery.jsonl",
+        "rows": 216,
+        "sha256": "1b1af1206e91df51dd6c58c3df274074b826ed0380864404286774e7302ae6c7"
+      },
+      {
+        "model": "openai/gpt-oss-120b-maas",
+        "path": "results/main/pipelined/gpt-oss-120b-routed-discovery.jsonl",
+        "rows": 216,
+        "sha256": "c314c711849c41f2c453f80f360b44a72cc0f347932e1b1acbd379ac95fe839c"
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "path": "results/model-generalization/main/deepseek-v4-flash-routed-discovery.jsonl",
+        "rows": 216,
+        "sha256": "7c09b9aa559d7cca3fe4249dcb726cb5066bcd90a5c9955f1a93964cf78dbdfb"
+      },
+      {
+        "model": "openai/gpt-5.6-luna",
+        "path": "results/model-generalization/main/gpt-5.6-luna-routed-discovery.jsonl",
+        "rows": 216,
+        "sha256": "5f1b4e39c997f0f02d6ac158c1a283f17b2db899794ecefe2ec94427dd9d4256"
+      },
+      {
+        "model": "qwen/qwen3.7-flash",
+        "path": "results/model-generalization/main/qwen3.7-flash-routed-discovery.jsonl",
+        "rows": 216,
+        "sha256": "2aeb6ca41b141eb8d8084e3ec5dae41381a4b9dca8944e15140ceffb0940f8f8"
+      },
+      {
+        "model": "google/gemini-3.6-flash",
+        "path": "results/prospective-execution/core/gemini-36-flash-primary-discovery.jsonl",
+        "rows": 216,
+        "sha256": "b5a57e002faed5f309d622cf82e5d32430599bce9c3e625776505b96c13eb6b0"
+      },
+      {
+        "model": "z-ai/glm-5.2",
+        "path": "results/prospective-execution/core/glm-52-primary-discovery.jsonl",
+        "rows": 216,
+        "sha256": "ee584eebf150f0e353f4977f3d0ee99b9049e8e8ef4fb686db6060bb35216953"
+      },
+      {
+        "model": "openai/gpt-5.6-terra",
+        "path": "results/prospective-execution/core/gpt-56-terra-primary-discovery.jsonl",
+        "rows": 216,
+        "sha256": "7832e1f946ae594d386d1932a3a7ec8c70bf6630037eb83a446aa3ae8051f19b"
+      },
+      {
+        "model": "inclusionai/ling-3.0-flash",
+        "path": "results/prospective-execution/core/ling-30-flash-primary-discovery.jsonl",
+        "rows": 216,
+        "sha256": "688a9208ade9db4a24f51c607db3992956b2a8241829a7228b9f5b9150348ab4"
+      },
+      {
+        "model": "meituan/longcat-2.0",
+        "path": "results/prospective-execution/core/longcat-20-primary-discovery.jsonl",
+        "rows": 216,
+        "sha256": "f07991dd8666650657f1039cab2a6a4e66296d74791c791be1bb43ace33ab6e4"
+      },
+      {
+        "model": "meta/muse-glimmer-30b",
+        "path": "results/prospective-execution/core/muse-glimmer-30b-primary-discovery.jsonl",
+        "rows": 216,
+        "sha256": "c0c068b59c4a26e92147434c0248143cec7ae8a11f698fdc21756bb8fc95988c"
+      }
+    ],
+    "external": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "path": "results/prospective-execution/external-validation/deepseek-v4-flash-0731.jsonl",
+        "rows": 32,
+        "sha256": "adcecfb959cbf26ba73b4e93a96a35346d908add4352a14f37468e6fb682fb50"
+      },
+      {
+        "model": "google/gemini-3.5-flash-lite",
+        "path": "results/prospective-execution/external-validation/gemini-35-flash-lite.jsonl",
+        "rows": 32,
+        "sha256": "103e2f673ef82cee149dd58fe216d3c4a16b6db269227cdc675d53c3d485a21f"
+      },
+      {
+        "model": "google/gemini-3.6-flash",
+        "path": "results/prospective-execution/external-validation/gemini-36-flash.jsonl",
+        "rows": 32,
+        "sha256": "c1f02ad02c86ef26aee78e37091ef7271e05c6788b3f32d9083b32d4547ca44d"
+      },
+      {
+        "model": "z-ai/glm-5.2",
+        "path": "results/prospective-execution/external-validation/glm-52.jsonl",
+        "rows": 32,
+        "sha256": "6ec579428ed663afff3436153fc8c8b3f0c772a7cbf02232cffb78fd416e0606"
+      },
+      {
+        "model": "openai/gpt-5.6-luna",
+        "path": "results/prospective-execution/external-validation/gpt-56-luna.jsonl",
+        "rows": 32,
+        "sha256": "ed37f3686697d653f4b6126892bf3ff46e439bb0ffc76f2667eed5bd5fa4de33"
+      },
+      {
+        "model": "openai/gpt-5.6-terra",
+        "path": "results/prospective-execution/external-validation/gpt-56-terra.jsonl",
+        "rows": 32,
+        "sha256": "5da77a174c8be289e10f8cb1ca9d0710c82945b6139164b7a27785aa38461fb3"
+      },
+      {
+        "model": "openai/gpt-oss-120b-maas",
+        "path": "results/prospective-execution/external-validation/gpt-oss-120b.jsonl",
+        "rows": 32,
+        "sha256": "1c11130eba204c336d6172a57f0abc97d88566325ae26b2a5eb8e0a2a89f8576"
+      },
+      {
+        "model": "inclusionai/ling-3.0-flash",
+        "path": "results/prospective-execution/external-validation/ling-30-flash.jsonl",
+        "rows": 32,
+        "sha256": "3db5327cf70784c2db696e99f56c4c3061115ab74959fdcb8716adc495cc3f60"
+      },
+      {
+        "model": "meituan/longcat-2.0",
+        "path": "results/prospective-execution/external-validation/longcat-20.jsonl",
+        "rows": 32,
+        "sha256": "40e918a6bc4157e87f08ea81ae540fb06bd7cc73ef3b7e2dcd58fbb6bb77b420"
+      },
+      {
+        "model": "meta/muse-glimmer-30b",
+        "path": "results/prospective-execution/external-validation/muse-glimmer-30b.jsonl",
+        "rows": 32,
+        "sha256": "ba2177ed9ebc6134335600453992656a873aa35f001fac4772943830fe5c42c2"
+      },
+      {
+        "model": "qwen/qwen3.7-flash",
+        "path": "results/prospective-execution/external-validation/qwen37-flash.jsonl",
+        "rows": 32,
+        "sha256": "49a66af310690595e303d2eec3c75c2a1ef04c9ee1578fb1a9ef4dcf5126751b"
+      }
+    ],
+    "repair": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "path": "results/prospective-execution/repair/deepseek-v4-flash-0731-interface-guide-capacity.jsonl",
+        "rows": 72,
+        "sha256": "06066c4990e4ba0b7e47046909c39e849de6b53ff03724aac7d17a4e6f1b2552"
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "path": "results/prospective-execution/repair/deepseek-v4-flash-0731-verification-repair-capacity.jsonl",
+        "rows": 72,
+        "sha256": "98aee4015c13688b7d3840bfaa5ef2ec47b91883edb28dc04035743bcbe603c0"
+      },
+      {
+        "model": "google/gemini-3.5-flash-lite",
+        "path": "results/prospective-execution/repair/gemini-35-flash-lite-interface-guide-capacity.jsonl",
+        "rows": 72,
+        "sha256": "bc27558da467104efbd386c253b70954ff094bd079a029051691d8248c3148b1"
+      },
+      {
+        "model": "google/gemini-3.5-flash-lite",
+        "path": "results/prospective-execution/repair/gemini-35-flash-lite-verification-repair-capacity.jsonl",
+        "rows": 72,
+        "sha256": "ae11220f49908f4922662e32cec5da055808e14c57a52c018a25148472102c36"
+      },
+      {
+        "model": "google/gemini-3.6-flash",
+        "path": "results/prospective-execution/repair/gemini-36-flash-interface-guide-capacity.jsonl",
+        "rows": 72,
+        "sha256": "409c7128ff182727778852f29c9a9195064a93bff82db8b6220350fd235ea3c4"
+      },
+      {
+        "model": "google/gemini-3.6-flash",
+        "path": "results/prospective-execution/repair/gemini-36-flash-verification-repair-capacity.jsonl",
+        "rows": 72,
+        "sha256": "f8093127a959a6423949483cd14e8dec92c0166f588adfdb9582176a090b4844"
+      },
+      {
+        "model": "z-ai/glm-5.2",
+        "path": "results/prospective-execution/repair/glm-52-interface-guide-capacity.jsonl",
+        "rows": 72,
+        "sha256": "9b4ddf3f283da5aea305a1560e96aed9d886e7fea54a8928ee283f602210f243"
+      },
+      {
+        "model": "z-ai/glm-5.2",
+        "path": "results/prospective-execution/repair/glm-52-verification-repair-capacity.jsonl",
+        "rows": 72,
+        "sha256": "af4fb21bb33a979897c8a5ad7f9e154585effafeec8ac345ae4adf1cc236b918"
+      },
+      {
+        "model": "openai/gpt-5.6-luna",
+        "path": "results/prospective-execution/repair/gpt-56-luna-interface-guide-capacity.jsonl",
+        "rows": 72,
+        "sha256": "920247be3dd2ee1345d106e3bc3169328bf6282651ff7ab8d57dee884619b186"
+      },
+      {
+        "model": "openai/gpt-5.6-luna",
+        "path": "results/prospective-execution/repair/gpt-56-luna-verification-repair-capacity.jsonl",
+        "rows": 72,
+        "sha256": "66535b92942c223269964470839d1f4617486ae1cdf454b1bd56b4f4309402af"
+      },
+      {
+        "model": "openai/gpt-5.6-terra",
+        "path": "results/prospective-execution/repair/gpt-56-terra-interface-guide-capacity.jsonl",
+        "rows": 72,
+        "sha256": "965b24d8b769cb722f80ab111201c726f1f4b7c28e958424b4fa2bded70490dd"
+      },
+      {
+        "model": "openai/gpt-5.6-terra",
+        "path": "results/prospective-execution/repair/gpt-56-terra-verification-repair-capacity.jsonl",
+        "rows": 72,
+        "sha256": "940b74bcbdb120ce96bea92e847ae31eceb26bf7164838f05cf6acd854fa52c8"
+      },
+      {
+        "model": "openai/gpt-oss-120b-maas",
+        "path": "results/prospective-execution/repair/gpt-oss-120b-interface-guide-capacity.jsonl",
+        "rows": 72,
+        "sha256": "17b1aa83a9c8d8e33e61760ad1c66e01fc7a8a54a66842cd731f9a0ef4e0d0b9"
+      },
+      {
+        "model": "openai/gpt-oss-120b-maas",
+        "path": "results/prospective-execution/repair/gpt-oss-120b-verification-repair-capacity.jsonl",
+        "rows": 72,
+        "sha256": "c02947511b8e6e2096e1d73aff57d36f673d6ef74da94ef03607d969799ca659"
+      },
+      {
+        "model": "inclusionai/ling-3.0-flash",
+        "path": "results/prospective-execution/repair/ling-30-flash-interface-guide-capacity.jsonl",
+        "rows": 72,
+        "sha256": "eac474921599a5524d3063b8bbc0b4abee1a9dee241df0ef5a1ec4adb725b763"
+      },
+      {
+        "model": "inclusionai/ling-3.0-flash",
+        "path": "results/prospective-execution/repair/ling-30-flash-verification-repair-capacity.jsonl",
+        "rows": 72,
+        "sha256": "ebe3d44dd86029195ad62123e26324547f8dffd0bec23b50c5c5c5285f60366a"
+      },
+      {
+        "model": "meituan/longcat-2.0",
+        "path": "results/prospective-execution/repair/longcat-20-interface-guide-capacity.jsonl",
+        "rows": 72,
+        "sha256": "83bda02a03b10399bfeb1b323b33cb9e91453960bc0e395f77d9e9509a9290c0"
+      },
+      {
+        "model": "meituan/longcat-2.0",
+        "path": "results/prospective-execution/repair/longcat-20-verification-repair-capacity.jsonl",
+        "rows": 72,
+        "sha256": "dddd6dc022fee757a0fb26cfd57e8f13fa9e983d6a3b6acce3c88cba10c900d8"
+      },
+      {
+        "model": "meta/muse-glimmer-30b",
+        "path": "results/prospective-execution/repair/muse-glimmer-30b-interface-guide-capacity.jsonl",
+        "rows": 72,
+        "sha256": "509c5600b4e3b6b264751106173044a61cde3b24bd5b3a8e908209abfea5641a"
+      },
+      {
+        "model": "meta/muse-glimmer-30b",
+        "path": "results/prospective-execution/repair/muse-glimmer-30b-verification-repair-capacity.jsonl",
+        "rows": 72,
+        "sha256": "e4d86257dd5ff6d6fb57a192108835d3b85e48f8ecc70631a2639957dc4d1936"
+      },
+      {
+        "model": "qwen/qwen3.7-flash",
+        "path": "results/prospective-execution/repair/qwen37-flash-interface-guide-capacity.jsonl",
+        "rows": 72,
+        "sha256": "78279b2dffab672f2f99ef366d94c003e293c1e66cd63ad1773da3f6c98d98fa"
+      },
+      {
+        "model": "qwen/qwen3.7-flash",
+        "path": "results/prospective-execution/repair/qwen37-flash-verification-repair-capacity.jsonl",
+        "rows": 72,
+        "sha256": "c448aae58020928966a18a193e671af872ea045cc93ce5e33103e9e7ae865010"
+      }
+    ],
+    "sentinel": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "path": "results/prospective-execution/sentinel/deepseek-v4-flash-0731-sentinel.jsonl",
+        "rows": 72,
+        "sha256": "827a302a702489408fbb429aee97f7a6515b5218f9eddbb03c833f13b43c0f3b"
+      },
+      {
+        "model": "google/gemini-3.5-flash-lite",
+        "path": "results/prospective-execution/sentinel/gemini-35-flash-lite-sentinel.jsonl",
+        "rows": 72,
+        "sha256": "a61a5fabdb135a167320f25c5aec64eb7e0db2dc74a325dae417465432936dd5"
+      },
+      {
+        "model": "google/gemini-3.6-flash",
+        "path": "results/prospective-execution/sentinel/gemini-36-flash-sentinel.jsonl",
+        "rows": 72,
+        "sha256": "36540f801bfd65ed35461ae25cb682fadc4e6eb40db5b895ddc7f931987011f8"
+      },
+      {
+        "model": "z-ai/glm-5.2",
+        "path": "results/prospective-execution/sentinel/glm-52-sentinel.jsonl",
+        "rows": 72,
+        "sha256": "d582e3492d258bfc24bd94228424eac28dea77736003781aa1bd1737e202e007"
+      },
+      {
+        "model": "openai/gpt-5.6-luna",
+        "path": "results/prospective-execution/sentinel/gpt-56-luna-sentinel.jsonl",
+        "rows": 72,
+        "sha256": "51f4d28932ab60beca449e0d21f6f2c6e5e05f18efa6f98565a6cc9119eccbea"
+      },
+      {
+        "model": "openai/gpt-5.6-terra",
+        "path": "results/prospective-execution/sentinel/gpt-56-terra-sentinel.jsonl",
+        "rows": 72,
+        "sha256": "9a072aec8d664cb89a9ca6c68f184e46d3daf249d2bb0d86eef56fa8ed80577a"
+      },
+      {
+        "model": "openai/gpt-oss-120b-maas",
+        "path": "results/prospective-execution/sentinel/gpt-oss-120b-sentinel.jsonl",
+        "rows": 72,
+        "sha256": "482b71614d8fe1edff79d45f7f26cbf0b6a5f7b3482163c9fe7bb22e5206a831"
+      },
+      {
+        "model": "inclusionai/ling-3.0-flash",
+        "path": "results/prospective-execution/sentinel/ling-30-flash-sentinel.jsonl",
+        "rows": 72,
+        "sha256": "0dd94b2a568b267f741258d99f5ff5227f4dde20b3a6afb830c996d33113e79e"
+      },
+      {
+        "model": "meituan/longcat-2.0",
+        "path": "results/prospective-execution/sentinel/longcat-20-sentinel.jsonl",
+        "rows": 72,
+        "sha256": "28e3fc22f86d78a1ecfa3ad5594ec073fce55ddf92fea67edde32476d04eb5e7"
+      },
+      {
+        "model": "meta/muse-glimmer-30b",
+        "path": "results/prospective-execution/sentinel/muse-glimmer-30b-sentinel.jsonl",
+        "rows": 72,
+        "sha256": "a315c8fcd3f69a28b8aba44da5546154c2536e669e710d57680423dd1b3772e5"
+      },
+      {
+        "model": "qwen/qwen3.7-flash",
+        "path": "results/prospective-execution/sentinel/qwen37-flash-sentinel.jsonl",
+        "rows": 72,
+        "sha256": "514db1c11bf13fd8b8364aa752ae4cdf410ce850f693588623e9408b8cb9aa1c"
+      }
+    ],
+    "structural_holdout": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "path": "results/prospective-execution/structural-repair-holdout/active/deepseek-deepseek-v4-flash-0731.jsonl",
+        "rows": 216,
+        "sha256": "1e3dd5c744f358a0e4862f5eae860a07aebf169c52a32f7dc9eb4e467cf5b43a"
+      },
+      {
+        "model": "google/gemini-3.5-flash-lite",
+        "path": "results/prospective-execution/structural-repair-holdout/active/google-gemini-3-5-flash-lite.jsonl",
+        "rows": 216,
+        "sha256": "67e70955120f988e39f6f7bfe7755efb782e0a763e960714419bcbe00bed8579"
+      },
+      {
+        "model": "openai/gpt-oss-120b-maas",
+        "path": "results/prospective-execution/structural-repair-holdout/active/openai-gpt-oss-120b-maas.jsonl",
+        "rows": 216,
+        "sha256": "2ec67d6d9ed38eed4238d8969196dcd1f3beaea255a267188f212f853a0e0d12"
+      },
+      {
+        "model": "qwen/qwen3.7-flash",
+        "path": "results/prospective-execution/structural-repair-holdout/active/qwen-qwen3-7-flash.jsonl",
+        "rows": 216,
+        "sha256": "a93dfc4d343917eb6698f94442833b43a052858db35ecd8565571f8d8df7f87b"
+      }
+    ],
+    "workflow_frontier": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "path": "results/prospective-execution/frontier/deepseek-v4-flash-routed-workflow-boundary.jsonl",
+        "rows": 16,
+        "sha256": "02ee7fb237e874613f85c9c693d0c0feeb17093f7acdafc049d7cbafeb05f037"
+      },
+      {
+        "model": "google/gemini-3.5-flash-lite",
+        "path": "results/prospective-execution/frontier/gemini-35-flash-lite-workflow-frontier.jsonl",
+        "rows": 16,
+        "sha256": "c49d1fcb9e32ad7b7c8f8cac22dc02acbcaab2e09d08e0d59efd47ccfa10f826"
+      },
+      {
+        "model": "google/gemini-3.6-flash",
+        "path": "results/prospective-execution/frontier/gemini-36-flash-workflow-frontier.jsonl",
+        "rows": 16,
+        "sha256": "c6e4b750e7b007327ac72977cf0f5bc9b561fd750665e35bb3373f1a51add60f"
+      },
+      {
+        "model": "z-ai/glm-5.2",
+        "path": "results/prospective-execution/frontier/glm-52-workflow-frontier.jsonl",
+        "rows": 16,
+        "sha256": "aa8851250e7e6379ebfcc44951df329d4aa41a8fc6314ab9aaac9e331352741b"
+      },
+      {
+        "model": "openai/gpt-5.6-luna",
+        "path": "results/prospective-execution/frontier/gpt-5.6-luna-routed-workflow-boundary.jsonl",
+        "rows": 16,
+        "sha256": "4fd5f3cad278568b509ce0bff78e4460cdbd45617f0dfdb7f45111466ef2a18f"
+      },
+      {
+        "model": "openai/gpt-5.6-terra",
+        "path": "results/prospective-execution/frontier/gpt-56-terra-workflow-frontier.jsonl",
+        "rows": 16,
+        "sha256": "d53ad4222a093a20b85dc32639fcf8c158f90d53091b29909ee8114cf5922039"
+      },
+      {
+        "model": "openai/gpt-oss-120b-maas",
+        "path": "results/prospective-execution/frontier/gpt-oss-120b-workflow-frontier.jsonl",
+        "rows": 16,
+        "sha256": "18f2c80a4f2646f9f3e1a3a574041ff81325fc805c6b68a98b8159ef06023c3f"
+      },
+      {
+        "model": "inclusionai/ling-3.0-flash",
+        "path": "results/prospective-execution/frontier/ling-30-flash-workflow-frontier.jsonl",
+        "rows": 16,
+        "sha256": "136f5dc5e4fde65aca5269e3e8738d702312fa33be546920e809755d1986d429"
+      },
+      {
+        "model": "meituan/longcat-2.0",
+        "path": "results/prospective-execution/frontier/longcat-20-workflow-frontier.jsonl",
+        "rows": 16,
+        "sha256": "fd04c776fbfb1ce0b1a298d42597b0acd177294fa59ef12035913ce8514ab676"
+      },
+      {
+        "model": "meta/muse-glimmer-30b",
+        "path": "results/prospective-execution/frontier/muse-glimmer-30b-workflow-frontier.jsonl",
+        "rows": 16,
+        "sha256": "9fff47ee242c6a0b604865666538ed4297585f9e43b94854155e9c10ceb262a7"
+      },
+      {
+        "model": "qwen/qwen3.7-flash",
+        "path": "results/prospective-execution/frontier/qwen3.7-flash-routed-workflow-boundary.jsonl",
+        "rows": 16,
+        "sha256": "80313e26961f2945f40baf15a1a218a0d335a2656e03c021723212f9bed4c5d3"
+      }
+    ]
+  },
+  "manifest_hash": "fdfb0c9a457e3d154966bfe597d93ac3a10ad329eab504c96d99f67abafb0de9",
+  "models": [
+    "openai/gpt-oss-120b-maas",
+    "google/gemma-4-26b-a4b-it-maas",
+    "google/gemini-3.5-flash-lite",
+    "google/gemini-3.6-flash",
+    "deepseek/deepseek-v4-flash-0731",
+    "qwen/qwen3.7-flash",
+    "meta/muse-glimmer-30b",
+    "openai/gpt-5.6-luna",
+    "z-ai/glm-5.2",
+    "openai/gpt-5.6-terra",
+    "meituan/longcat-2.0",
+    "inclusionai/ling-3.0-flash"
+  ],
+  "panel_path": "experiments/eligible-analysis-panel.json",
+  "panel_sha256": "35ccbc898ee866f15844f46aa423e906c06a837c635d4cc98ae490a6900333c8",
+  "schema": "bottleneckbench-final-analysis-inputs-v1"
+}

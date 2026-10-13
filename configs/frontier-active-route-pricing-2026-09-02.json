@@ -1,0 +1,32 @@
+{
+  "schema": "bottleneckbench-pricing-v1",
+  "as_of": "2026-09-02",
+  "currency": "USD",
+  "unit": "per_million_tokens",
+  "source": "frozen active-route configurations",
+  "models": {
+    "anthropic/claude-sonnet-5": {
+      "input": 2.0,
+      "output": 10.0,
+      "cached_input": 0.2,
+      "provider": "OpenRouter / Anthropic",
+      "provider_only": [
+        "anthropic"
+      ],
+      "route_config_path": "configs/frontier-claude-active-route-2026-09-02.json",
+      "route_config_sha256": "23c5b719386f7d898d3eb206931ce51edc70ee60cbf82402770078962275c822"
+    },
+    "openai/gpt-5.6-sol": {
+      "input": 4.0,
+      "output": 20.0,
+      "provider": "OpenRouter / OpenAI fast",
+      "provider_only": [
+        "openai/fast"
+      ],
+      "route_config_path": "configs/frontier-sol-fast-route.json",
+      "route_config_sha256": "5d3a74157dc24a304e80b8ad312b995be4ebc5b1bfd0d61ff45b68d4b582a6a1",
+      "long_context_threshold_prompt_tokens": 272000,
+      "long_context_policy": "reject above threshold under the frozen episode policy"
+    }
+  }
+}

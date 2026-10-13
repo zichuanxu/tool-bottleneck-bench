@@ -1,0 +1,24 @@
+{
+ "schema": "bottleneckbench-cap-sweep-pilot-gate-v2",
+ "high_arm": "cap16384",
+ "episodes": 36,
+ "ceiling": 0.05,
+ "verdict": {
+  "gemini-38-flash": {
+   "v128_episodes": 36,
+   "truncated": 0,
+   "share": 0.0,
+   "passed": true,
+   "job_exited_early": false
+  },
+  "qwen37-flash": {
+   "v128_episodes": 36,
+   "truncated": 0,
+   "share": 0.0,
+   "passed": true,
+   "job_exited_early": false
+  }
+ },
+ "all_passed": true,
+ "decided_at": "2026-10-12T00:25:54Z"
+}

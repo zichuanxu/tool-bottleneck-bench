@@ -1,0 +1,52 @@
+{
+  "schema": "bottleneckbench-pricing-v1",
+  "as_of": "2026-09-02",
+  "currency": "USD",
+  "unit": "per_million_tokens",
+  "source": "release-only projection of the frozen candidate pricing snapshot",
+  "models": {
+    "tencent/hy4-preview": {
+      "input": 0.834,
+      "output": 2.501,
+      "cached_input": 0.042,
+      "conservative_multiplier": 1.15
+    },
+    "qwen/qwen3.8-flash": {
+      "input": 0.15,
+      "output": 0.47,
+      "cached_input": 0.016,
+      "cache_write": 0.20,
+      "conservative_multiplier": 1.15
+    },
+    "glm-5.3-flash": {
+      "input": 0.075,
+      "output": 0.25,
+      "cached_input": 0.015,
+      "conservative_input": 0.15,
+      "conservative_output": 0.50,
+      "promotion_ends": "2026-09-09T23:59:59+08:00"
+    },
+    "glm-5.3": {
+      "input": 1.40,
+      "output": 4.40,
+      "cached_input": 0.26,
+      "conservative_multiplier": 1.50,
+      "note": "Reasoning is always enabled; the conservative multiplier covers output-token expansion until a zero-weight calibration is frozen."
+    },
+    "deepseek/deepseek-v4-pro-0813": {
+      "input": 1.31,
+      "output": 3.96,
+      "cached_input": 0.044,
+      "conservative_multiplier": 1.15,
+      "note": "Pinned CoreWeave FP8 route; the cheaper native route conflicts with the account data-retention policy."
+    }
+  },
+  "public_release_redaction": {
+    "original_file_sha256": "60eadab158c077c52f5ae7d9c3b51b356582d85bb798be7adc53b80240fa3dc7",
+    "reason": "the entries of one configuration outside the reporting panel were removed from the public release; every other field is copied unchanged, so hash and count fields inside the file describe the original",
+    "redacted_at": "2026-10-13",
+    "removed_from_json_paths": [
+      "$.models"
+    ]
+  }
+}

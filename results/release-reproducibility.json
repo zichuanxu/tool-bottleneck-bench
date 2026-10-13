@@ -1,0 +1,157 @@
+{
+  "active_route_pricing_sha256": "7b82b9002bf110e5256648d973df710ba3241f666b2e6b36dafa0e9a6607916f",
+  "checks": [
+    {
+      "comparison": "semantic_json",
+      "expected_sha256": "7ccd15c3c0638f1a019e8394aff42f0a87b007fb25b5bfa6adb2d539037f9270",
+      "name": "release-panel-rebuild",
+      "passed": true,
+      "replay_sha256": "7ccd15c3c0638f1a019e8394aff42f0a87b007fb25b5bfa6adb2d539037f9270"
+    },
+    {
+      "comparison": "semantic_json",
+      "expected_sha256": "999bb8903e8e18d617c4e1e90c71b5a07fe6f04a3f38e193a09243bd55473b65",
+      "name": "release-manifest-rebuild",
+      "passed": true,
+      "replay_sha256": "999bb8903e8e18d617c4e1e90c71b5a07fe6f04a3f38e193a09243bd55473b65"
+    },
+    {
+      "comparison": "semantic_json",
+      "expected_sha256": "a750948b4fc3d82fb124d1c5b9515c149591a1449cd31ed581adb4cc19bd43e4",
+      "name": "release:release-core-panel.json",
+      "passed": true,
+      "replay_sha256": "a750948b4fc3d82fb124d1c5b9515c149591a1449cd31ed581adb4cc19bd43e4"
+    },
+    {
+      "comparison": "semantic_json",
+      "expected_sha256": "238189a86b06a795930f09fa72944e82bb9aef90abea42328bb0daf8938ce69e",
+      "name": "release:release-layer-repairs.json",
+      "passed": true,
+      "replay_sha256": "238189a86b06a795930f09fa72944e82bb9aef90abea42328bb0daf8938ce69e"
+    },
+    {
+      "comparison": "semantic_json",
+      "expected_sha256": "8492391f4868a1df6c01eb6cfa4bc0d9008c2cae10b328759cf1637386b65a4e",
+      "name": "release:release-sentinel.json",
+      "passed": true,
+      "replay_sha256": "8492391f4868a1df6c01eb6cfa4bc0d9008c2cae10b328759cf1637386b65a4e"
+    },
+    {
+      "comparison": "semantic_json",
+      "expected_sha256": "8c99d55aa4fd7121b8dbe86d60dc7e34c9accd0ec7df2e565cbbbe907a1b86b8",
+      "name": "release:release-workflow-frontier.json",
+      "passed": true,
+      "replay_sha256": "8c99d55aa4fd7121b8dbe86d60dc7e34c9accd0ec7df2e565cbbbe907a1b86b8"
+    },
+    {
+      "comparison": "semantic_json",
+      "expected_sha256": "a5710036a48a9a2dc392cfab4fa66ea36ecf789b0162e41eb3875aca1f465911",
+      "name": "release:structural-repair-pooled.json",
+      "passed": true,
+      "replay_sha256": "a5710036a48a9a2dc392cfab4fa66ea36ecf789b0162e41eb3875aca1f465911"
+    },
+    {
+      "comparison": "semantic_json",
+      "expected_sha256": "a8ec22ca9087a6cc6f1213a399ea7af34f8eb6f52128f71f6024eb02b1d9ff3a",
+      "name": "release:candidate-toolsandbox-menu.json",
+      "passed": true,
+      "replay_sha256": "a8ec22ca9087a6cc6f1213a399ea7af34f8eb6f52128f71f6024eb02b1d9ff3a"
+    },
+    {
+      "comparison": "semantic_json",
+      "expected_sha256": "896ebe7dd953f958c2174aeb9f3945db24869d376eac3a4cec325950ede5ca21",
+      "name": "release:release-model-versus-system.json",
+      "passed": true,
+      "replay_sha256": "896ebe7dd953f958c2174aeb9f3945db24869d376eac3a4cec325950ede5ca21"
+    },
+    {
+      "comparison": "semantic_json",
+      "expected_sha256": "c6576a892c1390baa36f61f8a77fbed0e632e4967f20309c9906c83154cdb9a4",
+      "name": "release:release-panel-cost.json",
+      "passed": true,
+      "replay_sha256": "c6576a892c1390baa36f61f8a77fbed0e632e4967f20309c9906c83154cdb9a4"
+    },
+    {
+      "comparison": "semantic_json",
+      "expected_sha256": "2776349051c58b170ca96408c779466c4434678aebd697e8166cfffe049afc5a",
+      "name": "release:release-failure-localization.json",
+      "passed": true,
+      "replay_sha256": "2776349051c58b170ca96408c779466c4434678aebd697e8166cfffe049afc5a"
+    },
+    {
+      "comparison": "semantic_json",
+      "expected_sha256": "68eeb9905f83f7119c68b0a169b51f694b1a6873144130d42f4b4b04cbb71187",
+      "name": "release:release-failure-localization-v2.json",
+      "passed": true,
+      "replay_sha256": "68eeb9905f83f7119c68b0a169b51f694b1a6873144130d42f4b4b04cbb71187"
+    },
+    {
+      "comparison": "semantic_json",
+      "expected_sha256": "a6838d8d458f2be3fa2eb2bb8d5929bd9927f45d86a4889c5ddc0e824ef9d8d9",
+      "name": "release:crossover-campaign.json",
+      "passed": true,
+      "replay_sha256": "a6838d8d458f2be3fa2eb2bb8d5929bd9927f45d86a4889c5ddc0e824ef9d8d9"
+    },
+    {
+      "comparison": "semantic_json",
+      "expected_sha256": "2b518992c73648567b1218b3b79f3e48f79693965502951ba0676b0059edc0c3",
+      "name": "release:revision-evidence-audit.json",
+      "passed": true,
+      "replay_sha256": "2b518992c73648567b1218b3b79f3e48f79693965502951ba0676b0059edc0c3"
+    },
+    {
+      "comparison": "semantic_json",
+      "expected_sha256": "4e75cba790b4558a028b2d7b9fec894e397038ca656ff9abc424b50eb2f51d51",
+      "name": "release:interaction-scale-sensitivity.json",
+      "passed": true,
+      "replay_sha256": "4e75cba790b4558a028b2d7b9fec894e397038ca656ff9abc424b50eb2f51d51"
+    },
+    {
+      "comparison": "semantic_json",
+      "expected_sha256": "99e9b17e0fe5b1f776421288b9df3d28bb67b0c67f215280a3a9864ee18e53bf",
+      "name": "release:structural-repair-holdout.json",
+      "passed": true,
+      "replay_sha256": "99e9b17e0fe5b1f776421288b9df3d28bb67b0c67f215280a3a9864ee18e53bf"
+    },
+    {
+      "comparison": "semantic_json",
+      "expected_sha256": "f6d95aab0541b475321c70ef0516a33b44ad775976eafe205ec7ecb0a0ae85ee",
+      "name": "release:structural-model-versus-system.json",
+      "passed": true,
+      "replay_sha256": "f6d95aab0541b475321c70ef0516a33b44ad775976eafe205ec7ecb0a0ae85ee"
+    },
+    {
+      "comparison": "semantic_json",
+      "expected_sha256": "6229e2817031afeb3d6df35b4dc8caad043f0552943fc29b35e43549bfd30616",
+      "name": "release:failure-mechanism-decomposition.json",
+      "passed": true,
+      "replay_sha256": "6229e2817031afeb3d6df35b4dc8caad043f0552943fc29b35e43549bfd30616"
+    },
+    {
+      "comparison": "semantic_json",
+      "expected_sha256": "b3fc0c0ac44f3994a59734658bea646fcda74868c07440f58331a76facd382d8",
+      "name": "release:capacity-cluster-sensitivity.json",
+      "passed": true,
+      "replay_sha256": "b3fc0c0ac44f3994a59734658bea646fcda74868c07440f58331a76facd382d8"
+    },
+    {
+      "comparison": "byte_identical",
+      "expected_sha256": "165481f73ff3eb9029aa25f98fd1fb7bef60eac03b00f765cc7193f942a07e3a",
+      "name": "policy-pilot:analysis.json",
+      "passed": true,
+      "replay_sha256": "165481f73ff3eb9029aa25f98fd1fb7bef60eac03b00f765cc7193f942a07e3a"
+    },
+    {
+      "comparison": "byte_identical",
+      "expected_sha256": "9b98fcdb071b00e866c15d947081e0320c862d1d33ba4854d5a0a515795b1cbc",
+      "name": "policy-pilot:policy-decisions.json",
+      "passed": true,
+      "replay_sha256": "9b98fcdb071b00e866c15d947081e0320c862d1d33ba4854d5a0a515795b1cbc"
+    }
+  ],
+  "passed": true,
+  "release_manifest_sha256": "999bb8903e8e18d617c4e1e90c71b5a07fe6f04a3f38e193a09243bd55473b65",
+  "release_panel_sha256": "7ccd15c3c0638f1a019e8394aff42f0a87b007fb25b5bfa6adb2d539037f9270",
+  "schema": "bottleneckbench-release-reproducibility-v1",
+  "source_map_sha256": "7346273309e709d4b5175e32280f4f80c22eb934cfa7cf7a5a763d94646e3d77"
+}

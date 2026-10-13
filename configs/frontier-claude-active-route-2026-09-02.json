@@ -1,0 +1,17 @@
+{
+  "schema": "bottleneckbench-active-route-v1",
+  "as_of": "2026-09-02",
+  "model": "anthropic/claude-sonnet-5",
+  "provider": "OpenRouter / Anthropic",
+  "provider_only": [
+    "anthropic"
+  ],
+  "fallbacks_disabled": true,
+  "pricing_per_million_tokens_usd": {
+    "input": 2.0,
+    "cached_input": 0.2,
+    "output": 10.0
+  },
+  "acquisition_config_archival_reference": "configs/frontier-model-extension.json",
+  "acquisition_config_sha256_digest": "adee0f3b1fd52fade2da24b5bc6bb39dffff02356fea3e2bee5efc6168b5eba0"
+}

@@ -1,0 +1,2167 @@
+{
+  "schema": "bottleneckbench-reference-audit-v1",
+  "checked_date": "2026-09-04",
+  "records": 82,
+  "scope": "All BibTeX records queried at their primary URLs. Metadata and abstract-level topical support checked; not an independent reproduction of cited results or a full-text audit of every fine-grained comparison. Publication claims based only on arXiv comments remain explicitly qualified.",
+  "remaining": "Independent TMLR venue check and full-text verification of every specific comparative claim remain open. This is not a completed all-fields/all-claims certification.",
+  "entries": [
+    {
+      "primary_url": "https://aclanthology.org/2025.findings-acl.1258/",
+      "original_url_checked": "https://aclanthology.org/2025.findings-acl.1258/",
+      "observed_metadata": {
+        "citation_title": [
+          "Retrieval Models Aren’t Tool-Savvy: Benchmarking Tool Retrieval for Large Language Models"
+        ],
+        "citation_author": [
+          "Zhengliang Shi",
+          "Yuhan Wang",
+          "Lingyong Yan",
+          "Pengjie Ren",
+          "Shuaiqiang Wang",
+          "Dawei Yin",
+          "Zhaochun Ren"
+        ],
+        "citation_conference_title": [
+          "Findings of the Association for Computational Linguistics: ACL 2025"
+        ],
+        "citation_publication_date": [
+          "2025/7"
+        ]
+      },
+      "observed_page_title": "Retrieval Models Aren’t Tool-Savvy: Benchmarking Tool Retrieval for Large Language Models - ACL Anthology",
+      "manuscript_line_mentions": [
+        212
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "shi2025toolret"
+    },
+    {
+      "primary_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/1b126cc38b8638e07bef37e7b2bb72bf-Abstract-Conference.html",
+      "original_url_checked": "https://openreview.net/forum?id=roNSXZpUDN",
+      "observed_metadata": {},
+      "observed_page_title": "Verifying your browser | OpenReview",
+      "manuscript_line_mentions": [
+        370
+      ],
+      "metadata_note": "OpenReview browser check; title, four authors, 2025 venue and abstract checked against official ICLR proceedings instead.",
+      "claim_support_scope": "Visible official page or alternative primary source inspected; see metadata note.",
+      "bibtex_id": "yao2025taubench"
+    },
+    {
+      "primary_url": "https://aclanthology.org/2026.acl-long.1573/",
+      "original_url_checked": "https://aclanthology.org/2026.acl-long.1573/",
+      "observed_metadata": {
+        "citation_title": [
+          "ToolScope: Enhancing LLM Agent Tool Use through Tool Merging and Context-Aware Filtering"
+        ],
+        "citation_author": [
+          "Marianne Menglin Liu",
+          "Daniel Garcia",
+          "Fjona Parllaku",
+          "Vikas Upadhyay",
+          "Fahad Shah",
+          "Dan Roth"
+        ],
+        "citation_conference_title": [
+          "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+        ],
+        "citation_publication_date": [
+          "2026/7"
+        ]
+      },
+      "observed_page_title": "ToolScope: Enhancing LLM Agent Tool Use through Tool Merging and Context-Aware Filtering - ACL Anthology",
+      "manuscript_line_mentions": [
+        212
+      ],
+      "metadata_note": "HTML citation meta abbreviates Fahad Shah; visible ACL record spells Syed Fahad Allam Shah, matching the retained BibTeX.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "liu2026toolscope"
+    },
+    {
+      "primary_url": "https://aclanthology.org/2024.acl-long.850/",
+      "original_url_checked": "https://aclanthology.org/2024.acl-long.850/",
+      "observed_metadata": {
+        "citation_title": [
+          "AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents"
+        ],
+        "citation_author": [
+          "Harsh Trivedi",
+          "Tushar Khot",
+          "Mareike Hartmann",
+          "Ruskin Manku",
+          "Vinty Dong",
+          "Edward Li",
+          "Shashank Gupta",
+          "Ashish Sabharwal",
+          "Niranjan Balasubramanian"
+        ],
+        "citation_conference_title": [
+          "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+        ],
+        "citation_publication_date": [
+          "2024/8"
+        ]
+      },
+      "observed_page_title": "AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents - ACL Anthology",
+      "manuscript_line_mentions": [
+        370
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "trivedi2024appworld"
+    },
+    {
+      "primary_url": "https://aclanthology.org/2025.findings-naacl.65/",
+      "original_url_checked": "https://aclanthology.org/2025.findings-naacl.65/",
+      "observed_metadata": {
+        "citation_title": [
+          "ToolSandbox: A Stateful, Conversational, Interactive Evaluation Benchmark for LLM Tool Use Capabilities"
+        ],
+        "citation_author": [
+          "Jiarui Lu",
+          "Thomas Holleis",
+          "Yizhe Zhang",
+          "Bernhard Aumayer",
+          "Feng Nan",
+          "Haoping Bai",
+          "Shuang Ma",
+          "Shen Ma",
+          "Mengyu Li",
+          "Guoli Yin",
+          "Zirui Wang",
+          "Ruoming Pang"
+        ],
+        "citation_conference_title": [
+          "Findings of the Association for Computational Linguistics: NAACL 2025"
+        ],
+        "citation_publication_date": [
+          "2025/4"
+        ]
+      },
+      "observed_page_title": "ToolSandbox: A Stateful, Conversational, Interactive Evaluation Benchmark for LLM Tool Use Capabilities - ACL Anthology",
+      "manuscript_line_mentions": [
+        222,
+        737,
+        868
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "lu2025toolsandbox"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2606.15508",
+      "original_url_checked": "https://arxiv.org/abs/2606.15508",
+      "observed_metadata": {
+        "citation_title": [
+          "ToolMenuBench: Benchmarking Tool-Menu Filtering Strategies for Reliable and Efficient LLM Agents"
+        ],
+        "citation_author": [
+          "Babu, Rahul Suresh",
+          "Iyer, Laxmipriya Ganesh"
+        ],
+        "citation_date": [
+          "2026/06/13"
+        ]
+      },
+      "observed_page_title": "[2606.15508] ToolMenuBench: Benchmarking Tool-Menu Filtering Strategies for Reliable and Efficient LLM Agents",
+      "manuscript_line_mentions": [
+        217,
+        860
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "babu2026toolmenubench"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2604.00865",
+      "original_url_checked": "https://arxiv.org/abs/2604.00865",
+      "observed_metadata": {
+        "citation_title": [
+          "Doctor-RAG: A Failure-Aware Repair Framework for Agentic Retrieval-Augmented Generation"
+        ],
+        "citation_author": [
+          "Jiao, Shuguang",
+          "Huang, Chengkai",
+          "Qi, Shuhan",
+          "Wang, Xuan",
+          "Li, Yifan",
+          "Weng, Quanchi",
+          "Liu, Lingchuan",
+          "Cai, Xunliang",
+          "Yao, Lina"
+        ],
+        "citation_date": [
+          "2026/04/01"
+        ]
+      },
+      "observed_page_title": "[2604.00865] Doctor-RAG: A Failure-Aware Repair Framework for Agentic Retrieval-Augmented Generation",
+      "manuscript_line_mentions": [
+        253
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "jiao2026doctorrag"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2607.06273",
+      "original_url_checked": "https://arxiv.org/abs/2607.06273",
+      "observed_metadata": {
+        "citation_title": [
+          "AgentTether: Graph-Guided Diagnosis and Runtime Intervention for Reliable LLM Agent Operation"
+        ],
+        "citation_author": [
+          "Zhao, Chenyu",
+          "Zhang, Shenglin",
+          "Gu, Wenwei",
+          "Sun, Yongqian",
+          "Pei, Dan",
+          "Bansal, Chetan",
+          "Rajmohan, Saravan",
+          "Ma, Minghua"
+        ],
+        "citation_date": [
+          "2026/07/07"
+        ]
+      },
+      "observed_page_title": "[2607.06273] AgentTether: Graph-Guided Diagnosis and Runtime Intervention for Reliable LLM Agent Operation",
+      "manuscript_line_mentions": [
+        253
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "zhao2026agenttether"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2605.24660",
+      "original_url_checked": "https://arxiv.org/abs/2605.24660",
+      "observed_metadata": {
+        "citation_title": [
+          "How Many Tools Should an LLM Agent See? A Chance-Corrected Answer"
+        ],
+        "citation_author": [
+          "Repantis, Vyzantinos",
+          "Gawde, Ameya",
+          "Singh, Harshvardhan",
+          "Blackwell II, Joey"
+        ],
+        "citation_date": [
+          "2026/05/23"
+        ]
+      },
+      "observed_page_title": "[2605.24660] How Many Tools Should an LLM Agent See? A Chance-Corrected Answer",
+      "manuscript_line_mentions": [
+        218,
+        1255
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "repantis2026howmanytools"
+    },
+    {
+      "primary_url": "https://aclanthology.org/2026.eacl-long.134/",
+      "original_url_checked": "https://aclanthology.org/2026.eacl-long.134/",
+      "observed_metadata": {
+        "citation_title": [
+          "How Good Are LLMs at Processing Tool Outputs?"
+        ],
+        "citation_author": [
+          "Kiran Kate",
+          "Yara Rizk",
+          "Poulami Ghosh",
+          "Ashu Gulati",
+          "Tathagata Chakraborti",
+          "Zidane Wright",
+          "Mayank Agarwal"
+        ],
+        "citation_conference_title": [
+          "Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)"
+        ],
+        "citation_publication_date": [
+          "2026/3"
+        ]
+      },
+      "observed_page_title": "How Good Are LLMs at Processing Tool Outputs? - ACL Anthology",
+      "manuscript_line_mentions": [
+        238
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "kate2026tooloutputs"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2602.11224",
+      "original_url_checked": "https://arxiv.org/abs/2602.11224",
+      "observed_metadata": {
+        "citation_title": [
+          "Agent-Diff: Benchmarking LLM Agents on Enterprise API Tasks via Code Execution with State-Diff-Based Evaluation"
+        ],
+        "citation_author": [
+          "Pysklo, Hubert M.",
+          "Zhuravel, Artem",
+          "Watson, Patrick D."
+        ],
+        "citation_date": [
+          "2026/02/11"
+        ]
+      },
+      "observed_page_title": "[2602.11224] Agent-Diff: Benchmarking LLM Agents on Enterprise API Tasks via Code Execution with State-Diff-Based Evaluation",
+      "manuscript_line_mentions": [
+        370
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "pysklo2026agentdiff"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2605.27922",
+      "original_url_checked": "https://arxiv.org/abs/2605.27922",
+      "observed_metadata": {
+        "citation_title": [
+          "Harness-Bench: Measuring Harness Effects across Models in Realistic Agent Workflows"
+        ],
+        "citation_author": [
+          "Yao, Yilun",
+          "Tan, Xinyu",
+          "Liu, Chao-Hsuan",
+          "Li, Yaoming",
+          "Wang, Zhengyang",
+          "Yu, Wenhan",
+          "Tan, Zhewen",
+          "Tian, Yuxuan",
+          "Zhao, Guangxiang",
+          "Sun, Lin",
+          "Zhang, Xiangzheng",
+          "Yang, Tong"
+        ],
+        "citation_date": [
+          "2026/05/27"
+        ]
+      },
+      "observed_page_title": "[2605.27922] Harness-Bench: Measuring Harness Effects across Models in Realistic Agent Workflows",
+      "manuscript_line_mentions": [
+        227,
+        864
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "yao2026harnessbench"
+    },
+    {
+      "primary_url": "https://iclr.cc/virtual/2026/poster/10006806",
+      "original_url_checked": "https://openreview.net/forum?id=vUaY1t64ZZ",
+      "observed_metadata": {},
+      "observed_page_title": "Verifying your browser | OpenReview",
+      "manuscript_line_mentions": [
+        227
+      ],
+      "metadata_note": "OpenReview browser check; title, full author list and ICLR 2026 checked against official poster and authors' Princeton HAL citation.",
+      "claim_support_scope": "Visible official page or alternative primary source inspected; see metadata note.",
+      "bibtex_id": "kapoor2026hal"
+    },
+    {
+      "primary_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/1967e0fc3aa6cbbace562f5cb8e3954e-Abstract-Datasets_and_Benchmarks_Track.html",
+      "original_url_checked": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/1967e0fc3aa6cbbace562f5cb8e3954e-Abstract-Datasets_and_Benchmarks_Track.html",
+      "observed_metadata": {
+        "citation_title": [
+          "Measuring what Matters: Construct Validity in Large Language Model Benchmarks"
+        ],
+        "citation_author": [
+          "Bean, Andrew M.",
+          "Kearns, Ryan Othniel",
+          "Romanou, Angelika",
+          "Hafner, Franziska Sofia",
+          "Mayne, Harry",
+          "Batzner, Jan",
+          "Foroutan Eghlidi, Negar",
+          "Schmitz, Chris",
+          "Korgul, Karolina",
+          "Batra, Hunar",
+          "Deb, Oishi",
+          "Beharry, Emma",
+          "Emde, Cornelius",
+          "Foster, Thomas",
+          "Gausen, Anna",
+          "Grandury, María",
+          "Han, Sophia",
+          "Hofmann, Valentin",
+          "Ibrahim, Lujain",
+          "Kim, Hazel",
+          "Kirk, Hannah Rose",
+          "Lin, Fangru",
+          "Liu, Gabrielle",
+          "Luettgau, Lennart",
+          "Magomere, Jabez",
+          "Rystrøm, Jonathan",
+          "Sotnikova, Anna",
+          "Yang, Yushi",
+          "Zhao, Yilun",
+          "Bibi, Adel",
+          "Bosselut, Antoine",
+          "Clark, Ronald",
+          "Cohan, Arman",
+          "Foerster, Jakob",
+          "Gal, Yarin",
+          "Hale, Scott",
+          "Raji, Deborah",
+          "Summerfield, Christopher",
+          "Torr, Philip",
+          "Ududec, Cozmin",
+          "Rocher, Luc",
+          "Mahdi, Adam"
+        ],
+        "citation_journal_title": [
+          "Advances in Neural Information Processing Systems"
+        ],
+        "citation_publication_date": [
+          "2026-04-23"
+        ]
+      },
+      "observed_page_title": "Measuring what Matters: Construct Validity in Large Language Model Benchmarks",
+      "manuscript_line_mentions": [
+        255
+      ],
+      "metadata_note": "Metadata upload date is 2026, but visible proceedings identify NeurIPS 38 (2025); visible names include Scott A. Hale and Philip H.S. Torr. Retained 2025 and full names.",
+      "claim_support_scope": "Visible official page or alternative primary source inspected; see metadata note.",
+      "bibtex_id": "bean2025constructvalidity"
+    },
+    {
+      "primary_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f316275b44ee2de533102913828a8107-Abstract-Datasets_and_Benchmarks_Track.html",
+      "original_url_checked": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f316275b44ee2de533102913828a8107-Abstract-Datasets_and_Benchmarks_Track.html",
+      "observed_metadata": {
+        "citation_title": [
+          "Establishing Best Practices in Building Rigorous Agentic Benchmarks"
+        ],
+        "citation_author": [
+          "Zhu, Yuxuan",
+          "Jin, Tengjun",
+          "Pruksachatkun, Yada",
+          "Zhang, Andy",
+          "Liu, Shu",
+          "Cui, Sasha",
+          "Kapoor, Sayash",
+          "Longpre, Shayne",
+          "Meng, Kevin",
+          "Weiss, Rebecca",
+          "Barez, Fazl",
+          "Gupta, Rahul",
+          "Dhamala, Jwala",
+          "Merizian, Jacob",
+          "Giulianelli, Mario",
+          "Coppock, Harry",
+          "Ududec, Cozmin",
+          "Kellermann, Antony",
+          "Sekhon, Jasjeet",
+          "Steinhardt, Jacob",
+          "Schwettmann, Sarah",
+          "Narayanan, Arvind",
+          "Zaharia, Matei A",
+          "Stoica, Ion",
+          "Liang, Percy",
+          "Kang, Daniel"
+        ],
+        "citation_journal_title": [
+          "Advances in Neural Information Processing Systems"
+        ],
+        "citation_publication_date": [
+          "2026-04-23"
+        ]
+      },
+      "observed_page_title": "Establishing Best Practices in Building Rigorous Agentic Benchmarks",
+      "manuscript_line_mentions": [
+        255
+      ],
+      "metadata_note": "Metadata upload date is 2026; visible proceedings identify NeurIPS 38 (2025). Retained venue year.",
+      "claim_support_scope": "Visible official page or alternative primary source inspected; see metadata note.",
+      "bibtex_id": "zhu2025agentbenchmarks"
+    },
+    {
+      "primary_url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/maas/openai/gpt-oss-120b",
+      "original_url_checked": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/maas/openai/gpt-oss-120b",
+      "observed_metadata": {},
+      "observed_page_title": "OpenAI gpt-oss 120B | Gemini Enterprise Agent Platform | Google Cloud Documentation",
+      "manuscript_line_mentions": [
+        1075
+      ],
+      "metadata_note": "Serving-provider documentation: corporate author, title and access-year citation checked, not an archival research paper.",
+      "claim_support_scope": "Visible official page or alternative primary source inspected; see metadata note.",
+      "bibtex_id": "google2026gptoss120b"
+    },
+    {
+      "primary_url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/maas/google/gemma-4-26b-a4b-it",
+      "original_url_checked": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/maas/google/gemma-4-26b-a4b-it",
+      "observed_metadata": {},
+      "observed_page_title": "Gemma 4 26B A4B IT | Gemini Enterprise Agent Platform | Google Cloud Documentation",
+      "manuscript_line_mentions": [
+        1075
+      ],
+      "metadata_note": "Serving-provider documentation: corporate author, title and access-year citation checked, not an archival research paper.",
+      "claim_support_scope": "Visible official page or alternative primary source inspected; see metadata note.",
+      "bibtex_id": "google2026gemma426b"
+    },
+    {
+      "primary_url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-5-flash-lite",
+      "original_url_checked": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-5-flash-lite",
+      "observed_metadata": {},
+      "observed_page_title": "Gemini 3.5 Flash-Lite | Gemini Enterprise Agent Platform | Google Cloud Documentation",
+      "manuscript_line_mentions": [
+        1075
+      ],
+      "metadata_note": "Serving-provider documentation: corporate author, title and access-year citation checked, not an archival research paper.",
+      "claim_support_scope": "Visible official page or alternative primary source inspected; see metadata note.",
+      "bibtex_id": "google2026gemini35flashlite"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2606.10209",
+      "original_url_checked": "https://arxiv.org/abs/2606.10209",
+      "observed_metadata": {
+        "citation_title": [
+          "Less Context, Better Agents: Efficient Context Engineering for Long-Horizon Tool-Using LLM Agents"
+        ],
+        "citation_author": [
+          "Lodha, Abhilasha",
+          "Varnosfaderani, Mahsa Pahlavikhah",
+          "Chakraborty, Abir",
+          "Mithal, Abhinav"
+        ],
+        "citation_date": [
+          "2026/06/08"
+        ]
+      },
+      "observed_page_title": "[2606.10209] Less Context, Better Agents: Efficient Context Engineering for Long-Horizon Tool-Using LLM Agents",
+      "manuscript_line_mentions": [
+        143
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "lodha2026lesscontext"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2602.02475",
+      "original_url_checked": "https://arxiv.org/abs/2602.02475",
+      "observed_metadata": {
+        "citation_title": [
+          "AgentRx: Diagnosing AI Agent Failures from Execution Trajectories"
+        ],
+        "citation_author": [
+          "Barke, Shraddha",
+          "Goyal, Arnav",
+          "Khare, Alind",
+          "Singh, Avaljot",
+          "Nath, Suman",
+          "Bansal, Chetan"
+        ],
+        "citation_date": [
+          "2026/02/02"
+        ]
+      },
+      "observed_page_title": "[2602.02475] AgentRx: Diagnosing AI Agent Failures from Execution Trajectories",
+      "manuscript_line_mentions": [
+        253
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "barke2026agentrx"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2605.00827",
+      "original_url_checked": "https://arxiv.org/abs/2605.00827",
+      "observed_metadata": {
+        "citation_title": [
+          "Separating Intelligence from Execution: A Workflow Engine for the Model Context Protocol"
+        ],
+        "citation_author": [
+          "Parmar, Abhinav Singh"
+        ],
+        "citation_date": [
+          "2026/03/13"
+        ]
+      },
+      "observed_page_title": "[2605.00827] Separating Intelligence from Execution: A Workflow Engine for the Model Context Protocol",
+      "manuscript_line_mentions": [
+        232
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "parmar2026mcpworkflow"
+    },
+    {
+      "primary_url": "https://iclr.cc/virtual/2026/poster/10007537",
+      "original_url_checked": "https://arxiv.org/abs/2512.06749",
+      "observed_metadata": {
+        "citation_title": [
+          "DoVer: Intervention-Driven Auto Debugging for LLM Multi-Agent Systems"
+        ],
+        "citation_author": [
+          "Ma, Ming",
+          "Zhang, Jue",
+          "Yang, Fangkai",
+          "Kang, Yu",
+          "Lin, Qingwei",
+          "Rajmohan, Saravan",
+          "Zhang, Dongmei"
+        ],
+        "citation_date": [
+          "2025/12/07"
+        ]
+      },
+      "observed_page_title": "[2512.06749] DoVer: Intervention-Driven Auto Debugging for LLM Multi-Agent Systems",
+      "manuscript_line_mentions": [
+        249,
+        377
+      ],
+      "metadata_note": "ICLR 2026 verified independently at official poster 10007537. Replaces stale literature-review statement that venue was unverified.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "ma2026dover"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2606.06324",
+      "original_url_checked": "https://arxiv.org/abs/2606.06324",
+      "observed_metadata": {
+        "citation_title": [
+          "From Failed Trajectories to Reliable LLM Agents: Diagnosing and Repairing Harness Flaws"
+        ],
+        "citation_author": [
+          "Chen, Mengzhuo",
+          "Wang, Junjie",
+          "Liu, Zhe",
+          "Wang, Yawen",
+          "Zheng, Haiming",
+          "Wang, Qing"
+        ],
+        "citation_date": [
+          "2026/06/04"
+        ]
+      },
+      "observed_page_title": "[2606.06324] From Failed Trajectories to Reliable LLM Agents: Diagnosing and Repairing Harness Flaws",
+      "manuscript_line_mentions": [
+        143
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "chen2026harnessfix"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2607.10380",
+      "original_url_checked": "https://arxiv.org/abs/2607.10380",
+      "observed_metadata": {
+        "citation_title": [
+          "CAFE: A Compound-AI Factorial Evaluation Framework"
+        ],
+        "citation_author": [
+          "Lukassen, Fabian",
+          "Weisser, Christoph",
+          "Kneib, Thomas",
+          "Silbersdorff, Alexander"
+        ],
+        "citation_date": [
+          "2026/07/11"
+        ]
+      },
+      "observed_page_title": "[2607.10380] CAFE: A Compound-AI Factorial Evaluation Framework",
+      "manuscript_line_mentions": [
+        867
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "lukassen2026cafe"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2608.02464",
+      "original_url_checked": "https://arxiv.org/abs/2608.02464",
+      "observed_metadata": {
+        "citation_title": [
+          "Real-Time Detection and Repair of LLM Agent Failures"
+        ],
+        "citation_author": [
+          "Dubey, Sunny"
+        ],
+        "citation_date": [
+          "2026/08/03"
+        ]
+      },
+      "observed_page_title": "[2608.02464] Real-Time Detection and Repair of LLM Agent Failures",
+      "manuscript_line_mentions": [
+        253
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "dubey2026realtime"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2607.04686",
+      "original_url_checked": "https://arxiv.org/abs/2607.04686",
+      "observed_metadata": {
+        "citation_title": [
+          "ToolFailBench: Diagnosing Tool-Use Failures in LLM Agents"
+        ],
+        "citation_author": [
+          "Soni, Harsh"
+        ],
+        "citation_date": [
+          "2026/07/06"
+        ]
+      },
+      "observed_page_title": "[2607.04686] ToolFailBench: Diagnosing Tool-Use Failures in LLM Agents",
+      "manuscript_line_mentions": [
+        253
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "soni2026toolfailbench"
+    },
+    {
+      "primary_url": "https://aclanthology.org/2025.emnlp-demos.15/",
+      "original_url_checked": "https://aclanthology.org/2025.emnlp-demos.15/",
+      "observed_metadata": {
+        "citation_title": [
+          "AgentDiagnose: An Open Toolkit for Diagnosing LLM Agent Trajectories"
+        ],
+        "citation_author": [
+          "Tianyue Ou",
+          "Wanyao Guo",
+          "Apurva Gandhi",
+          "Graham Neubig",
+          "Xiang Yue"
+        ],
+        "citation_conference_title": [
+          "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing: System Demonstrations"
+        ],
+        "citation_publication_date": [
+          "2025/11"
+        ]
+      },
+      "observed_page_title": "AgentDiagnose: An Open Toolkit for Diagnosing LLM Agent Trajectories - ACL Anthology",
+      "manuscript_line_mentions": [
+        253
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "ou2025agentdiagnose"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2604.16706",
+      "original_url_checked": "https://arxiv.org/abs/2604.16706",
+      "observed_metadata": {
+        "citation_title": [
+          "Auditing Automated Evaluation, Error Propagation, and Runtime Mitigation in Tool-Using Language Agents"
+        ],
+        "citation_author": [
+          "Gurram, Bhaskar"
+        ],
+        "citation_date": [
+          "2026/04/17"
+        ]
+      },
+      "observed_page_title": "[2604.16706] Auditing Automated Evaluation, Error Propagation, and Runtime Mitigation in Tool-Using Language Agents",
+      "manuscript_line_mentions": [
+        255
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "gurram2026agentprop"
+    },
+    {
+      "primary_url": "https://icml.cc/virtual/2026/poster/66603",
+      "original_url_checked": "https://icml.cc/virtual/2026/poster/66603",
+      "observed_metadata": {},
+      "observed_page_title": "ICML Poster AgentSuite: Toward More Reliable Agent Evaluation with a Component-Based Benchmark Auditing Pipeline",
+      "manuscript_line_mentions": [
+        261
+      ],
+      "metadata_note": "Official ICML poster verifies title, authors and 2026 venue; Yingyan (Celine) Lin is the displayed name variant. No PMLR-volume claim added.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "suh2026agentsuite"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2608.23635",
+      "original_url_checked": "https://arxiv.org/abs/2608.23635",
+      "observed_metadata": {
+        "citation_title": [
+          "ToolRobustBench: Stage-Wise Perturbation Evaluation and Failure Diagnosis for Tool-Calling Agents"
+        ],
+        "citation_author": [
+          "Zheng, YiShan",
+          "Wu, Yuan",
+          "Chang, Yi"
+        ],
+        "citation_date": [
+          "2026/08/23"
+        ]
+      },
+      "observed_page_title": "[2608.23635] ToolRobustBench: Stage-Wise Perturbation Evaluation and Failure Diagnosis for Tool-Calling Agents",
+      "manuscript_line_mentions": [
+        249,
+        862
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "zheng2026toolrobustbench"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2608.06909",
+      "original_url_checked": "https://arxiv.org/abs/2608.06909",
+      "observed_metadata": {
+        "citation_title": [
+          "Long-Horizon Agent Trajectory Attribution: A Unified Benchmark and Fine-Grained Annotation Framework"
+        ],
+        "citation_author": [
+          "Chen, Jing",
+          "Sun, Yang",
+          "Zhang, Li",
+          "Xu, Lin",
+          "Shi, Jie"
+        ],
+        "citation_date": [
+          "2026/08/07"
+        ]
+      },
+      "observed_page_title": "[2608.06909] Long-Horizon Agent Trajectory Attribution: A Unified Benchmark and Fine-Grained Annotation Framework",
+      "manuscript_line_mentions": [
+        253
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "chen2026trajectoryattribution"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2608.20563",
+      "original_url_checked": "https://arxiv.org/abs/2608.20563",
+      "observed_metadata": {
+        "citation_title": [
+          "Beyond End-to-End Success: Diagnosing Failures in Long-Horizon Security LLM Agents"
+        ],
+        "citation_author": [
+          "Shao, Wei",
+          "Fang, Chongzhou",
+          "Tan, Zuxiong",
+          "Liang, Zequan",
+          "Rafatirad, Setareh",
+          "Sasan, Avesta",
+          "Homayoun, Houman"
+        ],
+        "citation_date": [
+          "2026/08/20"
+        ]
+      },
+      "observed_page_title": "[2608.20563] Beyond End-to-End Success: Diagnosing Failures in Long-Horizon Security LLM Agents",
+      "manuscript_line_mentions": [
+        249
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "shao2026beyond"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2605.14865",
+      "original_url_checked": "https://arxiv.org/abs/2605.14865",
+      "observed_metadata": {
+        "citation_title": [
+          "Holistic Evaluation and Failure Diagnosis of AI Agents"
+        ],
+        "citation_author": [
+          "Madvil, Netta",
+          "Dym, Gilad",
+          "Mecilati, Alon",
+          "Dekel, Edo",
+          "Liberman, Jonatan",
+          "Brazilay, Rotem",
+          "Schliesser, Liron",
+          "Svidlo, Max",
+          "Nir, Shai",
+          "Shalom, Orel",
+          "Friedman, Yaron",
+          "Connack, David",
+          "Rimon, Amos",
+          "Tannor, Philip",
+          "Chorev, Shir"
+        ],
+        "citation_date": [
+          "2026/05/14"
+        ]
+      },
+      "observed_page_title": "[2605.14865] Holistic Evaluation and Failure Diagnosis of AI Agents",
+      "manuscript_line_mentions": [
+        253
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "madvil2026holistic"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2608.23628",
+      "original_url_checked": "https://arxiv.org/abs/2608.23628",
+      "observed_metadata": {
+        "citation_title": [
+          "Callability Is Not Operability: Controlled Interface Interventions for LLM Agents"
+        ],
+        "citation_author": [
+          "Wang, Zihao"
+        ],
+        "citation_date": [
+          "2026/08/23"
+        ]
+      },
+      "observed_page_title": "[2608.23628] Callability Is Not Operability: Controlled Interface Interventions for LLM Agents",
+      "manuscript_line_mentions": [
+        861
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "wang2026aftbench"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2608.29128",
+      "original_url_checked": "https://arxiv.org/abs/2608.29128",
+      "observed_metadata": {
+        "citation_title": [
+          "APIFlow-Bench: Measuring Whether Agents Survive Long, Dependent API Workflows"
+        ],
+        "citation_author": [
+          "Wan, Zelin",
+          "Nourian, Arash",
+          "Li, Xiaoxiao",
+          "Nandan, Nihar",
+          "Nandagopal, Kamalakannan"
+        ],
+        "citation_date": [
+          "2026/08/29"
+        ]
+      },
+      "observed_page_title": "[2608.29128] APIFlow-Bench: Measuring Whether Agents Survive Long, Dependent API Workflows",
+      "manuscript_line_mentions": [
+        232,
+        261,
+        772,
+        863
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "wan2026apiflowbench"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2607.25765",
+      "original_url_checked": "https://arxiv.org/abs/2607.25765",
+      "observed_metadata": {
+        "citation_title": [
+          "WorkSurface-Bench: Benchmarking Enterprise Agents on Multi-Surface Knowledge Routing"
+        ],
+        "citation_author": [
+          "Liang, Hao",
+          "Qiang, Meiyi",
+          "Qiu, Sizhe",
+          "Sun, Linzhuang",
+          "Zhang, Wentao"
+        ],
+        "citation_date": [
+          "2026/07/28"
+        ]
+      },
+      "observed_page_title": "[2607.25765] WorkSurface-Bench: Benchmarking Enterprise Agents on Multi-Surface Knowledge Routing",
+      "manuscript_line_mentions": [
+        370
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "liang2026worksurfacebench"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2608.30916",
+      "original_url_checked": "https://arxiv.org/abs/2608.30916",
+      "observed_metadata": {
+        "citation_title": [
+          "Selection-Aware Stress Testing for Interactive Agents"
+        ],
+        "citation_author": [
+          "Xu, Yang",
+          "Li, Chenang",
+          "Zhang, Jiefu",
+          "Sun, Haixiang",
+          "Li, Zhou",
+          "Aggarwal, Vaneet"
+        ],
+        "citation_date": [
+          "2026/08/31"
+        ]
+      },
+      "observed_page_title": "[2608.30916] Selection-Aware Stress Testing for Interactive Agents",
+      "manuscript_line_mentions": [],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "xu2026selectionaware"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2608.31057",
+      "original_url_checked": "https://arxiv.org/abs/2608.31057",
+      "observed_metadata": {
+        "citation_title": [
+          "Measure Before You Manage: Evaluating Agent Working Memory in Coding Agents"
+        ],
+        "citation_author": [
+          "Chen, Le",
+          "Wan, Zishen",
+          "Sun, Baixi",
+          "Ma, Xiaolong",
+          "Yang, Chih-Hsuan",
+          "Yan, Feng",
+          "Di, Sheng",
+          "Cappello, Franck",
+          "Thakur, Rajeev"
+        ],
+        "citation_date": [
+          "2026/08/31"
+        ]
+      },
+      "observed_page_title": "[2608.31057] Measure Before You Manage: Evaluating Agent Working Memory in Coding Agents",
+      "manuscript_line_mentions": [
+        238
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "chen2026measurememory"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2609.00549",
+      "original_url_checked": "https://arxiv.org/abs/2609.00549",
+      "observed_metadata": {
+        "citation_title": [
+          "Skill Following: Evaluating Actual Skill Use in Retrieval-Enabled LLM Agents"
+        ],
+        "citation_author": [
+          "Cho, Seonghyeon",
+          "Park, Chanjun"
+        ],
+        "citation_date": [
+          "2026/09/01"
+        ]
+      },
+      "observed_page_title": "[2609.00549] Skill Following: Evaluating Actual Skill Use in Retrieval-Enabled LLM Agents",
+      "manuscript_line_mentions": [
+        430
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "cho2026skillfollowing"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2609.00949",
+      "original_url_checked": "https://arxiv.org/abs/2609.00949",
+      "observed_metadata": {
+        "citation_title": [
+          "Calibration is the Bottleneck: An Action-Class Diagnostic of Multi-Turn Tool-Calling"
+        ],
+        "citation_author": [
+          "Zhao, Kangjia",
+          "Li, Jiajun",
+          "Shen, Haozhan",
+          "Chow, Wei",
+          "Li, Linfeng",
+          "Song, Hang",
+          "Kong, Lingdong",
+          "Zhi, Chen",
+          "Zhao, Tiancheng",
+          "Liu, Songhua",
+          "Yin, Jianwei"
+        ],
+        "citation_date": [
+          "2026/09/01"
+        ]
+      },
+      "observed_page_title": "[2609.00949] Calibration is the Bottleneck: An Action-Class Diagnostic of Multi-Turn Tool-Calling",
+      "manuscript_line_mentions": [
+        255
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "zhao2026calibration"
+    },
+    {
+      "primary_url": "https://iclr.cc/virtual/2026/poster/10009237",
+      "original_url_checked": "https://arxiv.org/abs/2509.26553",
+      "observed_metadata": {
+        "citation_title": [
+          "Towards Reliable Benchmarking: A Contamination Free, Controllable Evaluation Framework for Multi-step LLM Function Calling"
+        ],
+        "citation_author": [
+          "Maekawa, Seiji",
+          "Hassell, Jackson",
+          "Pezeshkpour, Pouya",
+          "Mitchell, Tom",
+          "Hruschka, Estevam"
+        ],
+        "citation_date": [
+          "2025/09/30"
+        ]
+      },
+      "observed_page_title": "[2509.26553] Towards Reliable Benchmarking: A Contamination Free, Controllable Evaluation Framework for Multi-step LLM Function Calling",
+      "manuscript_line_mentions": [
+        222,
+        242,
+        859
+      ],
+      "metadata_note": "ICLR 2026 verified at official poster 10009237; arXiv first submission is 2025, venue year is 2026.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "maekawa2026funcbenchgen"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2607.28802",
+      "original_url_checked": "https://arxiv.org/abs/2607.28802",
+      "observed_metadata": {
+        "citation_title": [
+          "Model or Harness? An Interaction-Centric Taxonomy for Localizing Agent Failures"
+        ],
+        "citation_author": [
+          "Raj, Harsh",
+          "Gupta, Vipul",
+          "Mahmoud, Anas",
+          "Dumitru, Razvan-Gabriel",
+          "Yi, Darvin",
+          "Sabharwal, Aakash",
+          "He, Yunzhong"
+        ],
+        "citation_date": [
+          "2026/07/30"
+        ]
+      },
+      "observed_page_title": "[2607.28802] Model or Harness? An Interaction-Centric Taxonomy for Localizing Agent Failures",
+      "manuscript_line_mentions": [
+        249,
+        865
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "raj2026modelorharness"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2607.27353",
+      "original_url_checked": "https://arxiv.org/abs/2607.27353",
+      "observed_metadata": {
+        "citation_title": [
+          "LayerRAG-Bench: A Cross-Layer Reliability Benchmark for Agentic Retrieval-Augmented Generation"
+        ],
+        "citation_author": [
+          "Shams, Musa"
+        ],
+        "citation_date": [
+          "2026/07/29"
+        ]
+      },
+      "observed_page_title": "[2607.27353] LayerRAG-Bench: A Cross-Layer Reliability Benchmark for Agentic Retrieval-Augmented Generation",
+      "manuscript_line_mentions": [
+        249,
+        866
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "shams2026layerragbench"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2606.16364",
+      "original_url_checked": "https://arxiv.org/abs/2606.16364",
+      "observed_metadata": {
+        "citation_title": [
+          "Looking Is Not Picking: An Attention-Segment Account of Tool-Selection Failures in LLM Agents"
+        ],
+        "citation_author": [
+          "Chen, Shiyang"
+        ],
+        "citation_date": [
+          "2026/06/15"
+        ]
+      },
+      "observed_page_title": "[2606.16364] Looking Is Not Picking: An Attention-Segment Account of Tool-Selection Failures in LLM Agents",
+      "manuscript_line_mentions": [
+        251
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "chen2026lookingnotpicking"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2606.11686",
+      "original_url_checked": "https://arxiv.org/abs/2606.11686",
+      "observed_metadata": {
+        "citation_title": [
+          "Layer-Isolated Evaluation: Gating the Deterministic Scaffold of a Production LLM Agent with a No-LLM, Regression-Locked Test Harness"
+        ],
+        "citation_author": [
+          "Zhang, Sawyer",
+          "Wang, Alexander",
+          "Lei, Sophie"
+        ],
+        "citation_date": [
+          "2026/06/10"
+        ]
+      },
+      "observed_page_title": "[2606.11686] Layer-Isolated Evaluation: Gating the Deterministic Scaffold of a Production LLM Agent with a No-LLM, Regression-Locked Test Harness",
+      "manuscript_line_mentions": [
+        249
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "zhang2026layerisolated"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2602.21265",
+      "original_url_checked": "https://arxiv.org/abs/2602.21265",
+      "observed_metadata": {
+        "citation_title": [
+          "ToolMATH: A Diagnostic Benchmark for Long-Horizon Tool Use under Systematic Tool-Catalog Constraints"
+        ],
+        "citation_author": [
+          "Choi, Hyeonje",
+          "Lee, Jeongsoo",
+          "Lee, Hyojun",
+          "Lee, Jay-Yoon"
+        ],
+        "citation_date": [
+          "2026/02/24"
+        ]
+      },
+      "observed_page_title": "[2602.21265] ToolMATH: A Diagnostic Benchmark for Long-Horizon Tool Use under Systematic Tool-Catalog Constraints",
+      "manuscript_line_mentions": [
+        222
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "choi2026toolmath"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2505.10570",
+      "original_url_checked": "https://arxiv.org/abs/2505.10570",
+      "observed_metadata": {
+        "citation_title": [
+          "LongFuncEval: Measuring the effectiveness of long context models for function calling"
+        ],
+        "citation_author": [
+          "Kate, Kiran",
+          "Pedapati, Tejaswini",
+          "Basu, Kinjal",
+          "Rizk, Yara",
+          "Chenthamarakshan, Vijil",
+          "Chaudhury, Subhajit",
+          "Agarwal, Mayank",
+          "Abdelaziz, Ibrahim"
+        ],
+        "citation_date": [
+          "2025/04/30"
+        ]
+      },
+      "observed_page_title": "[2505.10570] LongFuncEval: Measuring the effectiveness of long context models for function calling",
+      "manuscript_line_mentions": [
+        238
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "kate2025longfunceval"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2601.06112",
+      "original_url_checked": "https://arxiv.org/abs/2601.06112",
+      "observed_metadata": {
+        "citation_title": [
+          "ReliabilityBench: Evaluating LLM Agent Reliability Under Production-Like Stress Conditions"
+        ],
+        "citation_author": [
+          "Gupta, Aayush"
+        ],
+        "citation_date": [
+          "2026/01/03"
+        ]
+      },
+      "observed_page_title": "[2601.06112] ReliabilityBench: Evaluating LLM Agent Reliability Under Production-Like Stress Conditions",
+      "manuscript_line_mentions": [
+        264,
+        772
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "gupta2026reliabilitybench"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2607.27283",
+      "original_url_checked": "https://arxiv.org/abs/2607.27283",
+      "observed_metadata": {
+        "citation_title": [
+          "Benchmarking the Residual: What Long-Horizon Evaluations Add Beyond Matched Short-Task Performance"
+        ],
+        "citation_author": [
+          "Peng, Chao",
+          "Lyu, Zhiheng",
+          "Dong, Peijie",
+          "Dong, Hande",
+          "Lin, Qiang"
+        ],
+        "citation_date": [
+          "2026/07/29"
+        ]
+      },
+      "observed_page_title": "[2607.27283] Benchmarking the Residual: What Long-Horizon Evaluations Add Beyond Matched Short-Task Performance",
+      "manuscript_line_mentions": [
+        234
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "peng2026horizonresidual"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2604.01235",
+      "original_url_checked": "https://arxiv.org/abs/2604.01235",
+      "observed_metadata": {
+        "citation_title": [
+          "Runtime Burden Allocation for Structured LLM Routing in Agentic Expert Systems: A Full-Factorial Cross-Backend Methodology"
+        ],
+        "citation_author": [
+          "Hanlin, Zhou",
+          "Yong, Chan Huah"
+        ],
+        "citation_date": [
+          "2026/03/26"
+        ]
+      },
+      "observed_page_title": "[2604.01235] Runtime Burden Allocation for Structured LLM Routing in Agentic Expert Systems: A Full-Factorial Cross-Backend Methodology",
+      "manuscript_line_mentions": [
+        227
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "zhou2026burdenallocation"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2607.02577",
+      "original_url_checked": "https://arxiv.org/abs/2607.02577",
+      "observed_metadata": {
+        "citation_title": [
+          "Benchmarking the Benchmarks: A Validity Audit of Tool-Calling Evaluation"
+        ],
+        "citation_author": [
+          "Bhat, Vishvesh",
+          "Vaghasiya, Jay",
+          "Mohsin, Muhammad Ahmed",
+          "Aali, Asad"
+        ],
+        "citation_date": [
+          "2026/06/30"
+        ]
+      },
+      "observed_page_title": "[2607.02577] Benchmarking the Benchmarks: A Validity Audit of Tool-Calling Evaluation",
+      "manuscript_line_mentions": [
+        258
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "bhat2026benchmarkingbenchmarks"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2608.19741",
+      "original_url_checked": "https://arxiv.org/abs/2608.19741",
+      "observed_metadata": {
+        "citation_title": [
+          "One Success Isn't Reliability: Thinkingbox, a Sandbox and Benchmark for Agents in Stateful Business Workflows"
+        ],
+        "citation_author": [
+          "Li, Zhuochun",
+          "Ko, Youngmin",
+          "Keramati, Ali",
+          "Ferri, Nicola",
+          "Pelaez, Susana Palmaz Lopez",
+          "Tsai, Liang-Chun",
+          "Wang, Calvin",
+          "Milletari, Mirco",
+          "Kundu, Tuhin",
+          "Smolyakov, Vadim",
+          "Olafsson, Kjartan",
+          "Guy, Tommy"
+        ],
+        "citation_date": [
+          "2026/08/20"
+        ]
+      },
+      "observed_page_title": "[2608.19741] One Success Isn't Reliability: Thinkingbox, a Sandbox and Benchmark for Agents in Stateful Business Workflows",
+      "manuscript_line_mentions": [
+        264,
+        772
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "li2026thinkingbox"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2606.00408",
+      "original_url_checked": "https://arxiv.org/abs/2606.00408",
+      "observed_metadata": {
+        "citation_title": [
+          "Masking Stale Observations Helps Search Agents -- Until It Doesn't: A Regime Map and Its Mechanism"
+        ],
+        "citation_author": [
+          "Zhang, Haoxiang",
+          "Xu, Qixin",
+          "Li, Zhuofeng",
+          "Zhang, Lei",
+          "Jiang, Pengcheng",
+          "Zhang, Yu",
+          "McAuley, Julian"
+        ],
+        "citation_date": [
+          "2026/05/29"
+        ]
+      },
+      "observed_page_title": "[2606.00408] Masking Stale Observations Helps Search Agents -- Until It Doesn't: A Regime Map and Its Mechanism",
+      "manuscript_line_mentions": [
+        238
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "zhang2026maskingstale"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2602.07962",
+      "original_url_checked": "https://arxiv.org/abs/2602.07962",
+      "observed_metadata": {
+        "citation_title": [
+          "LOCA-bench: Benchmarking Language Agents Under Controllable and Extreme Context Growth"
+        ],
+        "citation_author": [
+          "Zeng, Weihao",
+          "Huang, Yuzhen",
+          "He, Junxian"
+        ],
+        "citation_date": [
+          "2026/02/08"
+        ]
+      },
+      "observed_page_title": "[2602.07962] LOCA-bench: Benchmarking Language Agents Under Controllable and Extreme Context Growth",
+      "manuscript_line_mentions": [
+        143
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "zeng2026locabench"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2606.06284",
+      "original_url_checked": "https://arxiv.org/abs/2606.06284",
+      "observed_metadata": {
+        "citation_title": [
+          "ToolChoiceConfusion: Causal Minimal Tool Filtering for Reliable LLM Agents"
+        ],
+        "citation_author": [
+          "Babu, Rahul Suresh",
+          "Iyer, Laxmipriya Ganesh"
+        ],
+        "citation_date": [
+          "2026/06/04"
+        ]
+      },
+      "observed_page_title": "[2606.06284] ToolChoiceConfusion: Causal Minimal Tool Filtering for Reliable LLM Agents",
+      "manuscript_line_mentions": [
+        217
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "babu2026cmtf"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2607.03953",
+      "original_url_checked": "https://arxiv.org/abs/2607.03953",
+      "observed_metadata": {
+        "citation_title": [
+          "The Remarkable Effectiveness of Providing AI Agents with Natural Language Tools: A Replication Study Validating NLT Performance Across 14 Models"
+        ],
+        "citation_author": [
+          "Somma, Alexander",
+          "Plante, Isabelle",
+          "Premji, Fred"
+        ],
+        "citation_date": [
+          "2026/07/04"
+        ]
+      },
+      "observed_page_title": "[2607.03953] The Remarkable Effectiveness of Providing AI Agents with Natural Language Tools: A Replication Study Validating NLT Performance Across 14 Models",
+      "manuscript_line_mentions": [
+        238
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "somma2026naturallanguagetools"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2605.15184",
+      "original_url_checked": "https://arxiv.org/abs/2605.15184",
+      "observed_metadata": {
+        "citation_title": [
+          "Is Grep All You Need? How Agent Harnesses Reshape Agentic Search"
+        ],
+        "citation_author": [
+          "Sen, Sahil",
+          "Kasturi, Akhil",
+          "Lumer, Elias",
+          "Gulati, Anmol",
+          "Subbiah, Vamse Kumar"
+        ],
+        "citation_date": [
+          "2026/05/14"
+        ]
+      },
+      "observed_page_title": "[2605.15184] Is Grep All You Need? How Agent Harnesses Reshape Agentic Search",
+      "manuscript_line_mentions": [
+        227
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "sen2026grepharness"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2606.25447",
+      "original_url_checked": "https://arxiv.org/abs/2606.25447",
+      "observed_metadata": {
+        "citation_title": [
+          "The Interplay of Harness Design and Post-Training in LLM Agents"
+        ],
+        "citation_author": [
+          "Kim, Kyungmin",
+          "Choi, Youngbin",
+          "Lee, Seoyeon",
+          "Jun, Suhyeon",
+          "Kim, Dongwoo",
+          "Park, Sangdon"
+        ],
+        "citation_date": [
+          "2026/06/24"
+        ]
+      },
+      "observed_page_title": "[2606.25447] The Interplay of Harness Design and Post-Training in LLM Agents",
+      "manuscript_line_mentions": [
+        227
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "kim2026harnessposttraining"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2410.14594",
+      "original_url_checked": "https://arxiv.org/abs/2410.14594",
+      "observed_metadata": {
+        "citation_title": [
+          "Toolshed: Scale Tool-Equipped Agents with Advanced RAG-Tool Fusion and Tool Knowledge Bases"
+        ],
+        "citation_author": [
+          "Lumer, Elias",
+          "Subbiah, Vamse Kumar",
+          "Burke, James A.",
+          "Basavaraju, Pradeep Honaganahalli",
+          "Huber, Austin"
+        ],
+        "citation_date": [
+          "2024/10/18"
+        ]
+      },
+      "observed_page_title": "[2410.14594] Toolshed: Scale Tool-Equipped Agents with Advanced RAG-Tool Fusion and Tool Knowledge Bases",
+      "manuscript_line_mentions": [
+        212
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "lumer2024toolshed"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2506.01056",
+      "original_url_checked": "https://arxiv.org/abs/2506.01056",
+      "observed_metadata": {
+        "citation_title": [
+          "MCP-Zero: Active Tool Discovery for Autonomous LLM Agents"
+        ],
+        "citation_author": [
+          "Fei, Xiang",
+          "Zheng, Xiawu",
+          "Feng, Hao"
+        ],
+        "citation_date": [
+          "2025/06/01"
+        ]
+      },
+      "observed_page_title": "[2506.01056] MCP-Zero: Active Tool Discovery for Autonomous LLM Agents",
+      "manuscript_line_mentions": [
+        215
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "fei2025mcpzero"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2604.22820",
+      "original_url_checked": "https://arxiv.org/abs/2604.22820",
+      "observed_metadata": {
+        "citation_title": [
+          "Complete Cyclic Subtask Graphs for Tool-Using LLM Agents: Flexibility, Cost, and Bottlenecks in Long-Horizon Workflows"
+        ],
+        "citation_author": [
+          "Gharzeddine, Luay",
+          "Saab Jr, Samer"
+        ],
+        "citation_date": [
+          "2026/04/17"
+        ]
+      },
+      "observed_page_title": "[2604.22820] Complete Cyclic Subtask Graphs for Tool-Using LLM Agents: Flexibility, Cost, and Bottlenecks in Long-Horizon Workflows",
+      "manuscript_line_mentions": [
+        232
+      ],
+      "metadata_note": "Corrected missing Jr suffix. TMLR 2026 journal reference and August publication are author-reported in arXiv v2; independent journal-page verification remains open.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "gharzeddine2026cyclicsubtask"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2608.22538",
+      "original_url_checked": "https://arxiv.org/abs/2608.22538",
+      "observed_metadata": {
+        "citation_title": [
+          "STAGE: Stateful Translation to Agentic Graph Execution with Policy-Scoped Context and Deterministic Control"
+        ],
+        "citation_author": [
+          "Luo, Mengxi",
+          "Chen, Changjia",
+          "Cao, An",
+          "Huang, Zirong",
+          "Dai, Wanyi"
+        ],
+        "citation_date": [
+          "2026/08/23"
+        ]
+      },
+      "observed_page_title": "[2608.22538] STAGE: Stateful Translation to Agentic Graph Execution with Policy-Scoped Context and Deterministic Control",
+      "manuscript_line_mentions": [
+        232
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "luo2026stage"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2508.02721",
+      "original_url_checked": "https://arxiv.org/abs/2508.02721",
+      "observed_metadata": {
+        "citation_title": [
+          "Blueprint First, Model Second: A Framework for Deterministic LLM Workflow"
+        ],
+        "citation_author": [
+          "Qiu, Libin",
+          "Ye, Yuhang",
+          "Gao, Zhirong",
+          "Zou, Xide",
+          "Chen, Junfu",
+          "Gui, Ziming",
+          "Huang, Weizhi",
+          "Xue, Xiaobo",
+          "Qiu, Wenkai",
+          "Zhao, Kun"
+        ],
+        "citation_date": [
+          "2025/08/01"
+        ]
+      },
+      "observed_page_title": "[2508.02721] Blueprint First, Model Second: A Framework for Deterministic LLM Workflow",
+      "manuscript_line_mentions": [
+        232
+      ],
+      "metadata_note": "Retained 2026 for cited v2 (2026-06-16); first version is 2025-08-01, explicitly noted.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "qiu2026blueprintfirst"
+    },
+    {
+      "primary_url": "https://proceedings.mlr.press/v235/kim24y.html",
+      "original_url_checked": "https://proceedings.mlr.press/v235/kim24y.html",
+      "observed_metadata": {
+        "citation_title": [
+          "An LLM Compiler for Parallel Function Calling"
+        ],
+        "citation_author": [
+          "Sehoon Kim",
+          "Suhong Moon",
+          "Ryan Tabrizi",
+          "Nicholas Lee",
+          "Michael W. Mahoney",
+          "Kurt Keutzer",
+          "Amir Gholami"
+        ],
+        "citation_publication_date": [
+          "2024/07/08"
+        ],
+        "citation_conference_title": [
+          "International Conference on Machine Learning"
+        ]
+      },
+      "observed_page_title": "An LLM Compiler for Parallel Function Calling",
+      "manuscript_line_mentions": [
+        232
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "kim2024llmcompiler"
+    },
+    {
+      "primary_url": "https://proceedings.mlr.press/v235/wang24h.html",
+      "original_url_checked": "https://proceedings.mlr.press/v235/wang24h.html",
+      "observed_metadata": {
+        "citation_title": [
+          "Executable Code Actions Elicit Better LLM Agents"
+        ],
+        "citation_author": [
+          "Xingyao Wang",
+          "Yangyi Chen",
+          "Lifan Yuan",
+          "Yizhe Zhang",
+          "Yunzhu Li",
+          "Hao Peng",
+          "Heng Ji"
+        ],
+        "citation_publication_date": [
+          "2024/07/08"
+        ],
+        "citation_conference_title": [
+          "International Conference on Machine Learning"
+        ]
+      },
+      "observed_page_title": "Executable Code Actions Elicit Better LLM Agents",
+      "manuscript_line_mentions": [
+        232
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "wang2024codeact"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2608.11386",
+      "original_url_checked": "https://arxiv.org/abs/2608.11386",
+      "observed_metadata": {
+        "citation_title": [
+          "The Devil Is in the Interface: Evaluating How Tool Architecture Shapes Coding Agent Behavior"
+        ],
+        "citation_author": [
+          "Xu, Xiangzhe",
+          "Saghir, Hamidreza",
+          "Wu, Qianhui",
+          "Côté, Marc-Alexandre",
+          "Wang, Tong",
+          "Lakkaraju, Kiran",
+          "Pei, Kexin",
+          "Zhang, Xiangyu"
+        ],
+        "citation_date": [
+          "2026/08/11"
+        ]
+      },
+      "observed_page_title": "[2608.11386] The Devil Is in the Interface: Evaluating How Tool Architecture Shapes Coding Agent Behavior",
+      "manuscript_line_mentions": [
+        238
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "xu2026devilinterface"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2509.10769",
+      "original_url_checked": "https://arxiv.org/abs/2509.10769",
+      "observed_metadata": {
+        "citation_title": [
+          "AgentArch: A Comprehensive Benchmark to Evaluate Agent Architectures in Enterprise"
+        ],
+        "citation_author": [
+          "Bogavelli, Tara",
+          "Sharma, Roshnee",
+          "Subramani, Hari"
+        ],
+        "citation_date": [
+          "2025/09/13"
+        ]
+      },
+      "observed_page_title": "[2509.10769] AgentArch: A Comprehensive Benchmark to Evaluate Agent Architectures in Enterprise",
+      "manuscript_line_mentions": [
+        227
+      ],
+      "metadata_note": "Retained 2026 for cited v2 (2026-01-06); first version is 2025-09-13, explicitly noted.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "bogavelli2026agentarch"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2606.17519",
+      "original_url_checked": "https://arxiv.org/abs/2606.17519",
+      "observed_metadata": {
+        "citation_title": [
+          "Scaling Enterprise Agent Routing: Degradation, Diagnosis, and Recovery"
+        ],
+        "citation_author": [
+          "Gillespie, Kellen",
+          "Perry, Robyn"
+        ],
+        "citation_date": [
+          "2026/06/16"
+        ]
+      },
+      "observed_page_title": "[2606.17519] Scaling Enterprise Agent Routing: Degradation, Diagnosis, and Recovery",
+      "manuscript_line_mentions": [
+        220
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "gillespie2026enterpriserouting"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2508.01780",
+      "original_url_checked": "https://arxiv.org/abs/2508.01780",
+      "observed_metadata": {
+        "citation_title": [
+          "LiveMCPBench: Can Agents Navigate an Ocean of MCP Tools?"
+        ],
+        "citation_author": [
+          "Mo, Guozhao",
+          "Zhong, Wenliang",
+          "Chen, Jiawei",
+          "Yuan, Qianhao",
+          "Chen, Xuanang",
+          "Lu, Yaojie",
+          "Lin, Hongyu",
+          "He, Ben",
+          "Han, Xianpei",
+          "Sun, Le"
+        ],
+        "citation_date": [
+          "2025/08/03"
+        ]
+      },
+      "observed_page_title": "[2508.01780] LiveMCPBench: Can Agents Navigate an Ocean of MCP Tools?",
+      "manuscript_line_mentions": [
+        224
+      ],
+      "metadata_note": "Retained 2026 for cited v2 (2026-02-26); first version is 2025-08-03, explicitly noted.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "mo2026livemcpbench"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2505.03275",
+      "original_url_checked": "https://arxiv.org/abs/2505.03275",
+      "observed_metadata": {
+        "citation_title": [
+          "RAG-MCP: Mitigating Prompt Bloat in LLM Tool Selection via Retrieval-Augmented Generation"
+        ],
+        "citation_author": [
+          "Gan, Tiantian",
+          "Sun, Qiyao"
+        ],
+        "citation_date": [
+          "2025/05/06"
+        ]
+      },
+      "observed_page_title": "[2505.03275] RAG-MCP: Mitigating Prompt Bloat in LLM Tool Selection via Retrieval-Augmented Generation",
+      "manuscript_line_mentions": [
+        215
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "gan2025ragmcp"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2608.04719",
+      "original_url_checked": "https://arxiv.org/abs/2608.04719",
+      "observed_metadata": {
+        "citation_title": [
+          "Diagnosing Tool-Selection Reasoning in LLM Agents with Canary Tools"
+        ],
+        "citation_author": [
+          "Anand, Atul",
+          "Chattaraj, Sourav"
+        ],
+        "citation_date": [
+          "2026/08/05"
+        ]
+      },
+      "observed_page_title": "[2608.04719] Diagnosing Tool-Selection Reasoning in LLM Agents with Canary Tools",
+      "manuscript_line_mentions": [
+        220
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "anand2026canarytools"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2605.29676",
+      "original_url_checked": "https://arxiv.org/abs/2605.29676",
+      "observed_metadata": {
+        "citation_title": [
+          "Notation Matters: A Benchmark Study of Token-Optimized Formats in Agentic AI Systems"
+        ],
+        "citation_author": [
+          "Kutschka, Lorenz",
+          "Geiger, Bernhard"
+        ],
+        "citation_date": [
+          "2026/05/28"
+        ]
+      },
+      "observed_page_title": "[2605.29676] Notation Matters: A Benchmark Study of Token-Optimized Formats in Agentic AI Systems",
+      "manuscript_line_mentions": [
+        238
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "kutschka2026notationmatters"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2606.08529",
+      "original_url_checked": "https://arxiv.org/abs/2606.08529",
+      "observed_metadata": {
+        "citation_title": [
+          "Scaffold Effects on GAIA: A Controlled Comparison"
+        ],
+        "citation_author": [
+          "Starace, Jason"
+        ],
+        "citation_date": [
+          "2026/06/07"
+        ]
+      },
+      "observed_page_title": "[2606.08529] Scaffold Effects on GAIA: A Controlled Comparison",
+      "manuscript_line_mentions": [
+        229
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "starace2026scaffoldgaia"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2608.08239",
+      "original_url_checked": "https://arxiv.org/abs/2608.08239",
+      "observed_metadata": {
+        "citation_title": [
+          "The Replay Gap: Static Evaluation of Model Switching in LLM Agents Scores the Wrong World"
+        ],
+        "citation_author": [
+          "Gonuguntla, Ashritha"
+        ],
+        "citation_date": [
+          "2026/08/08"
+        ]
+      },
+      "observed_page_title": "[2608.08239] The Replay Gap: Static Evaluation of Model Switching in LLM Agents Scores the Wrong World",
+      "manuscript_line_mentions": [
+        444
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "gonuguntla2026replaygap"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2607.11138",
+      "original_url_checked": "https://arxiv.org/abs/2607.11138",
+      "observed_metadata": {
+        "citation_title": [
+          "A Formal Hierarchical Architecture for Agentic Orchestration with Stack-Based Execution and Lazy Discovery"
+        ],
+        "citation_author": [
+          "Devadiga, Prashant",
+          "Abhishek",
+          "Mishra, Adithya",
+          "Singh, Alok",
+          "Sinha, Amisha",
+          "Desai, Asit",
+          "Dahad, Gaurang",
+          "Bhushan, Harshit",
+          "Reddy, Mandati Pramod",
+          "Gupta, Prakhar",
+          "Patil, Rupesh",
+          "Behere, Siddhi"
+        ],
+        "citation_date": [
+          "2026/07/13"
+        ]
+      },
+      "observed_page_title": "[2607.11138] A Formal Hierarchical Architecture for Agentic Orchestration with Stack-Based Execution and Lazy Discovery",
+      "manuscript_line_mentions": [
+        215
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "devadiga2026hierarchical"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2608.14838",
+      "original_url_checked": "https://arxiv.org/abs/2608.14838",
+      "observed_metadata": {
+        "citation_title": [
+          "The Recall Trap: A Recall-Maximizing Retriever Configuration Reduces Issue Resolution in Fixed-Budget Code Context"
+        ],
+        "citation_author": [
+          "Adkins, Alexander",
+          "Trapaidze, Teimuraz"
+        ],
+        "citation_date": [
+          "2026/08/14"
+        ]
+      },
+      "observed_page_title": "[2608.14838] The Recall Trap: A Recall-Maximizing Retriever Configuration Reduces Issue Resolution in Fixed-Budget Code Context",
+      "manuscript_line_mentions": [
+        212
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "adkins2026recalltrap"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2608.28475",
+      "original_url_checked": "https://arxiv.org/abs/2608.28475",
+      "observed_metadata": {
+        "citation_title": [
+          "COVER: Identifiable Evaluation of Coalition Routing"
+        ],
+        "citation_author": [
+          "Sugumar, Raghul",
+          "Gopinath, Amrit"
+        ],
+        "citation_date": [
+          "2026/08/28"
+        ]
+      },
+      "observed_page_title": "[2608.28475] COVER: Identifiable Evaluation of Coalition Routing",
+      "manuscript_line_mentions": [
+        137
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "sugumar2026cover"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2608.19760",
+      "original_url_checked": "https://arxiv.org/abs/2608.19760",
+      "observed_metadata": {
+        "citation_title": [
+          "Credit Without Ground Truth: Auditing Step-Level Credit Assignment in LLM Agents Against Executed Replay"
+        ],
+        "citation_author": [
+          "Zhang, Haiyue"
+        ],
+        "citation_date": [
+          "2026/08/20"
+        ]
+      },
+      "observed_page_title": "[2608.19760] Credit Without Ground Truth: Auditing Step-Level Credit Assignment in LLM Agents Against Executed Replay",
+      "manuscript_line_mentions": [
+        376,
+        724
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "zhang2026creditreplay"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2607.01469",
+      "original_url_checked": "https://arxiv.org/abs/2607.01469",
+      "observed_metadata": {
+        "citation_title": [
+          "Accuracy and Cost Claims Do Not Survive Re-Execution in Agentic VideoQA"
+        ],
+        "citation_author": [
+          "AlHamidi, Rama",
+          "Mohamed, Aseel",
+          "Khanbayov, Rasul",
+          "Barhdadi, Mohamed Rayan",
+          "Serpedin, Erchin",
+          "Kurban, Hasan"
+        ],
+        "citation_date": [
+          "2026/07/01"
+        ]
+      },
+      "observed_page_title": "[2607.01469] Accuracy and Cost Claims Do Not Survive Re-Execution in Agentic VideoQA",
+      "manuscript_line_mentions": [
+        264
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "alhamidi2026reexecution"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2608.26130",
+      "original_url_checked": "https://arxiv.org/abs/2608.26130",
+      "observed_metadata": {
+        "citation_title": [
+          "Agents Don't Paginate: First-Chunk Selection for LLM Tool Responses"
+        ],
+        "citation_author": [
+          "Petrova, Tatiana",
+          "Mazniak, Andrei",
+          "State, Radu"
+        ],
+        "citation_date": [
+          "2026/06/23"
+        ]
+      },
+      "observed_page_title": "[2608.26130] Agents Don't Paginate: First-Chunk Selection for LLM Tool Responses",
+      "manuscript_line_mentions": [
+        238
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "petrova2026firstchunk"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2608.11772",
+      "original_url_checked": "https://arxiv.org/abs/2608.11772",
+      "observed_metadata": {
+        "citation_title": [
+          "Diagnosis Before Recovery: Turning Agent Failures into Selective Self-Correction"
+        ],
+        "citation_author": [
+          "Wang, Pan",
+          "Hu, Yihao",
+          "Wang, Hang",
+          "Lv, Zirui",
+          "Zhang, Xin",
+          "Li, Jianshe",
+          "Yang, Jiang-Ming",
+          "Wu, Wei",
+          "Tong, Yongqi"
+        ],
+        "citation_date": [
+          "2026/08/12"
+        ]
+      },
+      "observed_page_title": "[2608.11772] Diagnosis Before Recovery: Turning Agent Failures into Selective Self-Correction",
+      "manuscript_line_mentions": [
+        249
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "wang2026darc"
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2604.14585",
+      "original_url_checked": "https://arxiv.org/abs/2604.14585",
+      "observed_metadata": {
+        "citation_title": [
+          "Prompt Optimization Is a Coin Flip: Diagnosing When It Helps in Compound AI Systems"
+        ],
+        "citation_author": [
+          "Zhang, Xing",
+          "Wang, Guanghui",
+          "Cui, Yanwei",
+          "Qiu, Wei",
+          "Li, Ziyuan",
+          "Zhu, Bing",
+          "He, Peiyang"
+        ],
+        "citation_date": [
+          "2026/04/16"
+        ]
+      },
+      "observed_page_title": "[2604.14585] Prompt Optimization Is a Coin Flip: Diagnosing When It Helps in Compound AI Systems",
+      "manuscript_line_mentions": [
+        433
+      ],
+      "metadata_note": "Title, ordered author names and year checked at primary record; braces, typography and comma-order variations normalized.",
+      "claim_support_scope": "Abstract-level topical support inspected; preprint-specific findings remain attributed and bounded.",
+      "bibtex_id": "zhang2026promptcoinflip"
+    }
+  ],
+  "manuscript_sha256": "9a08af78444eb3ddd8d137ff04a17d519d7a994bee55fa4d85d5197c1f5a280a",
+  "bibliography_sha256": "447fc87ee5ffc21eef2ebd94728ffaff4f42273de9c23d79319b66900291b3ca"
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "toolsandbox-menu-intervention-budget-v1",
+  "captured_at": "2026-08-15T00:12:11Z",
+  "projected_new_rows": 768,
+  "conservative_projected_cost_usd": 2.9329,
+  "openrouter": {
+    "usage_baseline_usd": 53.707443383,
+    "hard_new_spend_cap_usd": 6.0,
+    "maximum_inflight_reserve_usd": 0.25,
+    "minimum_cash_usd": 0.5
+  },
+  "google_cloud": {
+    "telemetry_baseline_usd": 7.888280220000002,
+    "hard_new_spend_cap_usd": 1.5,
+    "maximum_inflight_reserve_usd": 0.1
+  },
+  "policy": "Stop before a call whose conservative reserve would exceed the provider-specific incremental cap."
+}

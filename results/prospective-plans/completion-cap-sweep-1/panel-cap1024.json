@@ -1,0 +1,183 @@
+{
+ "arm": "cap1024",
+ "configurations": [
+  {
+   "accepted_response_models": [
+    "google/gemini-3.8-flash",
+    "google/gemini-3.8-flash-20260902"
+   ],
+   "api_key_env": "OPENROUTER_API_KEY",
+   "api_key_header": "Authorization",
+   "discovery_enabled": false,
+   "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+   "harness": "react-routed@openrouter",
+   "minimum_request_interval_seconds": 0.5,
+   "model": "google/gemini-3.8-flash",
+   "omit_parallel_tool_calls": true,
+   "omit_seed": true,
+   "provider_allow_fallbacks": false,
+   "provider_concurrency_cap": 8,
+   "provider_data_collection": "deny",
+   "provider_only": [
+    "google-ai-studio"
+   ],
+   "provider_require_parameters": true,
+   "require_usage": true,
+   "slug": "gemini-38-flash-capsweep",
+   "stratum": "B",
+   "study_role": "primary",
+   "workers_per_job": 8
+  },
+  {
+   "accepted_response_models": [
+    "qwen/qwen3.7-flash"
+   ],
+   "api_key_env": "OPENROUTER_API_KEY",
+   "api_key_header": "Authorization",
+   "discovery_enabled": false,
+   "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+   "harness": "react-routed@openrouter",
+   "minimum_request_interval_seconds": 0.5,
+   "model": "qwen/qwen3.7-flash",
+   "omit_parallel_tool_calls": true,
+   "provider_allow_fallbacks": false,
+   "provider_concurrency_cap": 8,
+   "provider_data_collection": "deny",
+   "provider_only": [
+    "alibaba"
+   ],
+   "provider_require_parameters": true,
+   "require_usage": true,
+   "slug": "qwen37-flash-capsweep",
+   "stratum": "B",
+   "study_role": "primary",
+   "workers_per_job": 8
+  },
+  {
+   "accepted_response_models": [
+    "qwen/qwen3.8-flash",
+    "qwen/qwen3.8-flash-20260826"
+   ],
+   "api_key_env": "OPENROUTER_API_KEY",
+   "api_key_header": "Authorization",
+   "discovery_enabled": false,
+   "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+   "harness": "react-routed@openrouter",
+   "minimum_request_interval_seconds": 0.5,
+   "model": "qwen/qwen3.8-flash",
+   "omit_parallel_tool_calls": true,
+   "provider_allow_fallbacks": false,
+   "provider_concurrency_cap": 8,
+   "provider_data_collection": "deny",
+   "provider_only": [
+    "alibaba"
+   ],
+   "provider_require_parameters": true,
+   "require_usage": true,
+   "slug": "qwen38-flash-capsweep",
+   "stratum": "B",
+   "study_role": "primary",
+   "workers_per_job": 8
+  },
+  {
+   "accepted_response_models": [
+    "glm-5.3-flash"
+   ],
+   "api_key_env": "ZAI_API_KEY",
+   "api_key_header": "Authorization",
+   "discovery_enabled": false,
+   "endpoint": "https://api.z.ai/api/paas/v4/chat/completions",
+   "harness": "react-routed@zai",
+   "minimum_request_interval_seconds": 0.5,
+   "model": "glm-5.3-flash",
+   "omit_parallel_tool_calls": true,
+   "omit_seed": true,
+   "provider_allow_fallbacks": false,
+   "provider_concurrency_cap": 4,
+   "provider_data_collection": "deny",
+   "provider_require_parameters": true,
+   "require_usage": true,
+   "slug": "glm-53-flash-capsweep",
+   "stratum": "B",
+   "study_role": "primary",
+   "workers_per_job": 4
+  },
+  {
+   "accepted_response_models": [
+    "anthropic/claude-haiku-5.5",
+    "anthropic/claude-haiku-5.5-20261007"
+   ],
+   "api_key_env": "OPENROUTER_API_KEY",
+   "api_key_header": "Authorization",
+   "discovery_enabled": false,
+   "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+   "harness": "react-routed@openrouter",
+   "minimum_request_interval_seconds": 0.5,
+   "model": "anthropic/claude-haiku-5.5",
+   "omit_parallel_tool_calls": true,
+   "omit_seed": true,
+   "omit_temperature": true,
+   "provider_allow_fallbacks": false,
+   "provider_concurrency_cap": 8,
+   "provider_data_collection": "deny",
+   "provider_only": [
+    "anthropic"
+   ],
+   "provider_require_parameters": true,
+   "require_usage": true,
+   "slug": "claude-haiku-55-capsweep",
+   "stratum": "M",
+   "study_role": "primary",
+   "workers_per_job": 8
+  },
+  {
+   "accepted_response_models": [
+    "openai/gpt-6-luna",
+    "openai/gpt-6-luna-20260922"
+   ],
+   "api_key_env": "OPENROUTER_API_KEY",
+   "api_key_header": "Authorization",
+   "discovery_enabled": false,
+   "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+   "harness": "react-routed@openrouter",
+   "minimum_request_interval_seconds": 0.5,
+   "model": "openai/gpt-6-luna",
+   "omit_parallel_tool_calls": true,
+   "omit_seed": true,
+   "omit_temperature": true,
+   "provider_allow_fallbacks": false,
+   "provider_concurrency_cap": 8,
+   "provider_data_collection": "deny",
+   "provider_only": [
+    "openai"
+   ],
+   "provider_require_parameters": true,
+   "require_usage": true,
+   "slug": "gpt-6-luna-capsweep",
+   "stratum": "N",
+   "study_role": "primary",
+   "workers_per_job": 8
+  }
+ ],
+ "execution_policy": {
+  "episode_policy": {
+   "dynamic_shortlist": true,
+   "early_stop_infeasible": true,
+   "max_completion_tokens": 1024,
+   "max_total_tokens": 128000,
+   "name": "task-adaptive-routed-v1-cap1024",
+   "tool_call_slack": 2,
+   "turn_slack": 2
+  },
+  "minimum_request_interval_seconds": 0.5,
+  "model_lane_count": 6,
+  "provider_concurrency_cap": 8,
+  "timeout_seconds": 900,
+  "transport_retries": 5,
+  "workers_per_job": 8
+ },
+ "frozen_at": "2026-10-12T00:00:00Z",
+ "frozen_for_study": true,
+ "panel": "completion-cap-sweep-1-cap1024",
+ "scientific_role": "frozen acquisition panel for the completion-cap sweep campaign; the cap1024 arm differs from its companion in max_completion_tokens alone"
+}

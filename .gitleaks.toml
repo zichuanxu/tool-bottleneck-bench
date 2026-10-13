@@ -1,0 +1,31 @@
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Frozen public API response content checksums, not credentials"
+regexTarget = "match"
+regexes = [
+  '''(?:credits|endpoint)_api_canonical_sha256"\s*:\s*"[0-9a-f]{64}"''',
+]
+
+[[allowlists]]
+description = "Deterministic synthetic benchmark lookup keys"
+regexTarget = "match"
+regexes = [
+  '''lookup_key["']?\s*[:=]\s*["']RH-[0-9A-F]{12}["']''',
+  '''lookup_key["']?\s*[:=]\s*["']lookup-[0-9a-f]{18}["']''',
+]
+
+[[allowlists]]
+description = "Synthetic state-mutation idempotency keys"
+regexTarget = "match"
+regexes = [
+  '''idempotency_key["']?\s*[:=]\s*["'][A-Za-z0-9-]{1,64}["']''',
+]
+
+[[allowlists]]
+description = "Configuration keys of the 21-configuration row manifest are SHA-256 digests of frozen configuration records, not credentials"
+regexTarget = "match"
+regexes = [
+  '''configuration_key"\s*:\s*"[0-9a-f]{64}"''',
+]

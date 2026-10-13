@@ -1,0 +1,21 @@
+{
+  "snapshot_at": "2026-08-13T02:43:19Z",
+  "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing",
+  "currency": "USD",
+  "unit": "per_million_tokens",
+  "models": {
+    "openai/gpt-oss-120b-maas": {
+      "input": 0.09,
+      "output": 0.36
+    },
+    "google/gemma-4-26b-a4b-it-maas": {
+      "input": 0.15,
+      "output": 0.60
+    },
+    "google/gemini-3.5-flash-lite": {
+      "input": 0.54,
+      "output": 4.50,
+      "pricing_tier": "global_standard"
+    }
+  }
+}

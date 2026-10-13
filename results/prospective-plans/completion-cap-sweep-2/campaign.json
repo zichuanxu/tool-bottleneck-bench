@@ -1,0 +1,45 @@
+{
+ "schema": "bottleneckbench-cap-sweep-campaign-v1",
+ "campaign": "completion-cap-sweep-2",
+ "protocol": "protocols/completion-cap-sweep-2026-10-12-amendment-2.md",
+ "arms": {
+  "cap1024": 1024,
+  "cap16384": 16384
+ },
+ "high_arm": "cap16384",
+ "low_arm": "cap1024",
+ "pilot_slugs": [
+  "glm-53",
+  "deepseek-v4-pro-0813"
+ ],
+ "paper_campaign": "completion-cap-sweep",
+ "sibling_campaigns": [
+  "completion-cap-sweep-1",
+  "completion-cap-sweep-2"
+ ],
+ "configurations": [
+  {
+   "slug": "glm-53",
+   "model": "glm-5.3",
+   "stratum": "B",
+   "harness": "react-routed@zai",
+   "api_key_env": "ZAI_API_KEY"
+  },
+  {
+   "slug": "deepseek-v4-pro-0813",
+   "model": "deepseek/deepseek-v4-pro-0813",
+   "stratum": "B",
+   "harness": "react-routed@openrouter",
+   "api_key_env": "OPENROUTER_API_KEY"
+  }
+ ],
+ "public_release_redaction": {
+  "original_file_sha256": "c3dc711d8004217f1e2e3d3b93ffa82f1761c79c28c2a96726e8116c9991be4d",
+  "reason": "the entries of one configuration outside the reporting panel were removed from the public release; every other field is copied unchanged, so hash and count fields inside the file describe the original",
+  "redacted_at": "2026-10-13",
+  "removed_from_json_paths": [
+   "$.pilot_slugs",
+   "$.configurations"
+  ]
+ }
+}

@@ -1,0 +1,116 @@
+{
+  "artifact": "openrouter-selected-endpoint-snapshot",
+  "captured_at": "2026-08-13T01:53:07Z",
+  "source_pattern": "https://openrouter.ai/api/v1/models/{model}/endpoints",
+  "prices_are_usd_per_token": true,
+  "selected": [
+    {
+      "requested_model": "deepseek/deepseek-v4-flash-0731",
+      "served_model": "deepseek/deepseek-v4-flash-20260731",
+      "endpoint_name": "DeepInfra | deepseek/deepseek-v4-flash-20260731",
+      "provider_tag": "deepinfra/fp4",
+      "quantization": "fp4",
+      "context_length": 1048576,
+      "prompt_price": 0.00000008,
+      "completion_price": 0.00000018,
+      "required_supported_parameters": ["tools", "tool_choice", "max_tokens", "temperature", "seed"],
+      "tools_supported": true
+    },
+    {
+      "requested_model": "qwen/qwen3.7-flash",
+      "served_model": "qwen/qwen3.7-flash-20260727",
+      "endpoint_name": "Alibaba | qwen/qwen3.7-flash-20260727",
+      "provider_tag": "alibaba",
+      "quantization": "unknown",
+      "context_length": 1000000,
+      "prompt_price": 0.00000003,
+      "completion_price": 0.00000013,
+      "required_supported_parameters": ["tools", "tool_choice", "max_tokens", "temperature", "seed"],
+      "tools_supported": true
+    },
+    {
+      "requested_model": "openai/gpt-5.6-luna",
+      "served_model": "openai/gpt-5.6-luna-20260709",
+      "endpoint_name": "OpenAI | openai/gpt-5.6-luna-20260709",
+      "provider_tag": "openai",
+      "quantization": "unknown",
+      "context_length": 1050000,
+      "prompt_price": 0.0000001,
+      "completion_price": 0.0000006,
+      "required_supported_parameters": ["tools", "tool_choice", "max_tokens", "seed"],
+      "tools_supported": true
+    },
+    {
+      "requested_model": "google/gemini-3.6-flash",
+      "served_model": "google/gemini-3.6-flash-20260721",
+      "endpoint_name": "Google AI Studio | google/gemini-3.6-flash-20260721",
+      "provider_tag": "google-ai-studio/flex",
+      "quantization": "unknown",
+      "context_length": 1048576,
+      "prompt_price": 0.00000075,
+      "completion_price": 0.00000375,
+      "required_supported_parameters": ["tools", "tool_choice", "max_tokens", "temperature", "seed"],
+      "tools_supported": true
+    },
+    {
+      "requested_model": "meta/muse-glimmer-30b",
+      "served_model": "meta/muse-glimmer-30b-20260810",
+      "endpoint_name": "Together | meta/muse-glimmer-30b-20260810",
+      "provider_tag": "together",
+      "quantization": "unknown",
+      "context_length": 131072,
+      "prompt_price": 0.00000035,
+      "completion_price": 0.0000015,
+      "required_supported_parameters": ["tools", "tool_choice", "max_tokens", "temperature"],
+      "tools_supported": true
+    },
+    {
+      "requested_model": "z-ai/glm-5.2",
+      "served_model": "z-ai/glm-5.2-20260616",
+      "endpoint_name": "Sail Research | z-ai/glm-5.2-20260616",
+      "provider_tag": "sail-research/fp8",
+      "quantization": "fp8",
+      "context_length": 1048576,
+      "prompt_price": 0.0000005,
+      "completion_price": 0.00000315,
+      "required_supported_parameters": ["tools", "tool_choice", "max_tokens", "temperature", "seed"],
+      "tools_supported": true
+    },
+    {
+      "requested_model": "openai/gpt-5.6-terra",
+      "served_model": "openai/gpt-5.6-terra-20260709",
+      "endpoint_name": "OpenAI | openai/gpt-5.6-terra-20260709",
+      "provider_tag": "openai/flex",
+      "quantization": "unknown",
+      "context_length": 1050000,
+      "prompt_price": 0.0000005,
+      "completion_price": 0.000003,
+      "required_supported_parameters": ["tools", "tool_choice", "max_tokens", "seed"],
+      "tools_supported": true
+    },
+    {
+      "requested_model": "meituan/longcat-2.0",
+      "served_model": "meituan/longcat-2.0-20260720",
+      "endpoint_name": "AtlasCloud | meituan/longcat-2.0-20260720",
+      "provider_tag": "atlas-cloud/fp8",
+      "quantization": "fp8",
+      "context_length": 1048756,
+      "prompt_price": 0.0000003,
+      "completion_price": 0.0000012,
+      "required_supported_parameters": ["tools", "tool_choice", "max_tokens", "temperature", "seed"],
+      "tools_supported": true
+    },
+    {
+      "requested_model": "inclusionai/ling-3.0-flash",
+      "served_model": "inclusionai/ling-3.0-flash-20260723",
+      "endpoint_name": "Novita | inclusionai/ling-3.0-flash-20260723",
+      "provider_tag": "novita",
+      "quantization": "unknown",
+      "context_length": 262144,
+      "prompt_price": 0.000000021,
+      "completion_price": 0.000000063,
+      "required_supported_parameters": ["tools", "tool_choice", "max_tokens", "temperature", "seed"],
+      "tools_supported": true
+    }
+  ]
+}

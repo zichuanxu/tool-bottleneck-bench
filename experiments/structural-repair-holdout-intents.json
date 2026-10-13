@@ -1,0 +1,226 @@
+{
+  "study": "structural_repair_holdout",
+  "protocol_version": "1.2",
+  "supersedes_sha256": "713fc8e77c4d8bc72f147add92aa8db24a7da3d4fcbb7a446601fbcb6140f63d",
+  "frozen_at": "2026-08-14T01:00:47Z",
+  "outcome_access_before_freeze": false,
+  "inference_population": "finite_inventory_of_24_distinct_read_only_intent_rules",
+  "entries": [
+    {
+      "intent": "invoice_total_match",
+      "stratum": "accounting_and_reconciliation",
+      "labels": ["match", "mismatch"],
+      "predicate": "invoice_total == receipt_total and currency == 'USD'",
+      "required_facts": ["invoice_total", "receipt_total", "currency"],
+      "route": ["accounting", "files", "email"],
+      "positive_outcome": true
+    },
+    {
+      "intent": "receipt_currency_match",
+      "stratum": "accounting_and_reconciliation",
+      "labels": ["currency_aligned", "currency_misaligned"],
+      "predicate": "invoice_currency == receipt_currency and fx_status == 'not_required'",
+      "required_facts": ["invoice_currency", "receipt_currency", "fx_status"],
+      "route": ["files", "accounting", "email"],
+      "positive_outcome": false
+    },
+    {
+      "intent": "vendor_identity_match",
+      "stratum": "accounting_and_reconciliation",
+      "labels": ["vendor_consistent", "vendor_inconsistent"],
+      "predicate": "invoice_vendor == contract_vendor and registration_status == 'active'",
+      "required_facts": ["invoice_vendor", "contract_vendor", "registration_status"],
+      "route": ["accounting", "files", "email"],
+      "positive_outcome": true
+    },
+    {
+      "intent": "payment_term_compliance",
+      "stratum": "accounting_and_reconciliation",
+      "labels": ["compliant", "non_compliant"],
+      "predicate": "payment_date <= due_date and approval_status == 'approved'",
+      "required_facts": ["payment_date", "due_date", "approval_status"],
+      "route": ["accounting", "calendar", "files"],
+      "positive_outcome": false
+    },
+    {
+      "intent": "duplicate_invoice_risk",
+      "stratum": "accounting_and_reconciliation",
+      "labels": ["duplicate", "not_duplicate"],
+      "predicate": "same_invoice_number and same_amount and same_vendor",
+      "required_facts": ["same_invoice_number", "same_amount", "same_vendor"],
+      "route": ["accounting", "files", "email"],
+      "positive_outcome": true
+    },
+    {
+      "intent": "approval_evidence_complete",
+      "stratum": "accounting_and_reconciliation",
+      "labels": ["complete", "incomplete"],
+      "predicate": "approver_present and receipt_present and policy_version_current",
+      "required_facts": ["approver_present", "receipt_present", "policy_version_current"],
+      "route": ["email", "files", "accounting"],
+      "positive_outcome": false
+    },
+    {
+      "intent": "response_within_sla",
+      "stratum": "communication_and_sla",
+      "labels": ["within_sla", "outside_sla"],
+      "predicate": "response_at <= due_at and owner_acknowledged",
+      "required_facts": ["response_at", "due_at", "owner_acknowledged"],
+      "route": ["email", "calendar", "files"],
+      "positive_outcome": true
+    },
+    {
+      "intent": "sender_authorized",
+      "stratum": "communication_and_sla",
+      "labels": ["authorized", "unauthorized"],
+      "predicate": "sender_domain_allowed and authentication_status == 'pass' and sender_identity_resolved",
+      "required_facts": ["sender_domain_allowed", "authentication_status", "sender_identity_resolved"],
+      "route": ["email", "files", "accounting"],
+      "positive_outcome": false
+    },
+    {
+      "intent": "required_recipient_covered",
+      "stratum": "communication_and_sla",
+      "labels": ["covered", "not_covered"],
+      "predicate": "required_recipient_present and not external_recipient_present and recipient_policy == 'internal_only'",
+      "required_facts": ["required_recipient_present", "external_recipient_present", "recipient_policy"],
+      "route": ["email", "files", "calendar"],
+      "positive_outcome": true
+    },
+    {
+      "intent": "escalation_acknowledged",
+      "stratum": "communication_and_sla",
+      "labels": ["acknowledged", "not_acknowledged"],
+      "predicate": "escalation_sent and acknowledged_at <= acknowledgment_due",
+      "required_facts": ["escalation_sent", "acknowledged_at", "acknowledgment_due"],
+      "route": ["email", "calendar", "files"],
+      "positive_outcome": false
+    },
+    {
+      "intent": "attachment_requirement_met",
+      "stratum": "communication_and_sla",
+      "labels": ["satisfied", "not_satisfied"],
+      "predicate": "not attachment_required or (attachment_present and checksum_valid)",
+      "required_facts": ["attachment_required", "attachment_present", "checksum_valid"],
+      "route": ["email", "files", "accounting"],
+      "positive_outcome": true
+    },
+    {
+      "intent": "thread_resolution_complete",
+      "stratum": "communication_and_sla",
+      "labels": ["resolved", "unresolved"],
+      "predicate": "customer_confirmed and unresolved_item_count == 0 and resolution_status == 'closed'",
+      "required_facts": ["customer_confirmed", "unresolved_item_count", "resolution_status"],
+      "route": ["email", "files", "calendar"],
+      "positive_outcome": false
+    },
+    {
+      "intent": "agreement_execution_ready",
+      "stratum": "document_and_governance",
+      "labels": ["ready", "not_ready"],
+      "predicate": "signature_status == 'signed' and counterparty_verified and effective_date_present",
+      "required_facts": ["signature_status", "counterparty_verified", "effective_date_present"],
+      "route": ["files", "email", "calendar"],
+      "positive_outcome": true
+    },
+    {
+      "intent": "registration_current",
+      "stratum": "document_and_governance",
+      "labels": ["current", "expired"],
+      "predicate": "registration_status == 'active' and expiry_date >= review_date",
+      "required_facts": ["registration_status", "expiry_date", "review_date"],
+      "route": ["files", "calendar", "accounting"],
+      "positive_outcome": false
+    },
+    {
+      "intent": "policy_exception_present",
+      "stratum": "document_and_governance",
+      "labels": ["valid_exception", "no_valid_exception"],
+      "predicate": "exception_approved and exception_expires >= '2026-10-01' and exception_scope_matches",
+      "required_facts": ["exception_approved", "exception_expires", "exception_scope_matches"],
+      "route": ["files", "email", "calendar"],
+      "positive_outcome": true
+    },
+    {
+      "intent": "document_version_current",
+      "stratum": "document_and_governance",
+      "labels": ["current_version", "stale_version"],
+      "predicate": "observed_version == required_version and not superseded",
+      "required_facts": ["observed_version", "required_version", "superseded"],
+      "route": ["files", "accounting", "email"],
+      "positive_outcome": false
+    },
+    {
+      "intent": "evidence_bundle_complete",
+      "stratum": "document_and_governance",
+      "labels": ["complete", "incomplete"],
+      "predicate": "invoice_present and receipt_present and contract_present",
+      "required_facts": ["invoice_present", "receipt_present", "contract_present"],
+      "route": ["files", "accounting", "email"],
+      "positive_outcome": true
+    },
+    {
+      "intent": "retention_window_valid",
+      "stratum": "document_and_governance",
+      "labels": ["valid_window", "invalid_window"],
+      "predicate": "record_age_days <= retention_days or legal_hold_active",
+      "required_facts": ["record_age_days", "retention_days", "legal_hold_active"],
+      "route": ["files", "calendar", "email"],
+      "positive_outcome": false
+    },
+    {
+      "intent": "overlap_conflict",
+      "stratum": "scheduling_and_coordination",
+      "labels": ["conflict", "no_conflict"],
+      "predicate": "intervals_overlap(proposed_interval, blocking_interval) and not priority_override",
+      "required_facts": ["proposed_interval", "blocking_interval", "priority_override"],
+      "route": ["calendar", "calendar", "files"],
+      "positive_outcome": true
+    },
+    {
+      "intent": "attendee_quorum_met",
+      "stratum": "scheduling_and_coordination",
+      "labels": ["quorum_met", "quorum_not_met"],
+      "predicate": "confirmed_attendees >= required_quorum and organizer_confirmed",
+      "required_facts": ["confirmed_attendees", "required_quorum", "organizer_confirmed"],
+      "route": ["calendar", "email", "files"],
+      "positive_outcome": false
+    },
+    {
+      "intent": "prerequisite_complete",
+      "stratum": "scheduling_and_coordination",
+      "labels": ["complete", "incomplete"],
+      "predicate": "predecessor_complete and evidence_link_present and dependency_identity_matches",
+      "required_facts": ["predecessor_complete", "evidence_link_present", "dependency_identity_matches"],
+      "route": ["calendar", "files", "email"],
+      "positive_outcome": true
+    },
+    {
+      "intent": "review_window_valid",
+      "stratum": "scheduling_and_coordination",
+      "labels": ["valid_window", "invalid_window"],
+      "predicate": "valid_interval(review_interval) and duration_minutes(review_interval) <= maximum_minutes and within_business_hours",
+      "required_facts": ["review_interval", "maximum_minutes", "within_business_hours"],
+      "route": ["calendar", "calendar", "files"],
+      "positive_outcome": false
+    },
+    {
+      "intent": "timezone_alignment_valid",
+      "stratum": "scheduling_and_coordination",
+      "labels": ["aligned", "misaligned"],
+      "predicate": "declared_timezone_present and offset_matches and local_date_consistent",
+      "required_facts": ["declared_timezone_present", "offset_matches", "local_date_consistent"],
+      "route": ["calendar", "email", "files"],
+      "positive_outcome": true
+    },
+    {
+      "intent": "deadline_feasible",
+      "stratum": "scheduling_and_coordination",
+      "labels": ["feasible", "infeasible"],
+      "predicate": "remaining_hours >= estimated_hours and not dependency_blocked",
+      "required_facts": ["remaining_hours", "estimated_hours", "dependency_blocked"],
+      "route": ["calendar", "files", "email"],
+      "positive_outcome": false
+    }
+  ]
+}

@@ -1,0 +1,1460 @@
+{
+  "analysis": "toolsandbox-menu-intervention-v1",
+  "artifact_hash": "62bc248dfab0aa8eee313242d9f1ce2537cf2ed2876a947e0e731a8759d7cc88",
+  "baseline_timing": "the scoped trajectories predate the two stress arms and were not rerun concurrently",
+  "claim_boundary": "auxiliary matched mechanism evidence at 2-34 visible ToolSandbox tools; scoped menu is an authored-scope upper bound, not a deployed router",
+  "evidence_role": "prospectively specified auxiliary mechanism evidence; confirmatory_weight=0 in the frozen plan",
+  "failed_closed_scored_rows": 2,
+  "incremental_estimated_cost_usd": 3.36963308,
+  "inference": "scenario-cluster bootstrap and sign-flip; models treated as the fixed transport-eligible panel",
+  "levels": {
+    "all_tools": {
+      "by_model_similarity": {
+        "deepseek/deepseek-v4-flash-0731": 0.25,
+        "google/gemini-3.5-flash-lite": 0.6850091017181591,
+        "google/gemini-3.6-flash": 0.7293390823238142,
+        "meituan/longcat-2.0": 0.7326768708852651,
+        "meta/muse-glimmer-30b": 0.25,
+        "openai/gpt-5.6-luna": 0.3964390977594428,
+        "openai/gpt-5.6-terra": 0.5499883653905869,
+        "openai/gpt-oss-120b-maas": 0.7699664317944653,
+        "qwen/qwen3.7-flash": 0.8076396560804
+      },
+      "duration_seconds": 21.483470226694205,
+      "full_success": 0.3333333333333333,
+      "requests": 5.440972222222222,
+      "similarity": 0.5745620673280148,
+      "tokens": 24197.8125,
+      "visible_tools_mean": 34.0
+    },
+    "scoped": {
+      "by_model_similarity": {
+        "deepseek/deepseek-v4-flash-0731": 0.7616151636786482,
+        "google/gemini-3.5-flash-lite": 0.7626520715903722,
+        "google/gemini-3.6-flash": 0.8359805926067064,
+        "meituan/longcat-2.0": 0.784539030622372,
+        "meta/muse-glimmer-30b": 0.695607000513317,
+        "openai/gpt-5.6-luna": 0.39080232509759083,
+        "openai/gpt-5.6-terra": 0.40659857387811904,
+        "openai/gpt-oss-120b-maas": 0.6733568213866752,
+        "qwen/qwen3.7-flash": 0.7697900506407875
+      },
+      "duration_seconds": 15.500358303299233,
+      "full_success": 0.3263888888888889,
+      "requests": 3.0972222222222223,
+      "similarity": 0.6756601811127321,
+      "tokens": 2657.3194444444443,
+      "visible_tools_mean": 4.34375
+    },
+    "ten_distractors": {
+      "by_model_similarity": {
+        "deepseek/deepseek-v4-flash-0731": 0.25,
+        "google/gemini-3.5-flash-lite": 0.6867060833654801,
+        "google/gemini-3.6-flash": 0.8321168314427401,
+        "meituan/longcat-2.0": 0.7899434341541294,
+        "meta/muse-glimmer-30b": 0.25,
+        "openai/gpt-5.6-luna": 0.4427454163488888,
+        "openai/gpt-5.6-terra": 0.4955834438257981,
+        "openai/gpt-oss-120b-maas": 0.7215043645377114,
+        "qwen/qwen3.7-flash": 0.7458859698652255
+      },
+      "duration_seconds": 22.207546955295584,
+      "full_success": 0.3298611111111111,
+      "requests": 5.333333333333333,
+      "similarity": 0.5793872826155526,
+      "tokens": 12114.170138888889,
+      "visible_tools_mean": 14.34375
+    }
+  },
+  "menu_pressure_supported": true,
+  "metrics": {
+    "duration_seconds": {
+      "all_tools": {
+        "by_model": {
+          "deepseek/deepseek-v4-flash-0731": {
+            "degraded": 5,
+            "estimate": 17.459938682342454,
+            "improved": 27,
+            "tied": 0
+          },
+          "google/gemini-3.5-flash-lite": {
+            "degraded": 9,
+            "estimate": 0.966533631436505,
+            "improved": 23,
+            "tied": 0
+          },
+          "google/gemini-3.6-flash": {
+            "degraded": 20,
+            "estimate": -7.089751992249148,
+            "improved": 12,
+            "tied": 0
+          },
+          "meituan/longcat-2.0": {
+            "degraded": 13,
+            "estimate": 4.361091606622722,
+            "improved": 19,
+            "tied": 0
+          },
+          "meta/muse-glimmer-30b": {
+            "degraded": 4,
+            "estimate": 31.772823231715847,
+            "improved": 28,
+            "tied": 0
+          },
+          "openai/gpt-5.6-luna": {
+            "degraded": 11,
+            "estimate": 0.7748836939626926,
+            "improved": 21,
+            "tied": 0
+          },
+          "openai/gpt-5.6-terra": {
+            "degraded": 7,
+            "estimate": 3.4378992069041487,
+            "improved": 25,
+            "tied": 0
+          },
+          "openai/gpt-oss-120b-maas": {
+            "degraded": 15,
+            "estimate": 2.8317357485038883,
+            "improved": 17,
+            "tied": 0
+          },
+          "qwen/qwen3.7-flash": {
+            "degraded": 15,
+            "estimate": -0.6671464986843603,
+            "improved": 17,
+            "tied": 0
+          }
+        },
+        "by_stratum": {
+          "canonicalization": 5.696593356387893,
+          "insufficient_information": 7.475719864484442,
+          "multi_tool": 8.177475551972545,
+          "state_dependency": 2.5826589207350077
+        },
+        "ci95": [
+          3.9641869534704015,
+          8.047468720055472
+        ],
+        "degraded": 99,
+        "estimate": 5.983111923394972,
+        "improved": 189,
+        "sign_flip_p": 9.99990000099999e-06,
+        "tied": 0
+      },
+      "ten_distractors": {
+        "by_model": {
+          "deepseek/deepseek-v4-flash-0731": {
+            "degraded": 3,
+            "estimate": 20.963547434782868,
+            "improved": 29,
+            "tied": 0
+          },
+          "google/gemini-3.5-flash-lite": {
+            "degraded": 9,
+            "estimate": 0.9092680977510099,
+            "improved": 23,
+            "tied": 0
+          },
+          "google/gemini-3.6-flash": {
+            "degraded": 20,
+            "estimate": -5.492158299531184,
+            "improved": 12,
+            "tied": 0
+          },
+          "meituan/longcat-2.0": {
+            "degraded": 16,
+            "estimate": 0.9773814478121494,
+            "improved": 16,
+            "tied": 0
+          },
+          "meta/muse-glimmer-30b": {
+            "degraded": 3,
+            "estimate": 29.857847757716627,
+            "improved": 29,
+            "tied": 0
+          },
+          "openai/gpt-5.6-luna": {
+            "degraded": 16,
+            "estimate": 0.5479745805914717,
+            "improved": 16,
+            "tied": 0
+          },
+          "openai/gpt-5.6-terra": {
+            "degraded": 13,
+            "estimate": 1.673180251280428,
+            "improved": 19,
+            "tied": 0
+          },
+          "openai/gpt-oss-120b-maas": {
+            "degraded": 13,
+            "estimate": 13.317531622376919,
+            "improved": 19,
+            "tied": 0
+          },
+          "qwen/qwen3.7-flash": {
+            "degraded": 23,
+            "estimate": -2.3898750248131364,
+            "improved": 9,
+            "tied": 0
+          }
+        },
+        "by_stratum": {
+          "canonicalization": 6.211073659053202,
+          "insufficient_information": 6.048814333374846,
+          "multi_tool": 9.482506244737428,
+          "state_dependency": 5.086360370819926
+        },
+        "ci95": [
+          4.923916530873481,
+          8.662154960729909
+        ],
+        "degraded": 116,
+        "estimate": 6.707188651996351,
+        "improved": 172,
+        "sign_flip_p": 9.99990000099999e-06,
+        "tied": 0
+      }
+    },
+    "full_success": {
+      "all_tools": {
+        "by_model": {
+          "deepseek/deepseek-v4-flash-0731": {
+            "degraded": 4,
+            "estimate": -0.03125,
+            "improved": 3,
+            "tied": 25
+          },
+          "google/gemini-3.5-flash-lite": {
+            "degraded": 3,
+            "estimate": 0.0,
+            "improved": 3,
+            "tied": 26
+          },
+          "google/gemini-3.6-flash": {
+            "degraded": 4,
+            "estimate": -0.03125,
+            "improved": 3,
+            "tied": 25
+          },
+          "meituan/longcat-2.0": {
+            "degraded": 3,
+            "estimate": 0.03125,
+            "improved": 4,
+            "tied": 25
+          },
+          "meta/muse-glimmer-30b": {
+            "degraded": 4,
+            "estimate": -0.125,
+            "improved": 0,
+            "tied": 28
+          },
+          "openai/gpt-5.6-luna": {
+            "degraded": 0,
+            "estimate": 0.0,
+            "improved": 0,
+            "tied": 32
+          },
+          "openai/gpt-5.6-terra": {
+            "degraded": 0,
+            "estimate": 0.125,
+            "improved": 4,
+            "tied": 28
+          },
+          "openai/gpt-oss-120b-maas": {
+            "degraded": 1,
+            "estimate": 0.0625,
+            "improved": 3,
+            "tied": 28
+          },
+          "qwen/qwen3.7-flash": {
+            "degraded": 2,
+            "estimate": 0.03125,
+            "improved": 3,
+            "tied": 27
+          }
+        },
+        "by_stratum": {
+          "canonicalization": 0.027777777777777776,
+          "insufficient_information": -0.05555555555555555,
+          "multi_tool": 0.027777777777777776,
+          "state_dependency": 0.027777777777777776
+        },
+        "ci95": [
+          -0.04861111111111111,
+          0.07291666666666667
+        ],
+        "degraded": 21,
+        "estimate": 0.006944444444444444,
+        "improved": 23,
+        "sign_flip_p": 0.9174708252917471,
+        "tied": 244
+      },
+      "ten_distractors": {
+        "by_model": {
+          "deepseek/deepseek-v4-flash-0731": {
+            "degraded": 4,
+            "estimate": -0.03125,
+            "improved": 3,
+            "tied": 25
+          },
+          "google/gemini-3.5-flash-lite": {
+            "degraded": 3,
+            "estimate": 0.0,
+            "improved": 3,
+            "tied": 26
+          },
+          "google/gemini-3.6-flash": {
+            "degraded": 1,
+            "estimate": 0.0,
+            "improved": 1,
+            "tied": 30
+          },
+          "meituan/longcat-2.0": {
+            "degraded": 1,
+            "estimate": 0.0625,
+            "improved": 3,
+            "tied": 28
+          },
+          "meta/muse-glimmer-30b": {
+            "degraded": 4,
+            "estimate": -0.125,
+            "improved": 0,
+            "tied": 28
+          },
+          "openai/gpt-5.6-luna": {
+            "degraded": 0,
+            "estimate": 0.03125,
+            "improved": 1,
+            "tied": 31
+          },
+          "openai/gpt-5.6-terra": {
+            "degraded": 0,
+            "estimate": 0.09375,
+            "improved": 3,
+            "tied": 29
+          },
+          "openai/gpt-oss-120b-maas": {
+            "degraded": 2,
+            "estimate": 0.0,
+            "improved": 2,
+            "tied": 28
+          },
+          "qwen/qwen3.7-flash": {
+            "degraded": 2,
+            "estimate": 0.0,
+            "improved": 2,
+            "tied": 28
+          }
+        },
+        "by_stratum": {
+          "canonicalization": 0.0,
+          "insufficient_information": -0.027777777777777776,
+          "multi_tool": 0.041666666666666664,
+          "state_dependency": 0.0
+        },
+        "ci95": [
+          -0.052083333333333336,
+          0.06597222222222222
+        ],
+        "degraded": 17,
+        "estimate": 0.003472222222222222,
+        "improved": 18,
+        "sign_flip_p": 0.8541514584854152,
+        "tied": 253
+      }
+    },
+    "milestone_similarity": {
+      "all_tools": {
+        "by_model": {
+          "deepseek/deepseek-v4-flash-0731": {
+            "degraded": 24,
+            "estimate": -0.6053651636786482,
+            "improved": 0,
+            "tied": 8
+          },
+          "google/gemini-3.5-flash-lite": {
+            "degraded": 11,
+            "estimate": -0.046392969872213,
+            "improved": 7,
+            "tied": 14
+          },
+          "google/gemini-3.6-flash": {
+            "degraded": 10,
+            "estimate": 0.01835848971710768,
+            "improved": 8,
+            "tied": 14
+          },
+          "meituan/longcat-2.0": {
+            "degraded": 7,
+            "estimate": -0.020612159737106842,
+            "improved": 7,
+            "tied": 18
+          },
+          "meta/muse-glimmer-30b": {
+            "degraded": 21,
+            "estimate": -0.44560700051331703,
+            "improved": 0,
+            "tied": 11
+          },
+          "openai/gpt-5.6-luna": {
+            "degraded": 4,
+            "estimate": 0.0056367726618520055,
+            "improved": 9,
+            "tied": 19
+          },
+          "openai/gpt-5.6-terra": {
+            "degraded": 6,
+            "estimate": 0.14338979151246792,
+            "improved": 11,
+            "tied": 15
+          },
+          "openai/gpt-oss-120b-maas": {
+            "degraded": 8,
+            "estimate": 0.09660961040779009,
+            "improved": 12,
+            "tied": 12
+          },
+          "qwen/qwen3.7-flash": {
+            "degraded": 10,
+            "estimate": 0.06909960543961252,
+            "improved": 10,
+            "tied": 12
+          }
+        },
+        "by_stratum": {
+          "canonicalization": -0.12369927625042816,
+          "insufficient_information": 0.0,
+          "multi_tool": -0.09598249981888322,
+          "state_dependency": -0.12915512351400188
+        },
+        "ci95": [
+          -0.13095551069801906,
+          -0.04277948790791829
+        ],
+        "degraded": 101,
+        "estimate": -0.08720922489582832,
+        "improved": 64,
+        "sign_flip_p": 0.0005699943000569994,
+        "tied": 123
+      },
+      "ten_distractors": {
+        "by_model": {
+          "deepseek/deepseek-v4-flash-0731": {
+            "degraded": 24,
+            "estimate": -0.6053651636786482,
+            "improved": 0,
+            "tied": 8
+          },
+          "google/gemini-3.5-flash-lite": {
+            "degraded": 14,
+            "estimate": -0.04469598822489198,
+            "improved": 5,
+            "tied": 13
+          },
+          "google/gemini-3.6-flash": {
+            "degraded": 11,
+            "estimate": 0.027386238836033663,
+            "improved": 7,
+            "tied": 14
+          },
+          "meituan/longcat-2.0": {
+            "degraded": 8,
+            "estimate": -0.025845596468242627,
+            "improved": 6,
+            "tied": 18
+          },
+          "meta/muse-glimmer-30b": {
+            "degraded": 21,
+            "estimate": -0.44560700051331703,
+            "improved": 0,
+            "tied": 11
+          },
+          "openai/gpt-5.6-luna": {
+            "degraded": 7,
+            "estimate": 0.051943091251298,
+            "improved": 7,
+            "tied": 18
+          },
+          "openai/gpt-5.6-terra": {
+            "degraded": 10,
+            "estimate": 0.08898486994767904,
+            "improved": 8,
+            "tied": 14
+          },
+          "openai/gpt-oss-120b-maas": {
+            "degraded": 8,
+            "estimate": 0.11064754315103617,
+            "improved": 9,
+            "tied": 15
+          },
+          "qwen/qwen3.7-flash": {
+            "degraded": 11,
+            "estimate": 0.03859591922443801,
+            "improved": 6,
+            "tied": 15
+          }
+        },
+        "by_stratum": {
+          "canonicalization": -0.13246535920973013,
+          "insufficient_information": 0.0,
+          "multi_tool": -0.082962646427888,
+          "state_dependency": -0.14188581057332186
+        },
+        "ci95": [
+          -0.13520321462532497,
+          -0.04147372175255791
+        ],
+        "degraded": 114,
+        "estimate": -0.08932845405273498,
+        "improved": 48,
+        "sign_flip_p": 0.000949990500094999,
+        "tied": 126
+      }
+    },
+    "minefield_similarity": {
+      "all_tools": {
+        "by_model": {
+          "deepseek/deepseek-v4-flash-0731": {
+            "degraded": 3,
+            "estimate": -0.09375,
+            "improved": 0,
+            "tied": 29
+          },
+          "google/gemini-3.5-flash-lite": {
+            "degraded": 1,
+            "estimate": 0.03125,
+            "improved": 2,
+            "tied": 29
+          },
+          "google/gemini-3.6-flash": {
+            "degraded": 0,
+            "estimate": 0.125,
+            "improved": 4,
+            "tied": 28
+          },
+          "meituan/longcat-2.0": {
+            "degraded": 1,
+            "estimate": 0.03125,
+            "improved": 2,
+            "tied": 29
+          },
+          "meta/muse-glimmer-30b": {
+            "degraded": 0,
+            "estimate": 0.0,
+            "improved": 0,
+            "tied": 32
+          },
+          "openai/gpt-5.6-luna": {
+            "degraded": 0,
+            "estimate": 0.0,
+            "improved": 0,
+            "tied": 32
+          },
+          "openai/gpt-5.6-terra": {
+            "degraded": 0,
+            "estimate": 0.0,
+            "improved": 0,
+            "tied": 32
+          },
+          "openai/gpt-oss-120b-maas": {
+            "degraded": 0,
+            "estimate": 0.0,
+            "improved": 0,
+            "tied": 32
+          },
+          "qwen/qwen3.7-flash": {
+            "degraded": 0,
+            "estimate": 0.03125,
+            "improved": 1,
+            "tied": 31
+          }
+        },
+        "by_stratum": {
+          "canonicalization": 0.0,
+          "insufficient_information": 0.05555555555555555,
+          "multi_tool": 0.0,
+          "state_dependency": 0.0
+        },
+        "ci95": [
+          -0.006944444444444444,
+          0.041666666666666664
+        ],
+        "degraded": 5,
+        "estimate": 0.013888888888888888,
+        "improved": 9,
+        "sign_flip_p": 0.5005049949500505,
+        "tied": 274
+      },
+      "ten_distractors": {
+        "by_model": {
+          "deepseek/deepseek-v4-flash-0731": {
+            "degraded": 3,
+            "estimate": -0.09375,
+            "improved": 0,
+            "tied": 29
+          },
+          "google/gemini-3.5-flash-lite": {
+            "degraded": 1,
+            "estimate": 0.03125,
+            "improved": 2,
+            "tied": 29
+          },
+          "google/gemini-3.6-flash": {
+            "degraded": 0,
+            "estimate": 0.03125,
+            "improved": 1,
+            "tied": 31
+          },
+          "meituan/longcat-2.0": {
+            "degraded": 1,
+            "estimate": -0.03125,
+            "improved": 0,
+            "tied": 31
+          },
+          "meta/muse-glimmer-30b": {
+            "degraded": 0,
+            "estimate": 0.0,
+            "improved": 0,
+            "tied": 32
+          },
+          "openai/gpt-5.6-luna": {
+            "degraded": 0,
+            "estimate": 0.0,
+            "improved": 0,
+            "tied": 32
+          },
+          "openai/gpt-5.6-terra": {
+            "degraded": 0,
+            "estimate": 0.0,
+            "improved": 0,
+            "tied": 32
+          },
+          "openai/gpt-oss-120b-maas": {
+            "degraded": 0,
+            "estimate": 0.0625,
+            "improved": 2,
+            "tied": 30
+          },
+          "qwen/qwen3.7-flash": {
+            "degraded": 0,
+            "estimate": 0.0625,
+            "improved": 2,
+            "tied": 30
+          }
+        },
+        "by_stratum": {
+          "canonicalization": 0.0,
+          "insufficient_information": 0.027777777777777776,
+          "multi_tool": 0.0,
+          "state_dependency": 0.0
+        },
+        "ci95": [
+          -0.013888888888888888,
+          0.027777777777777776
+        ],
+        "degraded": 5,
+        "estimate": 0.006944444444444444,
+        "improved": 7,
+        "sign_flip_p": 1.0,
+        "tied": 276
+      }
+    },
+    "requests": {
+      "all_tools": {
+        "by_model": {
+          "deepseek/deepseek-v4-flash-0731": {
+            "degraded": 0,
+            "estimate": 8.96875,
+            "improved": 30,
+            "tied": 2
+          },
+          "google/gemini-3.5-flash-lite": {
+            "degraded": 9,
+            "estimate": 0.375,
+            "improved": 13,
+            "tied": 10
+          },
+          "google/gemini-3.6-flash": {
+            "degraded": 6,
+            "estimate": 1.25,
+            "improved": 12,
+            "tied": 14
+          },
+          "meituan/longcat-2.0": {
+            "degraded": 3,
+            "estimate": 0.84375,
+            "improved": 10,
+            "tied": 19
+          },
+          "meta/muse-glimmer-30b": {
+            "degraded": 1,
+            "estimate": 6.59375,
+            "improved": 28,
+            "tied": 3
+          },
+          "openai/gpt-5.6-luna": {
+            "degraded": 3,
+            "estimate": 0.3125,
+            "improved": 7,
+            "tied": 22
+          },
+          "openai/gpt-5.6-terra": {
+            "degraded": 2,
+            "estimate": 0.96875,
+            "improved": 16,
+            "tied": 14
+          },
+          "openai/gpt-oss-120b-maas": {
+            "degraded": 5,
+            "estimate": 0.8125,
+            "improved": 13,
+            "tied": 14
+          },
+          "qwen/qwen3.7-flash": {
+            "degraded": 4,
+            "estimate": 0.96875,
+            "improved": 14,
+            "tied": 14
+          }
+        },
+        "by_stratum": {
+          "canonicalization": 2.625,
+          "insufficient_information": 2.0555555555555554,
+          "multi_tool": 2.888888888888889,
+          "state_dependency": 1.8055555555555556
+        },
+        "ci95": [
+          1.9652777777777777,
+          2.7083333333333335
+        ],
+        "degraded": 33,
+        "estimate": 2.34375,
+        "improved": 143,
+        "sign_flip_p": 9.99990000099999e-06,
+        "tied": 112
+      },
+      "ten_distractors": {
+        "by_model": {
+          "deepseek/deepseek-v4-flash-0731": {
+            "degraded": 0,
+            "estimate": 9.0625,
+            "improved": 30,
+            "tied": 2
+          },
+          "google/gemini-3.5-flash-lite": {
+            "degraded": 8,
+            "estimate": 0.46875,
+            "improved": 15,
+            "tied": 9
+          },
+          "google/gemini-3.6-flash": {
+            "degraded": 4,
+            "estimate": 0.53125,
+            "improved": 9,
+            "tied": 19
+          },
+          "meituan/longcat-2.0": {
+            "degraded": 4,
+            "estimate": 0.09375,
+            "improved": 7,
+            "tied": 21
+          },
+          "meta/muse-glimmer-30b": {
+            "degraded": 1,
+            "estimate": 6.53125,
+            "improved": 28,
+            "tied": 3
+          },
+          "openai/gpt-5.6-luna": {
+            "degraded": 1,
+            "estimate": 0.46875,
+            "improved": 9,
+            "tied": 22
+          },
+          "openai/gpt-5.6-terra": {
+            "degraded": 3,
+            "estimate": 0.65625,
+            "improved": 9,
+            "tied": 20
+          },
+          "openai/gpt-oss-120b-maas": {
+            "degraded": 3,
+            "estimate": 1.78125,
+            "improved": 15,
+            "tied": 14
+          },
+          "qwen/qwen3.7-flash": {
+            "degraded": 3,
+            "estimate": 0.53125,
+            "improved": 8,
+            "tied": 21
+          }
+        },
+        "by_stratum": {
+          "canonicalization": 2.4166666666666665,
+          "insufficient_information": 1.6111111111111112,
+          "multi_tool": 2.9166666666666665,
+          "state_dependency": 2.0
+        },
+        "ci95": [
+          1.8958333333333333,
+          2.5486979166666655
+        ],
+        "degraded": 27,
+        "estimate": 2.236111111111111,
+        "improved": 130,
+        "sign_flip_p": 9.99990000099999e-06,
+        "tied": 131
+      }
+    },
+    "similarity": {
+      "all_tools": {
+        "by_model": {
+          "deepseek/deepseek-v4-flash-0731": {
+            "degraded": 24,
+            "estimate": -0.5116151636786482,
+            "improved": 3,
+            "tied": 5
+          },
+          "google/gemini-3.5-flash-lite": {
+            "degraded": 13,
+            "estimate": -0.077642969872213,
+            "improved": 8,
+            "tied": 11
+          },
+          "google/gemini-3.6-flash": {
+            "degraded": 14,
+            "estimate": -0.10664151028289232,
+            "improved": 8,
+            "tied": 10
+          },
+          "meituan/longcat-2.0": {
+            "degraded": 9,
+            "estimate": -0.05186215973710684,
+            "improved": 8,
+            "tied": 15
+          },
+          "meta/muse-glimmer-30b": {
+            "degraded": 21,
+            "estimate": -0.44560700051331703,
+            "improved": 0,
+            "tied": 11
+          },
+          "openai/gpt-5.6-luna": {
+            "degraded": 4,
+            "estimate": 0.0056367726618520055,
+            "improved": 9,
+            "tied": 19
+          },
+          "openai/gpt-5.6-terra": {
+            "degraded": 6,
+            "estimate": 0.14338979151246792,
+            "improved": 11,
+            "tied": 15
+          },
+          "openai/gpt-oss-120b-maas": {
+            "degraded": 8,
+            "estimate": 0.09660961040779009,
+            "improved": 12,
+            "tied": 12
+          },
+          "qwen/qwen3.7-flash": {
+            "degraded": 11,
+            "estimate": 0.03784960543961253,
+            "improved": 10,
+            "tied": 11
+          }
+        },
+        "by_stratum": {
+          "canonicalization": -0.12369927625042816,
+          "insufficient_information": -0.05555555555555555,
+          "multi_tool": -0.09598249981888322,
+          "state_dependency": -0.12915512351400188
+        },
+        "ci95": [
+          -0.146464675442452,
+          -0.05444019523843998
+        ],
+        "degraded": 110,
+        "estimate": -0.1010981137847172,
+        "holm_p": 0.0004599954000459995,
+        "improved": 69,
+        "sign_flip_p": 0.00022999770002299976,
+        "tied": 109
+      },
+      "ten_distractors": {
+        "by_model": {
+          "deepseek/deepseek-v4-flash-0731": {
+            "degraded": 24,
+            "estimate": -0.5116151636786482,
+            "improved": 3,
+            "tied": 5
+          },
+          "google/gemini-3.5-flash-lite": {
+            "degraded": 16,
+            "estimate": -0.07594598822489199,
+            "improved": 6,
+            "tied": 10
+          },
+          "google/gemini-3.6-flash": {
+            "degraded": 12,
+            "estimate": -0.0038637611639663373,
+            "improved": 7,
+            "tied": 13
+          },
+          "meituan/longcat-2.0": {
+            "degraded": 8,
+            "estimate": 0.005404403531757373,
+            "improved": 7,
+            "tied": 17
+          },
+          "meta/muse-glimmer-30b": {
+            "degraded": 21,
+            "estimate": -0.44560700051331703,
+            "improved": 0,
+            "tied": 11
+          },
+          "openai/gpt-5.6-luna": {
+            "degraded": 7,
+            "estimate": 0.051943091251298,
+            "improved": 7,
+            "tied": 18
+          },
+          "openai/gpt-5.6-terra": {
+            "degraded": 10,
+            "estimate": 0.08898486994767904,
+            "improved": 8,
+            "tied": 14
+          },
+          "openai/gpt-oss-120b-maas": {
+            "degraded": 10,
+            "estimate": 0.048147543151036164,
+            "improved": 9,
+            "tied": 13
+          },
+          "qwen/qwen3.7-flash": {
+            "degraded": 13,
+            "estimate": -0.02390408077556199,
+            "improved": 6,
+            "tied": 13
+          }
+        },
+        "by_stratum": {
+          "canonicalization": -0.13246535920973013,
+          "insufficient_information": -0.027777777777777776,
+          "multi_tool": -0.082962646427888,
+          "state_dependency": -0.14188581057332186
+        },
+        "ci95": [
+          -0.14349642077845973,
+          -0.045385490578783695
+        ],
+        "degraded": 121,
+        "estimate": -0.09627289849717943,
+        "holm_p": 0.0011599884001159987,
+        "improved": 53,
+        "sign_flip_p": 0.0011599884001159987,
+        "tied": 114
+      }
+    },
+    "tokens": {
+      "all_tools": {
+        "by_model": {
+          "deepseek/deepseek-v4-flash-0731": {
+            "degraded": 0,
+            "estimate": 61426.40625,
+            "improved": 32,
+            "tied": 0
+          },
+          "google/gemini-3.5-flash-lite": {
+            "degraded": 1,
+            "estimate": 9912.5,
+            "improved": 31,
+            "tied": 0
+          },
+          "google/gemini-3.6-flash": {
+            "degraded": 0,
+            "estimate": 16813.75,
+            "improved": 32,
+            "tied": 0
+          },
+          "meituan/longcat-2.0": {
+            "degraded": 0,
+            "estimate": 15198.71875,
+            "improved": 32,
+            "tied": 0
+          },
+          "meta/muse-glimmer-30b": {
+            "degraded": 0,
+            "estimate": 53883.0,
+            "improved": 32,
+            "tied": 0
+          },
+          "openai/gpt-5.6-luna": {
+            "degraded": 0,
+            "estimate": 4383.4375,
+            "improved": 32,
+            "tied": 0
+          },
+          "openai/gpt-5.6-terra": {
+            "degraded": 0,
+            "estimate": 6405.0,
+            "improved": 32,
+            "tied": 0
+          },
+          "openai/gpt-oss-120b-maas": {
+            "degraded": 0,
+            "estimate": 9109.71875,
+            "improved": 32,
+            "tied": 0
+          },
+          "qwen/qwen3.7-flash": {
+            "degraded": 1,
+            "estimate": 16731.90625,
+            "improved": 31,
+            "tied": 0
+          }
+        },
+        "by_stratum": {
+          "canonicalization": 23297.48611111111,
+          "insufficient_information": 12956.013888888889,
+          "multi_tool": 25032.875,
+          "state_dependency": 24875.597222222223
+        },
+        "ci95": [
+          19134.990538194445,
+          23716.407899305552
+        ],
+        "degraded": 2,
+        "estimate": 21540.493055555555,
+        "improved": 286,
+        "sign_flip_p": 9.99990000099999e-06,
+        "tied": 0
+      },
+      "ten_distractors": {
+        "by_model": {
+          "deepseek/deepseek-v4-flash-0731": {
+            "degraded": 0,
+            "estimate": 31330.0625,
+            "improved": 32,
+            "tied": 0
+          },
+          "google/gemini-3.5-flash-lite": {
+            "degraded": 2,
+            "estimate": 3674.09375,
+            "improved": 30,
+            "tied": 0
+          },
+          "google/gemini-3.6-flash": {
+            "degraded": 0,
+            "estimate": 5065.0,
+            "improved": 32,
+            "tied": 0
+          },
+          "meituan/longcat-2.0": {
+            "degraded": 1,
+            "estimate": 4082.875,
+            "improved": 31,
+            "tied": 0
+          },
+          "meta/muse-glimmer-30b": {
+            "degraded": 1,
+            "estimate": 26877.1875,
+            "improved": 31,
+            "tied": 0
+          },
+          "openai/gpt-5.6-luna": {
+            "degraded": 1,
+            "estimate": 1741.375,
+            "improved": 31,
+            "tied": 0
+          },
+          "openai/gpt-5.6-terra": {
+            "degraded": 1,
+            "estimate": 2095.03125,
+            "improved": 31,
+            "tied": 0
+          },
+          "openai/gpt-oss-120b-maas": {
+            "degraded": 1,
+            "estimate": 4713.46875,
+            "improved": 31,
+            "tied": 0
+          },
+          "qwen/qwen3.7-flash": {
+            "degraded": 2,
+            "estimate": 5532.5625,
+            "improved": 30,
+            "tied": 0
+          }
+        },
+        "by_stratum": {
+          "canonicalization": 11507.861111111111,
+          "insufficient_information": 5407.819444444444,
+          "multi_tool": 12255.180555555555,
+          "state_dependency": 8656.541666666666
+        },
+        "ci95": [
+          8227.737934027777,
+          10598.279079861111
+        ],
+        "degraded": 9,
+        "estimate": 9456.850694444445,
+        "improved": 279,
+        "sign_flip_p": 9.99990000099999e-06,
+        "tied": 0
+      }
+    }
+  },
+  "model_response_contract_failures": 2,
+  "models": 9,
+  "ordered_point_estimates": true,
+  "plan_hash": "f22ec2ff794d35e850d798937296dc7754b91e15c2d6c3ede8076a5f951847c8",
+  "provider_failures_in_scored_rows": 0,
+  "rows": {
+    "new": 576,
+    "scoped_immutable": 288,
+    "total": 864
+  },
+  "scenarios": 32,
+  "similarity_sensitivity": {
+    "all_tools": {
+      "by_model": {
+        "deepseek/deepseek-v4-flash-0731": -0.5116151636786482,
+        "google/gemini-3.5-flash-lite": -0.077642969872213,
+        "google/gemini-3.6-flash": -0.10664151028289232,
+        "meituan/longcat-2.0": -0.05186215973710684,
+        "meta/muse-glimmer-30b": -0.44560700051331703,
+        "openai/gpt-5.6-luna": 0.0056367726618520055,
+        "openai/gpt-5.6-terra": 0.14338979151246792,
+        "openai/gpt-oss-120b-maas": 0.09660961040779009,
+        "qwen/qwen3.7-flash": 0.03784960543961253
+      },
+      "configuration_median": -0.05186215973710684,
+      "configuration_signs": {
+        "negative": 5,
+        "positive": 4,
+        "zero": 0
+      },
+      "leave_one_configuration_out": {
+        "deepseek/deepseek-v4-flash-0731": {
+          "ci95": [
+            -0.09818108373480519,
+            0.00047259511098700726
+          ],
+          "degraded": 86,
+          "estimate": -0.04978348254797583,
+          "improved": 66,
+          "sign_flip_p": 0.05448945510544895,
+          "tied": 104
+        },
+        "google/gemini-3.5-flash-lite": {
+          "ci95": [
+            -0.15470009176136093,
+            -0.053266520342990474
+          ],
+          "degraded": 97,
+          "estimate": -0.10403000677378023,
+          "improved": 61,
+          "sign_flip_p": 0.0003699963000369996,
+          "tied": 98
+        },
+        "google/gemini-3.6-flash": {
+          "ci95": [
+            -0.15304993677603132,
+            -0.046909814706041546
+          ],
+          "degraded": 96,
+          "estimate": -0.10040518922244532,
+          "improved": 61,
+          "sign_flip_p": 0.0011299887001129988,
+          "tied": 99
+        },
+        "meituan/longcat-2.0": {
+          "ci95": [
+            -0.15268120583329975,
+            -0.06126852980511765
+          ],
+          "degraded": 101,
+          "estimate": -0.1072526080406685,
+          "improved": 61,
+          "sign_flip_p": 0.00016999830001699983,
+          "tied": 94
+        },
+        "meta/muse-glimmer-30b": {
+          "ci95": [
+            -0.10350568283797695,
+            -0.012339956139355285
+          ],
+          "degraded": 89,
+          "estimate": -0.05803450294364222,
+          "improved": 69,
+          "sign_flip_p": 0.018619813801861982,
+          "tied": 98
+        },
+        "openai/gpt-5.6-luna": {
+          "ci95": [
+            -0.16458245307175656,
+            -0.06275012377487248
+          ],
+          "degraded": 106,
+          "estimate": -0.11443997459053835,
+          "improved": 60,
+          "sign_flip_p": 0.0002999970000299997,
+          "tied": 90
+        },
+        "openai/gpt-5.6-terra": {
+          "ci95": [
+            -0.18658988834101015,
+            -0.07412282446345377
+          ],
+          "degraded": 104,
+          "estimate": -0.13165910194686534,
+          "improved": 58,
+          "sign_flip_p": 8.99991000089999e-05,
+          "tied": 94
+        },
+        "openai/gpt-oss-120b-maas": {
+          "ci95": [
+            -0.17206855578517113,
+            -0.07652413740000993
+          ],
+          "degraded": 102,
+          "estimate": -0.12581157930878062,
+          "improved": 57,
+          "sign_flip_p": 2.999970000299997e-05,
+          "tied": 97
+        },
+        "qwen/qwen3.7-flash": {
+          "ci95": [
+            -0.1681236116359475,
+            -0.06749441047773523
+          ],
+          "degraded": 99,
+          "estimate": -0.11846657868775842,
+          "improved": 59,
+          "sign_flip_p": 0.00013999860001399987,
+          "tied": 98
+        }
+      },
+      "leave_one_configuration_out_estimate_range": [
+        -0.13165910194686534,
+        -0.04978348254797583
+      ],
+      "two_most_negative_omitted": {
+        "ci95": [
+          -0.047098872045521975,
+          0.06094565302474113
+        ],
+        "degraded": 65,
+        "estimate": 0.00676273430421577,
+        "improved": 66,
+        "omitted_models": [
+          "deepseek/deepseek-v4-flash-0731",
+          "meta/muse-glimmer-30b"
+        ],
+        "selection_rule": "two smallest observed configuration means; descriptive outcome-derived sensitivity",
+        "sign_flip_p": 0.8109618903810962,
+        "tied": 93
+      }
+    },
+    "ten_distractors": {
+      "by_model": {
+        "deepseek/deepseek-v4-flash-0731": -0.5116151636786482,
+        "google/gemini-3.5-flash-lite": -0.07594598822489199,
+        "google/gemini-3.6-flash": -0.0038637611639663373,
+        "meituan/longcat-2.0": 0.005404403531757373,
+        "meta/muse-glimmer-30b": -0.44560700051331703,
+        "openai/gpt-5.6-luna": 0.051943091251298,
+        "openai/gpt-5.6-terra": 0.08898486994767904,
+        "openai/gpt-oss-120b-maas": 0.048147543151036164,
+        "qwen/qwen3.7-flash": -0.02390408077556199
+      },
+      "configuration_median": -0.0038637611639663373,
+      "configuration_signs": {
+        "negative": 5,
+        "positive": 4,
+        "zero": 0
+      },
+      "leave_one_configuration_out": {
+        "deepseek/deepseek-v4-flash-0731": {
+          "ci95": [
+            -0.09266357168778251,
+            0.0073890772899355235
+          ],
+          "degraded": 97,
+          "estimate": -0.04435511534949584,
+          "improved": 50,
+          "sign_flip_p": 0.0962390376096239,
+          "tied": 109
+        },
+        "google/gemini-3.5-flash-lite": {
+          "ci95": [
+            -0.1475277515368229,
+            -0.04940574033903504
+          ],
+          "degraded": 105,
+          "estimate": -0.09881376228121537,
+          "improved": 47,
+          "sign_flip_p": 0.0005899941000589994,
+          "tied": 104
+        },
+        "google/gemini-3.6-flash": {
+          "ci95": [
+            -0.1621610982744286,
+            -0.04975648862505806
+          ],
+          "degraded": 109,
+          "estimate": -0.10782404066383108,
+          "improved": 46,
+          "sign_flip_p": 0.0011599884001159987,
+          "tied": 101
+        },
+        "meituan/longcat-2.0": {
+          "ci95": [
+            -0.15594144301202664,
+            -0.058807328651557106
+          ],
+          "degraded": 113,
+          "estimate": -0.10898256125079654,
+          "improved": 46,
+          "sign_flip_p": 0.0004099959000409996,
+          "tied": 97
+        },
+        "meta/muse-glimmer-30b": {
+          "ci95": [
+            -0.09819676156525663,
+            -0.0018007663792763346
+          ],
+          "degraded": 100,
+          "estimate": -0.052606135745162236,
+          "improved": 53,
+          "sign_flip_p": 0.04598954010459896,
+          "tied": 103
+        },
+        "openai/gpt-5.6-luna": {
+          "ci95": [
+            -0.16619481886882875,
+            -0.0593408227721679
+          ],
+          "degraded": 114,
+          "estimate": -0.11479989721573912,
+          "improved": 46,
+          "sign_flip_p": 0.0003899961000389996,
+          "tied": 96
+        },
+        "openai/gpt-5.6-terra": {
+          "ci95": [
+            -0.17341181698619576,
+            -0.06116121853606576
+          ],
+          "degraded": 111,
+          "estimate": -0.11943011955278675,
+          "improved": 45,
+          "sign_flip_p": 0.0005299947000529995,
+          "tied": 100
+        },
+        "openai/gpt-oss-120b-maas": {
+          "ci95": [
+            -0.16489290584318866,
+            -0.060659540235974724
+          ],
+          "degraded": 111,
+          "estimate": -0.11432545370320639,
+          "improved": 44,
+          "sign_flip_p": 0.00037999620003799963,
+          "tied": 101
+        },
+        "qwen/qwen3.7-flash": {
+          "ci95": [
+            -0.15782008759062313,
+            -0.050272825910419275
+          ],
+          "degraded": 108,
+          "estimate": -0.10531900071238162,
+          "improved": 47,
+          "sign_flip_p": 0.0008999910000899991,
+          "tied": 101
+        }
+      },
+      "leave_one_configuration_out_estimate_range": [
+        -0.11943011955278675,
+        -0.04435511534949584
+      ],
+      "two_most_negative_omitted": {
+        "ci95": [
+          -0.040474714884802226,
+          0.06888672625805065
+        ],
+        "degraded": 76,
+        "estimate": 0.01296658253105004,
+        "improved": 50,
+        "omitted_models": [
+          "deepseek/deepseek-v4-flash-0731",
+          "meta/muse-glimmer-30b"
+        ],
+        "selection_rule": "two smallest observed configuration means; descriptive outcome-derived sensitivity",
+        "sign_flip_p": 0.6548034519654804,
+        "tied": 98
+      }
+    }
+  },
+  "stress_arm_separation_supported": false,
+  "stress_arm_similarity_contrast": {
+    "by_model": {
+      "deepseek/deepseek-v4-flash-0731": 0.0,
+      "google/gemini-3.5-flash-lite": -0.001696981647321025,
+      "google/gemini-3.6-flash": -0.10277774911892598,
+      "meituan/longcat-2.0": -0.057266563268864215,
+      "meta/muse-glimmer-30b": 0.0,
+      "openai/gpt-5.6-luna": -0.04630631858944599,
+      "openai/gpt-5.6-terra": 0.05440492156478887,
+      "openai/gpt-oss-120b-maas": 0.048462067256753935,
+      "qwen/qwen3.7-flash": 0.061753686215174526
+    },
+    "ci95": [
+      -0.03599571179372402,
+      0.02768135125992452
+    ],
+    "degraded": 56,
+    "estimate": -0.004825215287537764,
+    "improved": 55,
+    "sign_flip_p": 0.7714622853771462,
+    "tied": 177
+  },
+  "transport_exclusions": [
+    {
+      "excluded_model": "inclusionai/ling-3.0-flash",
+      "expected_baseline_rows": 352,
+      "expected_complete_models": 11,
+      "expected_new_rows": 704,
+      "frozen_at": "2026-08-15T00:52:00Z",
+      "latest_execution_context_sha256": "415f117f9f15f59b2031ae7f31319c2ca0db4b827bedbd1f6d399584b6ff4693",
+      "parent_plan_hash": "f22ec2ff794d35e850d798937296dc7754b91e15c2d6c3ede8076a5f951847c8",
+      "quarantine_sha256": "70c83f193a7c715ae72a2fdab2e617c43df803c485cff9736a461cc6e5c8adb9",
+      "reason": "The pinned Novita endpoint returned provider HTTP 400 without a generation on the original condition and again on the single clean-condition recovery. Neither attempt produced an official task outcome.",
+      "recovery_supplement_sha256": "df80b5efe59d5eda5ce12e4393fc4d50c3cbeb97c5ad9c8cbc09e30d7d36ca52",
+      "schema": "toolsandbox-menu-transport-exclusion-amendment-v1",
+      "scope": "external menu-intervention analysis only",
+      "score_used": false,
+      "task_outcome_used": false
+    },
+    {
+      "excluded_model": "z-ai/glm-5.2",
+      "expected_baseline_rows": 320,
+      "expected_complete_models": 10,
+      "expected_new_rows": 640,
+      "frozen_at": "2026-08-15T01:38:16Z",
+      "latest_execution_context_sha256": "62ad76b187ee007fdc9df901bdb483d3a5f577d01a3e37ba6e57bf7536058ba9",
+      "parent_plan_hash": "f22ec2ff794d35e850d798937296dc7754b91e15c2d6c3ede8076a5f951847c8",
+      "prior_exclusion_amendment_sha256": "d495b3d6d27349b9bed9e19b8443a576ff7fe000d59048a9d8aa88a6c4ac711f",
+      "quarantine_sha256": "c87c1516faab8bc0ab12805d0ec45cf43275c8499439a18d98262ddbde93dbbf",
+      "reason": "The pinned Sail Research endpoint returned provider HTTP 429 after all five transport retries on the first condition. One outcome-blind recovery repeated the same provider failure before any response, usage, or official task outcome was produced.",
+      "schema": "toolsandbox-menu-transport-exclusion-amendment-v1",
+      "scope": "external menu-intervention analysis only",
+      "score_used": false,
+      "task_outcome_used": false
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+ "arm": "cap16384",
+ "audit": "prospective-capacity-execution-admission-v1",
+ "basis": "completion-cap arm of an already admitted frozen main design, restricted to its eight endpoint cells; split, families and every condition field are unchanged and only episode_policy.max_completion_tokens differs between arms",
+ "max_completion_tokens": 16384,
+ "model_panel_hash": "d6d8b9f11433e7fe5f5731f35bda58a3c619cf7814a8ffa53b4c8185529cae54",
+ "passed": true,
+ "protocol_artifact_hash": "fc52db42e0faeb5d0fe8f51618ffee687cbfe19b01b6db261875446d452a0f3a",
+ "target_split": "main",
+ "uses_campaign_outcomes": false
+}

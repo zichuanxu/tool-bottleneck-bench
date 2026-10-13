@@ -1,0 +1,59 @@
+{
+ "schema": "bottleneckbench-cap-sweep-campaign-v1",
+ "campaign": "completion-cap-sweep-1",
+ "protocol": "protocols/completion-cap-sweep-2026-10-12.md",
+ "arms": {
+  "cap1024": 1024,
+  "cap16384": 16384
+ },
+ "high_arm": "cap16384",
+ "low_arm": "cap1024",
+ "pilot_slugs": [
+  "gemini-38-flash",
+  "qwen37-flash"
+ ],
+ "configurations": [
+  {
+   "slug": "gemini-38-flash",
+   "model": "google/gemini-3.8-flash",
+   "stratum": "B",
+   "harness": "react-routed@openrouter",
+   "api_key_env": "OPENROUTER_API_KEY"
+  },
+  {
+   "slug": "qwen37-flash",
+   "model": "qwen/qwen3.7-flash",
+   "stratum": "B",
+   "harness": "react-routed@openrouter",
+   "api_key_env": "OPENROUTER_API_KEY"
+  },
+  {
+   "slug": "qwen38-flash",
+   "model": "qwen/qwen3.8-flash",
+   "stratum": "B",
+   "harness": "react-routed@openrouter",
+   "api_key_env": "OPENROUTER_API_KEY"
+  },
+  {
+   "slug": "glm-53-flash",
+   "model": "glm-5.3-flash",
+   "stratum": "B",
+   "harness": "react-routed@zai",
+   "api_key_env": "ZAI_API_KEY"
+  },
+  {
+   "slug": "claude-haiku-55",
+   "model": "anthropic/claude-haiku-5.5",
+   "stratum": "M",
+   "harness": "react-routed@openrouter",
+   "api_key_env": "OPENROUTER_API_KEY"
+  },
+  {
+   "slug": "gpt-6-luna",
+   "model": "openai/gpt-6-luna",
+   "stratum": "N",
+   "harness": "react-routed@openrouter",
+   "api_key_env": "OPENROUTER_API_KEY"
+  }
+ ]
+}
