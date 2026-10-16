@@ -1,15 +1,22 @@
 cff-version: 1.2.0
-message: "If you use BottleneckBench, please cite the paper and this software."
-title: "BottleneckBench"
+message: "If you use ToolBottleneckBench, please cite the paper."
+title: "ToolBottleneckBench"
 type: software
 version: 0.2.0
 date-released: 2026-10-12
 license: MIT
 repository-code: "https://github.com/zichuanxu/tool-bottleneck-bench"
+url: "https://arxiv.org/abs/2610.21098"
+keywords:
+  - tool agents
+  - benchmark
+  - language model agents
+  - evaluation
+  - harness budgets
 authors:
   - family-names: Xu
     given-names: Zichuan
-    affiliation: Osaka University
+    affiliation: University of Osaka
     email: xu.zichuan@ist.osaka-u.ac.jp
   - family-names: Dong
     given-names: Yuyang
@@ -17,27 +24,30 @@ authors:
     email: dongyuyang@initial-s.com
   - family-names: Onizuka
     given-names: Makoto
-    affiliation: Osaka University
+    affiliation: University of Osaka
     email: onizuka@ist.osaka-u.ac.jp
   - family-names: Xiao
     given-names: Chuan
-    affiliation: Osaka University; Nagoya University
+    affiliation: University of Osaka; Nagoya University
     email: chuanx@ist.osaka-u.ac.jp
-abstract: "A benchmark that measures tool-agent performance under controlled pressures (registered catalog, visible menu, certified workflow and returned-state encoding) and fixed harness budgets, using matched task variants graded by an exact checker. It records the first unmet obligation and the harness limit that ended each failed episode, compares matched repairs with configuration switches, and releases a completion-cap sweep in which a sixteenfold cap all but ends truncation and shrinks the truncation-heavy configurations' visible-menu effect. Every effect is conditional on the frozen harness budgets."
+abstract: "The success score of a tool agent reflects both its model and the budgets of the harness that runs it. ToolBottleneckBench measures tool-agent performance under controlled pressures and fixed harness budgets. Synthetic enterprise tasks stay fixed while one pressure varies: the registered tool catalog, the visible tool menu, the certified workflow, or the encoding of returned records. An exact grader records the first unmet obligation of each failed episode and the harness limit, if any, that ended it. Across 21 model and harness configurations, the visible menu is the only one of the three pressures that act on the model with a large penalty, and this penalty tracks truncation at the completion cap. Raising the cap sixteenfold removes most of the penalty in the truncation-heavy configurations. Most failures end at a harness limit, and the failure record identifies the assigned pressure no more reliably than a count of tool calls. The repairs that help change which tools reach the model or who issues the calls, and only two repairs, neither improving model behavior, beat every configuration switch."
 preferred-citation:
-  type: generic
+  type: article
   title: "ToolBottleneckBench: Measuring Tool-Agent Performance under Controlled Pressures and Fixed Harness Budgets"
+  journal: "arXiv preprint arXiv:2610.21098"
   year: 2026
+  doi: "10.48550/arXiv.2610.21098"
+  url: "https://arxiv.org/abs/2610.21098"
   authors:
     - family-names: Xu
       given-names: Zichuan
-      affiliation: Osaka University
+      affiliation: University of Osaka
     - family-names: Dong
       given-names: Yuyang
       affiliation: Initial S
     - family-names: Onizuka
       given-names: Makoto
-      affiliation: Osaka University
+      affiliation: University of Osaka
     - family-names: Xiao
       given-names: Chuan
-      affiliation: Osaka University; Nagoya University
+      affiliation: University of Osaka; Nagoya University

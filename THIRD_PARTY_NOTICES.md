@@ -1,6 +1,6 @@
 # Third-party notices
 
-The root `LICENSE` applies only to material authored for BottleneckBench.
+The root `LICENSE` applies only to material authored for ToolBottleneckBench.
 Third-party material remains under its upstream terms.
 
 ## Model-generated records

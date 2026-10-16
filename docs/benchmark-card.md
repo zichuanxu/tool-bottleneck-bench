@@ -1,4 +1,4 @@
-# BottleneckBench Benchmark Card
+# ToolBottleneckBench Benchmark Card
 
 ## Evaluation gap
 
@@ -6,11 +6,11 @@ A terminal tool-agent score does not identify which deployable pressure
 produced a loss. Recent diagnostic benchmarks localize perturbations and test
 repairs, but they do not combine a separate availability estimand with a
 same-goal crossed visible-menu, certified-workflow, and lossless-observation
-surface. BottleneckBench supplies that joint measurement and decision contract.
+surface. ToolBottleneckBench supplies that joint measurement and decision contract.
 
 ## Intended use
 
-BottleneckBench evaluates named model–provider–agent-policy configurations. It
+ToolBottleneckBench evaluates named model–provider–agent-policy configurations. It
 supports layer-specific paired effects, cross-layer interactions, exact outcome
 and first-failure scoring, matched repair tests, repeated repair sentinels, and
 separate token/request/schema/latency/cost reporting. It is not a general

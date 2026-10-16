@@ -28,8 +28,8 @@
     },
     {
       "path": "CITATION.cff",
-      "sha256": "784fb56215b29d5550f38348b11c643c07f97b95dca6ba02f4249f612aac405d",
-      "size": 1913
+      "sha256": "b2d92a0c699ee054f7063fbdd4e9326cd8552d392d47fca4ccc404166798a5a4",
+      "size": 2695
     },
     {
       "path": "LICENSE",
@@ -43,13 +43,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "73324347c3d7d11401d546c247f9429ad9c562467dd3d18a21ef7e1a0f1b9bee",
-      "size": 12818
+      "sha256": "bafe2a6ddaa323ea5da43d6bab0b8fd25bd23eca283f266d76edc57e5d122e78",
+      "size": 4277
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "sha256": "0e7a38fc4f9d2bd36d3b2079e6722187835debfa2a91bcf944b9a4cb036374ff",
-      "size": 669
+      "sha256": "19c6efbc9696e6a126258da06862fd5b21ff10f5cc98217b075d9037d9cd600b",
+      "size": 673
     },
     {
       "path": "configs/frontier-active-route-pricing-2026-09-02.json",
@@ -83,18 +83,23 @@
     },
     {
       "path": "docs/benchmark-card.md",
-      "sha256": "9d3c80797967752951beddd9355586065d0ca7f778b32a7ccf8613e1026231f0",
-      "size": 23053
+      "sha256": "308b4546405b85691451eeef1f74d67e15b5014c715bdcc154fb1cb2719e1a43",
+      "size": 23065
     },
     {
       "path": "docs/claim-artifact-map.md",
-      "sha256": "31bca27e8d7a82c1be10f690384e36e8e9f90471121804b9de7021d9af8409aa",
-      "size": 19134
+      "sha256": "3f28685598999dceb2c938505a4f72cdbd7d4566c371b128707cfecd87a82346",
+      "size": 19138
+    },
+    {
+      "path": "docs/figures/overview.png",
+      "sha256": "f3eb8ee29a6acd95cc74a7db9418450fcddaeee2701e7d7f92cdc228f0b33305",
+      "size": 205677
     },
     {
       "path": "docs/literature-review.md",
-      "sha256": "afd6d4f455968128a075a436e5f315172d1a31a89f230c6cb82189256f8760fe",
-      "size": 22603
+      "sha256": "d6e5dfcddfd0d54a43f06f110998d37839788f2057a3ab55f1cccdefe9cd49be",
+      "size": 22691
     },
     {
       "path": "docs/policy-pilot-final-2026-09-06.md",
@@ -108,8 +113,8 @@
     },
     {
       "path": "docs/reference-claim-audit-2026-09-04.md",
-      "sha256": "ed08a1bae340d6c556a8809c12a07e0855f15d02e51a5666e129e615440cfdae",
-      "size": 10032
+      "sha256": "b25c42c1b744fe81905acc83db8a36f21cc51939ee1105b54f7fb2996a94f970",
+      "size": 10048
     },
     {
       "path": "docs/system-card.md",

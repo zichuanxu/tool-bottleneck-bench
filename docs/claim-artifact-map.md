@@ -1,4 +1,4 @@
-# BottleneckBench Claim–Artifact Map (21-configuration panel, 2026-10-13)
+# ToolBottleneckBench Claim–Artifact Map (21-configuration panel, 2026-10-13)
 
 This map binds every important quantitative and conceptual claim of the
 manuscript to repository-relative raw rows, frozen plans and offline analyses.
